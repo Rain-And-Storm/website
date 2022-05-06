@@ -1,0 +1,2 @@
+Host: svcuriouscat.github.io
+Sitemap: https://svcuriouscat.github.io/sitemap.xml

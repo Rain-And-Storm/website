@@ -8,12 +8,9 @@ def stage(data):
         "description": "Error 404: page not found",
         ## Since we don't know the depth of this page relative to the root,
         ## we have to assume the db directory is located in the root of this web resource
-        "navigation":  utils.generateTopBarNavigation("/" + data["config"].get("Site", "DbPath")),
+        # "navigation":  utils.generateTopBarNavigation("/" + data["config"].get("Site", "DbPath")),
         "name":        "error",
-        "content":     utils.renderTemplate(data["templates"]["not-found-page-contents"]),
-        ## Since we don't know the depth of this page relative to the root,
-        ## we have to assume the search page is located in the root of this web resource
-        "search":      "/" + data["definitions"]["filenames"]["search"],
+        # "content":     utils.renderTemplate(data["templates"]["not-found-page-contents"]),
     })
     notFoundFile = utils.mkfile(
         data["definitions"]["runtime"]["cwd"],

@@ -11,13 +11,10 @@ def stage(data):
             "href": ".",
             "content": "Curious Cat",
         }),
-        "navigation":  utils.generateTopBarNavigation(data["config"]["Site"]["DbPath"] + "/"),
+        # "navigation":  utils.generateTopBarNavigation(data["config"]["Site"]["DbPath"] + "/"),
         "css":         data["definitions"]["filenames"]["css"],
-        "breadcrumbs": utils.getBreadcrumbs(data["templates"], homePathWebPageLink),
         "name":        "home",
-        "content":     utils.renderTemplate(data["templates"]["home-page-contents"], {
-            "archiveLinkBranch": data["config"]["Source"]["DefaultBranch"],
-        }),
+        "content":     utils.renderMarkdown(open("../src/data/about.md", "r").read()),
     })
     homepageFile = utils.mkfile(
         data["definitions"]["runtime"]["cwd"],

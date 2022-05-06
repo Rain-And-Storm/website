@@ -4,7 +4,7 @@
 ## Installing dependencies
 
     sudo apt-get install sassc
-    pip3 install --user pystache simple-http-server
+    pip3 install --user markdown pystache simple-http-server
 
 
 ## Build

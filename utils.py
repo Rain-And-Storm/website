@@ -4,6 +4,7 @@ import sys
 from urllib.parse import quote
 from urllib.parse import urljoin
 
+import markdown
 import pystache
 
 def getText(lyricsFileContents):
@@ -34,6 +35,9 @@ def mkdir(*paths):
 
 def mkfile(*paths):
     return open(os.path.join(*paths), "w")
+
+def renderMarkdown(md):
+    return markdown.markdown(md)
 
 def renderTemplate(template, data):
     return pystache.render(template, data)

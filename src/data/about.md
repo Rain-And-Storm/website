@@ -97,4 +97,3 @@ Cat Touch This
 - AC Generator: Northern Lights (Shibaura E643)
 - Propulsion system: Volvo Penta MD22 with two hydraulic pumps attached to shafts
 - Design: Custom, a cross between TEK-35 and Tektron 50 (both Shuttleworth designs)
-- 
