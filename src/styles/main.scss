@@ -1,0 +1,480 @@
+@import 'variables';
+
+html {
+    background-color: $color-bg;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    line-height: 1.25;
+    margin: 0 auto 0 auto;
+    max-width: 90rem;
+    padding: 0;
+}
+
+h1 {
+    font-size: $spacing * 1.8;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: $spacing * 1.3;
+    margin-top: $spacing * 1.3;
+}
+
+h3 {
+    font-size: $spacing * 1;
+    margin-top: $spacing * 1;
+}
+
+h1,
+h2,
+h3 {
+    margin-bottom: $spacing;
+}
+
+ul,
+ol {
+    line-height: 1.4;
+    padding-left: $spacing * 1.45;
+}
+
+hr {
+    margin: 3rem 0;
+    opacity: 0.333;
+}
+
+blockquote {
+    margin: 0;
+    font-style: italic;
+    opacity: 0.8;
+}
+
+nav {
+    font-size: 0.9rem;
+    margin: $spacing $spacing 0 $spacing;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 2;
+
+    ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+            display: inline-block;
+
+            ul {
+                display: flex;
+            }
+        }
+    }
+
+    a {
+        background-color: $color-fg;
+        border: 1px solid $color-fg;
+        border-radius: 0.15rem;
+        color: $color-bg;
+        display: inline-block;
+        font-weight: 500;
+        margin: $spacing;
+        padding: $spacing/2;
+        text-decoration: none;
+
+        &:hover {
+            background-color: $color-fg;
+            color: $color-bg;
+        }
+    }
+
+    &:after {
+        content: '';
+        clear: both;
+        display: block;
+    }
+}
+
+table {
+    background-color: rgba(50, 50, 50, 0.1);
+    border-collapse: separate;
+    border-spacing: 1px;
+    font-size: 66.7%;
+    white-space: nowrap;
+    width: 100%;
+
+    th,
+    td {
+        padding: 3px;
+    }
+
+    tr {
+        &:nth-child(even) {
+            td {
+                background-color: rgba(200, 200, 200, 0.1);
+            }
+        }
+        &:nth-child(odd) {
+            td {
+                background-color: rgba(100, 100, 100, 0.1);
+            }
+        }
+    }
+}
+
+.content {
+    margin: $spacing;
+    padding-bottom: 8rem; // Make it easier to read and tap when scrolled all the way down
+
+    img {
+        box-sizing: border-box;
+        margin: 0 auto;
+        max-height: 20rem;
+        max-width: 100%;
+    }
+
+    a {
+        background-color: $color-fg;
+        border: 1px solid $color-fg;
+        border-radius: 0.15rem;
+        color: $color-bg;
+        display: inline-block;
+        font-size: calc(100% - 3px);
+        margin-right: 1px;
+        padding: 1px 2px;
+        text-decoration: none;
+        white-space: nowrap;
+
+        &:hover {
+            background-color: rgba($color-fg, 0.25);
+            color: $color-fg;
+        }
+
+        // Hide anchor ID tags
+        &:empty {
+            font-size: 0;
+            opacity: 0;
+            padding: 0;
+        }
+
+        img {
+            display: inline-block;
+        }
+    }
+}
+
+.home {
+    .big-links {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 1rem;
+
+        a {
+            border: none;
+            font-weight: bold;
+            height: 8rem;
+            line-height: 8rem;
+            margin: 0;
+            opacity: 0.95;
+            padding: 1rem;
+            text-align: center;
+
+            &:hover {
+                opacity: 1;
+            }
+
+            &.printables {
+                background-color: #eb6f40;
+                color: #1c1c1c;
+            }
+
+            &.patreon {
+                background-color: #fff;
+                color: #000;
+            }
+
+            &.instagram {
+                background-color: #61B4F8;
+                color: #fff;
+            }
+
+            &.youtube {
+                background-color: #f24730;
+                color: #101010;
+            }
+
+            &.github {
+                background-color: #0d1118;
+                color: #fff;
+            }
+
+            &.email {
+                background-color: #333;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.designs {
+    img {
+        width: 25%
+    }
+}
+
+.curious-cat {
+
+    &.gallery {
+        div {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 4rem;
+
+            a {
+                aspect-ratio: 1 / 1;
+                background: #222 center center no-repeat;
+                background-size: cover;
+                border: none;
+                border-radius: 0;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                width: 25%;
+            }
+        }
+    }
+
+    &.inspirations {
+        img {
+            width: 33.333%;
+            height: 25vh;
+            object-fit: cover;
+        }
+    }
+
+    &.systems {
+        fieldset {
+            align-items: self-start;
+            border-radius: 0.5rem;
+            font-size: 75%;
+            padding: 1.25rem;
+        }
+
+        div {
+            background: $color-bg;
+            border: 2px solid rgb(192, 192, 192);
+            border-radius: 0.5rem;
+            display: inline-block;
+            margin: 0 4rem 4rem 0;
+            padding: 0.5rem;
+            position: relative;
+            vertical-align: top;
+            z-index: 1;
+
+            a,
+            a:hover {
+                background: #fff;
+                display: inline-block;
+                height: 6rem;
+                line-height: 6rem;
+                padding: 0;
+                text-align: center;
+                width: 6rem;
+
+                img {
+                    background: #fff;
+                    display: inline;
+                    margin-bottom: 0.5rem;
+                    max-width: 100%;
+                    max-height: 100%;
+                    vertical-align: middle;
+                }
+            }
+        }
+
+        legend {
+            h2 {
+                margin: 0;
+            }
+        }
+
+        h3 {
+            margin-bottom: 0;
+            margin-top: 0;
+            text-transform: capitalize;
+
+            & + ul:not(:empty) {
+                margin-bottom: 0.5rem;
+            }
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+
+            li {
+                list-style: none;
+            }
+        }
+    }
+
+}
+
+// Laptops
+@media (max-width: 120rem) {
+
+    body {
+        max-width: 80rem;
+    }
+
+}
+
+// Tablets
+@media (max-width: 70rem) {
+
+    body {
+        max-width: 70rem;
+    }
+
+    .home {
+        .big-links {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+    }
+
+    .designs {
+        img {
+            width: 50%
+        }
+    }
+
+    .curious-cat {
+        &.gallery {
+            div {
+                a {
+                    width: 50%;
+                }
+            }
+        }
+    }
+
+}
+
+// Smartphones
+@media (max-width: 40rem) {
+
+    nav {
+        font-size: 0.7rem;
+        margin: $spacing-small $spacing-small 0 $spacing-small;
+
+        a {
+            &:not(:first-child):not(:last-child) {
+                margin-left: $spacing-small;
+                margin-bottom: $spacing-small;
+            }
+        }
+
+        ul li ul {
+            display: block;
+        }
+    }
+
+    .content {
+        margin: $spacing-small;
+    }
+
+    .home {
+        .big-links {
+            grid-template-columns: repeat(1, minmax(0, 1fr));
+        }
+    }
+
+    .designs {
+        img {
+            width: 100%
+        }
+    }
+
+    .curious-cat {
+        &.gallery {
+            div {
+                a {
+                    width: 100%;
+                }
+            }
+        }
+
+        &.inspirations {
+            img {
+                display: block;
+                height: 50vh;
+                object-fit: cover;
+                width: 100%;
+            }
+        }
+    }
+
+}
+
+// Dark mode
+@media (prefers-color-scheme: dark) {
+
+    html {
+        background-color: $color-bg-dark;
+    }
+
+    nav {
+        a {
+            background-color: $color-fg-dark;
+            border-color: $color-fg-dark;
+            color: $color-bg-dark;
+
+            &:hover {
+                background-color: $color-fg-dark;
+                color: $color-bg-dark;
+            }
+        }
+    }
+
+    .content {
+        a {
+            background-color: $color-fg-dark;
+            border-color: $color-fg-dark;
+            color: $color-bg-dark;
+
+            &:hover {
+                background-color: rgba($color-fg-dark, 0.25);
+                color: $color-fg-dark;
+            }
+        }
+    }
+
+    .curious-cat {
+        &.systems {
+            div {
+                background: $color-bg-dark;
+            }
+        }
+    }
+
+    // Smartphones
+    @media (max-width: 30rem) {
+
+        .curious-cat {
+            &.systems {
+                fieldset {
+                    padding: 1rem;
+                }
+
+                div {
+                    margin: 0 2rem 2rem 0;
+                }
+            }
+        }
+
+    }
+
+}

@@ -1,0 +1,21 @@
+// Critical CSS that goes inline into HEAD of every page
+
+@import 'variables';
+
+body,
+html {
+    background-color: $color-bg;
+    color: $color-fg;
+    font-family: Arial, sans-serif;
+}
+
+// Dark mode
+@media (prefers-color-scheme: dark) {
+
+    body,
+    html {
+        background-color: $color-bg-dark;
+        color: $color-fg-dark;
+    }
+
+}

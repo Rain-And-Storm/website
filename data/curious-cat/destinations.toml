@@ -1,0 +1,47 @@
+[[destinations]]
+lat = 0
+long = 0
+date = "1998-07-05"
+name = "TEK-composites Inc."
+
+[[destinations]]
+lat = 26.509856901714144
+long = -82.08240844735886
+date = "1999-07-05"
+name = "Bob & Annie's Boatyard"
+
+[[destinations]]
+lat = 26.51190409963851
+long = -82.082561631909
+date = "2022-04-07"
+name = "Private dock"
+
+[[destinations]]
+lat = 26.506817874423575
+long = -82.08201526327758
+date = "2022-14-08"
+name = "Golden Palms Waterfront Resort"
+
+[[destinations]]
+lat = 26.50841485308682
+long = -82.0821699725167
+date = "2022-mm-dd"
+name = "During hurricane Ian"
+
+[[destinations]]
+lat = 26.507169129451587
+long = -82.08206804857691
+date = "2022-mm-dd"
+name = "After hurricane Ian"
+
+[[destinations]]
+lat = 26.704974548217955
+long = -82.16612166979402
+date = "2023-mm-dd"
+name = "Anchorage"
+
+[[destinations]]
+lat = 26.69874671503813
+long = -82.16545564064178
+date = "2023-08-31"
+name = "After storm band from hurricane Idalia"

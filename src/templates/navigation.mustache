@@ -1,0 +1,72 @@
+<ul>
+    <li>
+        <a id="nav-link__rain-and-storm" href="/">Rain And Storm</a>
+
+        <ul>
+            <li><a id="nav-link__rain-and-storm__designs" href="/designs/">Designs</a></li>
+            <li><a id="nav-link__rain-and-storm__software" href="/software/">Software</a></li>
+            <li>
+                <a id="nav-link__curious-cat" href="/curious-cat/">Curious Cat</a>
+
+                <ul>
+                    <li><a id="nav-link__curious-cat__gallery" href="/curious-cat/gallery/">Gallery</a></li>
+                    <li><a id="nav-link__curious-cat__inspirations" href="/curious-cat/inspirations/">Inspirations</a></li>
+                    <li><a id="nav-link__curious-cat__systems" href="/curious-cat/systems/">Systems</a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
+
+<script src="//unpkg.com/leader-line@1.0.8/leader-line.min.js"></script>
+<script>
+
+(() => {
+    const lineOptions = {
+        color: 'lightblue',
+        size: 2,
+        path: 'magnet',
+        dash: {
+            animation: true
+        },
+        endPlug: 'behind',
+    };
+
+    new LeaderLine(
+        document.getElementById('nav-link__rain-and-storm'),
+        document.getElementById('nav-link__rain-and-storm__designs'),
+        lineOptions
+    );
+
+    new LeaderLine(
+        document.getElementById('nav-link__rain-and-storm'),
+        document.getElementById('nav-link__rain-and-storm__software'),
+        lineOptions
+    );
+
+    new LeaderLine(
+        document.getElementById('nav-link__rain-and-storm'),
+        document.getElementById('nav-link__curious-cat'),
+        lineOptions
+    );
+
+    new LeaderLine(
+        document.getElementById('nav-link__curious-cat'),
+        document.getElementById('nav-link__curious-cat__gallery'),
+        lineOptions
+    );
+
+    new LeaderLine(
+        document.getElementById('nav-link__curious-cat'),
+        document.getElementById('nav-link__curious-cat__inspirations'),
+        lineOptions
+    );
+
+    new LeaderLine(
+        document.getElementById('nav-link__curious-cat'),
+        document.getElementById('nav-link__curious-cat__systems'),
+        lineOptions
+    );
+})();
+
+</script>

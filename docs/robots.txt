@@ -1,0 +1,2 @@
+Host: rainandstorm.com
+Sitemap: https://rainandstorm.com/sitemap.xml
