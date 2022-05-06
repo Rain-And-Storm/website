@@ -1,0 +1,17 @@
+[[destinations]]
+lat = 0
+long = 0
+date = "1998-07-05"
+name = "TEK-composites Inc."
+
+[[destinations]]
+lat = 26.509856901714144
+long = -82.08240844735886
+date = "1999-07-05"
+name = "Bob & Annie's Boatyard"
+
+[[destinations]]
+lat = 26.51190409963851
+long = -82.082561631909
+date = "2022-04-07"
+name = "Private Dock"
