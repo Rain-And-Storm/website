@@ -3,13 +3,12 @@
 
 ## Installing dependencies
 
-    sudo apt-get install sassc
-    pip3 install --user markdown pystache simple-http-server
+    make install-dependencies
 
 
 ## Build
 
-    make clean build
+    make build
 
 
 ## Run local web server

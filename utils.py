@@ -6,15 +6,12 @@ from urllib.parse import urljoin
 
 import markdown
 import pystache
+from scss import Scss
 
-def getText(lyricsFileContents):
-    lyricsText = lyricsFileContents
-    ## Trim text
-    lyricsText = lyricsText.strip()
-    ## Add newlines at end of text (unless it’s empty)
-    if lyricsText != "":
-        lyricsText += "\n\n"
-    return lyricsText
+SCSS = Scss()
+
+def compileSass(scss):
+    return SCSS.compile(scss)
 
 def getWebPageLink(target, label, type=0):
     return {
@@ -22,13 +19,6 @@ def getWebPageLink(target, label, type=0):
         "label": label,
         "type": type,
     }
-
-def indent(what="", amount=0):
-    indentation = ""
-    if amount > 0:
-        indentation = "│ " * (amount - 1)
-        indentation += "├─" # └
-    return indentation + what
 
 def mkdir(*paths):
     os.makedirs(os.path.join(*paths), exist_ok=True)

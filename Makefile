@@ -4,40 +4,48 @@
 
 BUILD_DIR = docs
 CONFIG_FILE = config.ini
-SASS_OPTS = --style compressed
-STYLE_FILE = $(BUILD_DIR)/_.css
+DOCKER ?= $(if $(shell docker -v),docker,podman)
+DOCKER_IMAGE_TAG ?= svcuriouscat-website-generator
 
 all: build
 
-build: $(BUILD_DIR) $(STYLE_FILE) $(CONFIG_FILE)
+build: clean $(BUILD_DIR) $(CONFIG_FILE)
 	@cd $(BUILD_DIR) && \
 	python3 ../website-generator.py
 .PHONY: build
 
+build-docker: clean $(BUILD_DIR) $(CONFIG_FILE)
+	@$(DOCKER) build -t $(DOCKER_IMAGE_TAG) .
+	@$(DOCKER) run --rm $(DOCKER_IMAGE_TAG) sh -c "tar -c -f docs.tar docs && cat docs.tar" | tar -x -f -
+.PHONY: build-docker
+
 $(CONFIG_FILE):
-	cp -n config.def.ini $(CONFIG_FILE)
+	@cp -n config.def.ini $(CONFIG_FILE)
 
 clean:
-	@rm -rf $(BUILD_DIR)
+	@if [ -d $(BUILD_DIR) ]; then cd $(BUILD_DIR) && rm -rf {,.[!.],..?}*; fi
+# 	@if [ -d $(BUILD_DIR) ]; then cd $(BUILD_DIR) && git rm -rf *; fi
 .PHONY: clean
 
 $(BUILD_DIR):
 	@mkdir $(BUILD_DIR)
 
-$(STYLE_FILE): $(BUILD_DIR)
-	@which sassc > /dev/null &2> /dev/null && \
-	sassc ${SASS_OPTS} src/styles/main.scss $(STYLE_FILE) || echo -n ''
+install-dependencies:
+	@pip3 install --user markdown pyScss pystache simple-http-server
+.PHONY: install-dependencies
 
 serve: $(BUILD_DIR)
 	@cd $(BUILD_DIR) && \
-	echo "Starting local server at http://0.0.0.0:8100" && \
-	python3 -m http.server 8100
+	echo "Starting local server at http://0.0.0.0:8100"
+	@python3 -m http.server 8100
 .PHONY: serve
+
+# TODO: serve-docker
 
 captains-log-today:
 	@mkdir -p "src/data/captains-log/`date +"%Y-%m-%d"`"
 .PHONY: captains-log-today
 
-captains-log-new-record: captains-log-today
+new-captains-log-record: captains-log-today
 	@touch "src/data/captains-log/`date +"%Y-%m-%d"`/1-new-record.md"
-.PHONY: captains-log-today-new-record
+.PHONY: new-captains-log-record
