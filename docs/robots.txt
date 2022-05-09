@@ -1,2 +1,2 @@
 Host: svcuriouscat.com
-Sitemap: http://svcuriouscat.com/sitemap.xml
+Sitemap: https://svcuriouscat.com/sitemap.xml
