@@ -9,5 +9,5 @@ def stage(data):
         data["config"]["Filesystem"]["DestinationDirPath"],
         "CNAME",
     )
-    fileHandle.write("svcuriouscat.com")
+    fileHandle.write("svcuriouscat.com") # TODO: parse from config
     fileHandle.close()

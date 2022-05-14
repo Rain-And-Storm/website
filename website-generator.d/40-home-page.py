@@ -14,7 +14,7 @@ def stage(data):
         # "navigation":  utils.generateTopBarNavigation(data["config"]["Site"]["DbPath"] + "/"),
         "css":         data["definitions"]["filenames"]["css"],
         "name":        "home",
-        "content":     utils.renderMarkdown(open("../src/data/about.md", "r").read()),
+        "content":     utils.renderMarkdown(open("../data/about.md", "r").read()),
     })
     homepageFile = utils.mkfile(
         data["definitions"]["runtime"]["cwd"],
