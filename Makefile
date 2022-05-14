@@ -43,9 +43,9 @@ serve: $(BUILD_DIR)
 # TODO: serve-docker
 
 captains-log-today:
-	@mkdir -p "src/data/captains-log/`date +"%Y-%m-%d"`"
+	@mkdir -p "data/captains-log/`date +"%Y-%m-%d"`"
 .PHONY: captains-log-today
 
 new-captains-log-record: captains-log-today
-	@touch "src/data/captains-log/`date +"%Y-%m-%d"`/1-new-record.md"
+	@touch "data/captains-log/`date +"%Y-%m-%d"`/1-new-record.md"
 .PHONY: new-captains-log-record
