@@ -7,7 +7,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 8rem;
-    max-width: 60rem;
+    max-width: 80rem;
     padding: 1.5rem;
 }
 
@@ -50,12 +50,12 @@ a {
         &:first-child,
         &:last-child {
             filter: blur(.225rem);
-            opacity: 0.6;
-            transition: filter 0.1s, opacity 0.2s;
+            opacity: .67;
+            transition: filter .15s, opacity .15s;
 
             &:hover {
                 filter: blur(.1225rem);
-                opacity: 0.8;
+                opacity: .8;
             }
 
             & > a {
@@ -80,6 +80,7 @@ a {
     }
 }
 
+// Dark mode
 @media (prefers-color-scheme: dark) {
 
     body {
@@ -100,22 +101,20 @@ a {
             }
         }
     }
+
 }
 
-@media (max-width: 50rem) {
+// Tablets
+@media (max-width: 100rem) {
 
     body {
+        max-width: 60rem;
         padding: 0.75rem;
     }
 
     .logbook {
         & > div {
             width: 50%;
-
-            &:first-child {
-            }
-            &:last-child {
-            }
 
             &:not(:first-child):not(:last-child) {
                 margin-left: -25%;
@@ -126,21 +125,16 @@ a {
 
 }
 
+// Smartphones
 @media (max-width: 30rem) {
 
     body {
-        padding: 0.25rem;
+        padding: 0.5rem;
     }
 
     .logbook {
         & > div {
             width: 80%;
-
-            &:first-child {
-
-            }
-            &:last-child {
-            }
 
             &:not(:first-child):not(:last-child) {
                 margin-left: -70%;

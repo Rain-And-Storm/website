@@ -75,6 +75,7 @@ def stage(data):
             prevRecordsHtml = "<h1>Captain’s log:<br />Dateline: " + formatLogbookPageDate(logbookPage["prevPage"]) + "</h1>"
             for recordFileName in prevRecords:
                 prevRecordsHtml += utils.renderMarkdown(prevRecords[recordFileName])
+            # Strip off all anchor tags
             prevRecordsHtml = re.sub('<(?:a[^>]*>|/a>)', '', prevRecordsHtml)
             prevLinkHtml = utils.renderTemplate(data["templates"]["link"], {
                 "href": "../../../" + logbookPage["prevPage"]["year"] + "/" + logbookPage["prevPage"]["month"] + "/" + logbookPage["prevPage"]["day"] + "/",
@@ -138,6 +139,7 @@ def stage(data):
         prevRecordsHtml = "<h1>Captain’s log:<br />Dateline: " + formatLogbookPageDate(logbookPage["prevPage"]) + "</h1>"
         for recordFileName in prevRecords:
             prevRecordsHtml += utils.renderMarkdown(prevRecords[recordFileName])
+        # Strip off all anchor tags
         prevRecordsHtml = re.sub('<(?:a[^>]*>|/a>)', '', prevRecordsHtml)
         prevLinkHtml = utils.renderTemplate(data["templates"]["link"], {
             "href": "./" + logbookPage["prevPage"]["year"] + "/" + logbookPage["prevPage"]["month"] + "/" + logbookPage["prevPage"]["day"] + "/",

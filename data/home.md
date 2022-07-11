@@ -8,9 +8,9 @@
 - Mast: aluminum, 62' (18.9m) from waterline
 - Construction material: waffle weave kevlar vacuum bag foam core epoxy
 - Propulsion: two 10KW electric motors by [E-Tech](https://starboats.eu/electric-drives/e-tech-wg-inboard-engines/)
-- Build date: June 5th 1998
-- Manufacturer: TEK-composites, Inc.
+- Build date: July 5th 1998
 - Country of origin: Canada
+- Manufacturer: TEK-composites, Inc.
 - Design: custom, cross between TEK-35 and Tektron 50 (both John Shuttleworth designs)
 - Winches: 2 Lewmar 50, 3 Lewmar 44, 2 Lewmar 40
 <!-- - Water maker:  -->
@@ -19,7 +19,7 @@
 
 ## About
 
-S/V Curious Cat is a fossil fuel-free solar electric sailing catamaran set to travel around the world while logging her excellent adventures for everyone to see and feel highly jealous.
+S/V Curious Cat is a fossil fuel-free solar electric sailing catamaran set to travel around the world while logging her excellent adventures for everyone to see and feel extremely jealous.
 
 
 ## Vessel’s origin
@@ -81,7 +81,10 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
  - Solid state thermoelectric air conditioner by either ThermoTEC™ or TECA
  - Solid state thermoelectric fridge by [Phononic](https://phononic.com)
  - Pyrotek sound proofing for staterooms
- - Hardtop carbon-epoxy bimini for supporting large solar panels and capturing rainwater
+ - Hardtop carbon-epoxy bimini to support large solar panels and capture rainwater
+ - New paint by Alexseal
+ - Glow-in-the-dark coating for non-skid areas
+ - Underwater LED lights
 
 
 ## Equipment
