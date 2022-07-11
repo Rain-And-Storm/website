@@ -7,8 +7,75 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 8rem;
-    max-width: 40rem;
+    max-width: 60rem;
     padding: 1.5rem;
+}
+
+nav {
+    margin-bottom: 1rem;
+    position: relative;
+    z-index: 2;
+
+    a {
+        float: right;
+
+        &:not(:first-child):not(:last-child) {
+            margin: 0 0.5rem;
+        }
+
+        &:first-child {
+            float: left;
+        }
+    }
+
+    &:after {
+        content: '';
+        clear: both;
+        display: block;
+    }
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.logbook {
+    display: flex;
+
+    & > div {
+        width: 33.3333333333333333333333333333%;
+
+        &:first-child,
+        &:last-child {
+            filter: blur(.225rem);
+            opacity: 0.6;
+            transition: filter 0.1s, opacity 0.2s;
+
+            &:hover {
+                filter: blur(.1225rem);
+                opacity: 0.8;
+            }
+
+            & > a {
+                display: block;
+            }
+        }
+
+        & > div {
+            background: rgba(255, 255, 255, .95);
+            overflow: hidden;
+            padding: .225rem;
+        }
+
+        &:not(:first-child):not(:last-child) {
+            & > div {
+                box-shadow: 0 0 100px #fff;
+                position: relative;
+                z-index: 1;
+            }
+        }
+    }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,6 +83,68 @@ body {
     body {
         background-color: #000;
         color: #efefef;
+    }
+
+    .logbook {
+        & > div {
+            & > div {
+                background: rgba(0, 0, 0, .95);
+            }
+
+            &:not(:first-child):not(:last-child) {
+                & > div {
+                    box-shadow: 0 0 100px #000;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 50rem) {
+
+    body {
+        padding: 0.75rem;
+    }
+
+    .logbook {
+        & > div {
+            width: 50%;
+
+            &:first-child {
+            }
+            &:last-child {
+            }
+
+            &:not(:first-child):not(:last-child) {
+                margin-left: -25%;
+                margin-right: -25%;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 30rem) {
+
+    body {
+        padding: 0.25rem;
+    }
+
+    .logbook {
+        & > div {
+            width: 80%;
+
+            &:first-child {
+
+            }
+            &:last-child {
+            }
+
+            &:not(:first-child):not(:last-child) {
+                margin-left: -70%;
+                margin-right: -70%;
+            }
+        }
     }
 
 }

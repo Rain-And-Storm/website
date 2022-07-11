@@ -5,7 +5,7 @@ import utils
 def stage(data):
     html = utils.renderTemplate(data["templates"]["page"], {
         "title":       utils.generatePageTitle("Inspirations", data),
-        "description": "Vessels that inspired SV Curious Cat to be what she is today",
+        "description": "Vessels that inspired Curious Cat to be what she is today",
         "logo":        utils.renderTemplate(data["templates"]["link"], {
             "href": "..",
             "content": "Curious Cat",
