@@ -1,27 +1,28 @@
-## Responsible for creating landing page's HTML file
+## Responsible for creating inspirations page's HTML file
 
 import utils
 
 def stage(data):
     html = utils.renderTemplate(data["templates"]["page"], {
-        "title":       data["config"]["Site"]["Name"],
-        "description": "Sailing blog of SV Curious Cat",
+        "title":       "Inspirations " + data["config"]["Site"]["PageTitleSeparator"] + " " + data["config"]["Site"]["Name"],
+        "description": "Vessels that inspired SV Curious Cat to be what she is today",
         "logo":        utils.renderTemplate(data["templates"]["link"], {
-            "href": ".",
+            "href": "..",
             "content": "Curious Cat",
         }),
         # "navigation":  utils.generateTopBarNavigation(data["config"]["Site"]["DbPath"] + "/"),
-        "css":         data["definitions"]["filenames"]["css"],
-        "name":        "home",
-        "content":     utils.renderMarkdown(open("../data/home.md", "r").read()),
+        "css":         "../" + data["definitions"]["filenames"]["css"],
+        "name":        "inspirations",
+        "content":     utils.renderMarkdown(open("../data/inspirations.md", "r").read()),
     })
     htmlFile = utils.mkfile(
         data["definitions"]["runtime"]["cwd"],
         data["config"]["Filesystem"]["DestinationDirPath"],
+        "inspirations",
         data["definitions"]["filenames"]["index"]
     )
     htmlFile.write(html)
     htmlFile.close()
-    ## Add home page link to sitemap
+    ## Add inspiration page link to sitemap
     if data["config"].getboolean("Site", "CreateSitemap", fallback=False):
-        data["sitemap"].append("/")
+        data["sitemap"].append("/inspirations/")

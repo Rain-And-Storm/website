@@ -10,7 +10,7 @@
 - Build date: June 5th 1998
 - Manufacturer: TEK-composites, Inc.
 - Design: custom, cross between TEK-35 and Tektron 50 (both John Shuttleworth designs)
-- Propulsion system: two 10-WG 10KW electric motors by [E-Tech](https://starboats.eu/electric-drives/e-tech-wg-inboard-engines/)
+- Propulsion system: two 10KW electric motors by [E-Tech](https://starboats.eu/electric-drives/e-tech-wg-inboard-engines/)
 - Winches: 2 Lewmar 50, 3 Lewmar 44, 2 Lewmar 40
 <!-- - Water maker:  -->
 <!-- - Water heater:  -->

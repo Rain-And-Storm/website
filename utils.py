@@ -24,6 +24,9 @@ def mkdir(*paths):
     os.makedirs(os.path.join(*paths), exist_ok=True)
 
 def mkfile(*paths):
+    # Ensure directory exists
+    mkdir(*paths[:-1])
+    # Create file
     return open(os.path.join(*paths), "w")
 
 def renderMarkdown(md):
