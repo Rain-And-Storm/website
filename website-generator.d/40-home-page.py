@@ -4,13 +4,13 @@ import utils
 
 def stage(data):
     html = utils.renderTemplate(data["templates"]["page"], {
-        "title":       data["config"]["Site"]["Name"],
-        "description": "Sailing blog of SV Curious Cat",
+        "title":       utils.generatePageTitle("", data),
+        "description": "Curious Cat lives!",
         "logo":        utils.renderTemplate(data["templates"]["link"], {
             "href": ".",
             "content": "Curious Cat",
         }),
-        # "navigation":  utils.generateTopBarNavigation(data["config"]["Site"]["DbPath"] + "/"),
+        "navigation":  utils.generateNavigation(),
         "css":         data["definitions"]["filenames"]["css"],
         "name":        "home",
         "content":     utils.renderMarkdown(open("../data/home.md", "r").read()),

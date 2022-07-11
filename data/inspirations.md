@@ -1,11 +1,11 @@
 # Inspirations
 
-Vessels that inspired SV Curious Cat to be what she is today.
+Vessels that inspired Curious Cat to be what she is today.
 
 
 ## Kawaakari (2013 Erik Lerouge 137)
 
-An absolute stunner, this magnificent vessel is a carbon kevlar daggerboard cat capable of sailing at 26 knots!  Early in my research I was looking strictly for Erik Lerouge designs — that’s how much I like them.
+An absolute stunner, this magnificent 45' vessel is a carbon kevlar daggerboard cat capable of sailing at 26 knots!  Early in my research I was looking strictly for Erik Lerouge designs — that’s how much I like them.
 
 
 ## Green eMotion (2010 African Cats GreenCat 445)

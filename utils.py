@@ -13,18 +13,28 @@ SCSS = Scss()
 def compileSass(scss):
     return SCSS.compile(scss)
 
-def getWebPageLink(target, label, type=0):
+def generatePageTitle(name, data):
+    if len(name) > 0:
+        return name + " " + data["config"]["Site"]["PageTitleSeparator"] + " " + data["config"]["Site"]["Name"]
+    else:
+        return data["config"]["Site"]["Name"]
+
+def generateNavigation():
+    links = []
+    links.append(getWebPageLink("/inspirations/", "Inspirations"))
+    return links
+
+def getWebPageLink(target, label):
     return {
         "href": quote(target),
         "label": label,
-        "type": type,
     }
 
 def mkdir(*paths):
     os.makedirs(os.path.join(*paths), exist_ok=True)
 
 def mkfile(*paths):
-    # Ensure directory exists
+    # Ensure the directory path exists
     mkdir(*paths[:-1])
     # Create file
     return open(os.path.join(*paths), "w")
