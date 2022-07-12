@@ -8,29 +8,31 @@ So, fenders it is.  Jim, the captain who used to skipper my boat 10–15 years a
 The rule of thumb is there should be 1" of thickness for every 5' of your boat’s length.  That means my 8" fenders are too small, I need at least 9" or 10" fenders.  I’d also like them to be taller, I have about 4' from the waterline to my rub rail.  My cat is quite volumptious, which means she may need thicker fenders than flat hulls for when the tide is high, but with the 30' beam I can’t go too crazy and make her more than 32' wide, so likely staying below 1' on each side is the way to go.
 
 
-## Fender Innovations
+### Fender Innovations
 
 https://www.fenderinnovations.nl — seems to be a good product, but they make something like a hybrid between rubrail and fenders, permanently attached to the boat.  It's likely not that good for aerodynamics, and I can't make my boat chunkier than it already is.  Next!
 
-## AERÉ
+### AERÉ
 
 https://aeredockingsolutions.com — their thinnest models start at 12".  They seem to be targeting large yachts with their biggest model being 8' wide and 10' tall.  Made in the USA, Florida more specifically.  Product description features interesting claim, "up to 10× stronger than your standard vinyl fenders".  Their 12" × 42" (1' × 3.5') is $250 per fender, which is going to cost me $2000 to guard my boat from both sides.  Exy, but I do need something that screams "I have money to sue you if you decide to bump into me".  I like the kevlar stitching and the air valve seems to be easy to use.
 
-## Taylor Made
+### Taylor Made
 
 https://www.taylormadeproducts.com/products/fenders-and-buoys/ — stupid name, but they seem to be one of the top makers of buoys and fenders.  These are the fenders I currently have (8" × 20", navy).  Nothing good, nothing bad (if the size is right).  Marine grade vinyl, the longest they get is 34" at 12" thick.  Their table says 8" × 20" is recommended for vessels below 35', with 10" being for 35' – 50', and 12" is for 50'–60'.  So, obviously I need either 10" or 12".  I hate the way these guys look and how short they are.  The price of $100 per fender is attractive, but pay once, cry once, let’s keep looking.
 
-## Polyform
+### Polyform
 
 Nothing good or bad, I’m indifferent.
 
-## Jim-Buoy
+### Jim-Buoy
 
 Expensive and doesn't seem to provide any benefits over AERÉ.
 
-## SEATEC
+### Seatec
 
 Seem to be making decent vinyl fenders.
 
+
+## Conclusion
 
 So far aiming at getting eight–ten 12" × 29" cylindrical and two-four 18" round fenders by AERÉ.  Lines will be by AERÉ (6' or slightly longer), sox will be AERÉ as well.  For inflating/deflating I’m gonna get a Ryobi tool, since I already have a bunch of their 18V power tools.  I still need to decide on the length of those main fenders, since I see some people making them cover most of the freeboard, some just keep them below the rub rail.  Need to sleep on this and measure some more.
