@@ -66,13 +66,13 @@ def stage(data):
     for logbookPage in logbookPages:
         formattedDate = formatLogbookPageDate(logbookPage)
         records = logbookPage["records"]
-        recordsHtml = "<h1>Captain’s log:<br />Dateline: " + formattedDate + "</h1>"
+        recordsHtml = "<h1>Captain’s log<br />Dateline: " + formattedDate + "</h1>"
         for recordFileName in records:
             recordsHtml += utils.renderMarkdown(records[recordFileName])
         prevLinkHtml = ""
         if "prevPage" in logbookPage:
             prevRecords = logbookPage["prevPage"]["records"]
-            prevRecordsHtml = "<h1>Captain’s log:<br />Dateline: " + formatLogbookPageDate(logbookPage["prevPage"]) + "</h1>"
+            prevRecordsHtml = "<h1>Captain’s log<br />Dateline: " + formatLogbookPageDate(logbookPage["prevPage"]) + "</h1>"
             for recordFileName in prevRecords:
                 prevRecordsHtml += utils.renderMarkdown(prevRecords[recordFileName])
             # Strip off all anchor tags
@@ -84,7 +84,7 @@ def stage(data):
         nextLinkHtml = ""
         if "nextPage" in logbookPage:
             nextRecords = logbookPage["nextPage"]["records"]
-            nextRecordsHtml = "<h1>Captain’s log:<br />Dateline: " + formatLogbookPageDate(logbookPage["nextPage"]) + "</h1>"
+            nextRecordsHtml = "<h1>Captain’s log<br />Dateline: " + formatLogbookPageDate(logbookPage["nextPage"]) + "</h1>"
             for recordFileName in nextRecords:
                 nextRecordsHtml += utils.renderMarkdown(nextRecords[recordFileName])
             nextRecordsHtml = re.sub('<(?:a[^>]*>|/a>)', '', nextRecordsHtml)
@@ -100,6 +100,7 @@ def stage(data):
                 "content": "Curious Cat",
             }),
             "navigation":  utils.generateNavigation(),
+            "criticalcss": utils.compileSass(open("../src/styles/critical.scss", "r").read()),
             "css":         "../../../../" + data["definitions"]["filenames"]["css"],
             "name":        "logbook",
             "content":     utils.renderTemplate(data["templates"]["logbook-page"], {
@@ -130,13 +131,13 @@ def stage(data):
     logbookPage = logbookPages[-1]
     formattedDate = formatLogbookPageDate(logbookPage)
     records = logbookPage["records"]
-    recordsHtml = "<h1>Captain’s log:<br />Dateline: " + formattedDate + "</h1>"
+    recordsHtml = "<h1>Captain’s log<br />Dateline: " + formattedDate + "</h1>"
     for recordFileName in records:
         recordsHtml += utils.renderMarkdown(records[recordFileName])
     prevLinkHtml = ""
     if "prevPage" in logbookPage:
         prevRecords = logbookPage["prevPage"]["records"]
-        prevRecordsHtml = "<h1>Captain’s log:<br />Dateline: " + formatLogbookPageDate(logbookPage["prevPage"]) + "</h1>"
+        prevRecordsHtml = "<h1>Captain’s log<br />Dateline: " + formatLogbookPageDate(logbookPage["prevPage"]) + "</h1>"
         for recordFileName in prevRecords:
             prevRecordsHtml += utils.renderMarkdown(prevRecords[recordFileName])
         # Strip off all anchor tags
@@ -153,6 +154,7 @@ def stage(data):
             "content": "Curious Cat",
         }),
         "navigation":  utils.generateNavigation(),
+        "criticalcss": utils.compileSass(open("../src/styles/critical.scss", "r").read()),
         "css":         "../" + data["definitions"]["filenames"]["css"],
         "name":        "logbook",
         "content":     utils.renderTemplate(data["templates"]["logbook-page"], {

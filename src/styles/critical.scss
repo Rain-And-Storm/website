@@ -1,0 +1,19 @@
+// Critical CSS that goes inline into HEAD of every page
+
+@option compress: yes;
+
+body {
+    background-color: #fff;
+    color: #010101;
+    font-family: Arial, sans-serif;
+}
+
+// Dark mode
+@media (prefers-color-scheme: dark) {
+
+    body {
+        background-color: #000;
+        color: #efefef;
+    }
+
+}

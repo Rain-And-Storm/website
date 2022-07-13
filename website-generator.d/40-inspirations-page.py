@@ -11,6 +11,7 @@ def stage(data):
             "content": "Curious Cat",
         }),
         "navigation":  utils.generateNavigation(),
+        "criticalcss": utils.compileSass(open("../src/styles/critical.scss", "r").read()),
         "css":         "../" + data["definitions"]["filenames"]["css"],
         "name":        "inspirations",
         "content":     utils.renderMarkdown(open("../data/inspirations.md", "r").read()),

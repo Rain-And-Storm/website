@@ -1,20 +1,22 @@
-# Curious Cat
+# S/V Curious Cat
 
 
 ## Specifications
 
-- LOA: 44' (13.41m)
-- Beam: 30' (9.14m)
-- Mast: aluminum, 62' (18.9m) from waterline
-- Construction material: waffle weave kevlar vacuum bag foam core epoxy
-- Propulsion: two 10KW electric motors by [E-Tech](https://starboats.eu/electric-drives/e-tech-wg-inboard-engines/)
-- Build date: July 5th 1998
-- Country of origin: Canada
-- Manufacturer: TEK-composites, Inc.
-- Design: custom, cross between TEK-35 and Tektron 50 (both John Shuttleworth designs)
-- Winches: 2 Lewmar 50, 3 Lewmar 44, 2 Lewmar 40
-<!-- - Water maker:  -->
-<!-- - Water heater:  -->
+- **LOA**: 44' (13.41m)
+- **Beam**: 30' (9.14m)
+- **Mast**: aluminum, 62' (18.9m) from waterline
+- **Construction materials**: waffle weave kevlar vacuum bag foam core epoxy
+- **Propulsion**: two 10KW electric motors by [E-Tech](https://starboats.eu/electric-drives/e-tech-wg-inboard-engines/)
+- **Build date**: July 5th 1998
+- **Country of origin**: Canada
+- **Manufacturer**: TEK-composites, Inc.
+- **Design**: custom, cross between TEK-35 and Tektron 50 (both John Shuttleworth designs)
+- **Winches**: two Lewmar 50, three Lewmar 44, two Lewmar 40
+- **Hatches**: eight Lewmar size 30, two Lewmar size 44 (escape), one Lewmar size 50
+- **Portlights**: six Lewmar 7RE
+<!-- - **Water maker**:  -->
+<!-- - **Water heater**:  -->
 
 
 ## About
