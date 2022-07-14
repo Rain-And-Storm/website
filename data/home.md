@@ -8,20 +8,20 @@
 - **Mast**: aluminum, 62' (18.9m) from waterline
 - **Construction materials**: waffle weave kevlar vacuum bag foam core epoxy
 - **Propulsion**: two 10KW electric motors by [E-Tech](https://starboats.eu/electric-drives/e-tech-wg-inboard-engines/)
-- **Build date**: July 5th 1998
+- **Launched**: July 5th 1998
 - **Country of origin**: Canada
 - **Manufacturer**: TEK-composites, Inc.
 - **Design**: custom, cross between TEK-35 and Tektron 50 (both John Shuttleworth designs)
-- **Winches**: two Lewmar 50, three Lewmar 44, two Lewmar 40
-- **Hatches**: eight Lewmar size 30, two Lewmar size 44 (escape), one Lewmar size 50
-- **Portlights**: six Lewmar 7RE
+- **Winches**: two Lewmar 50, three Lewmar 44, two Lewmar 40 (mast)
+- **Hatches**: eight Lewmar Size 30, two Lewmar Size 44 (escape), one Lewmar Size 50 (cabin)
+- **Portlights**: six Lewmar Atlantic Size 32
 <!-- - **Water maker**:  -->
 <!-- - **Water heater**:  -->
 
 
 ## About
 
-S/V Curious Cat is a fossil fuel-free solar electric sailing catamaran set to travel around the world while logging her excellent adventures for everyone to see and feel extremely jealous.
+Curious Cat is a fossil fuel-free solar electric sailing catamaran set to travel around the world while logging her excellent adventures for everyone to see and feel extremely jealous.
 
 
 ## Vessel’s origin
@@ -57,6 +57,7 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
 
 ### Will be done in the future
 
+ - 240VAC and 120VAC inverters
  - New fenders by [AERÉ](http://aeredockingsolutions.com)
  - New shiny interior
  - New electronics and autopilot package by [nke Marine Electronics](http://nke-marine-electronics.com)
@@ -65,6 +66,7 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
  - Shower boxes
  - [MacGlide](https://www.macglide.eu) anti-fouling system by MacTac
  - Electric dinghy by either [ZeroJet](https://www.zerojet.nz) or [OCTenders](https://octenders.co.nz)
+ - New audio system
  - 360° CCTV system for docking and security (potentially by [Yachtview 360°](http://www.yachtview360.eu))
  - FLIR for avoiding shipping containers and other surprises (potentially by [Raymarine](https://www.raymarine.com/flir-thermal-cameras/))
  - Rotating carbon fiber wing mast
@@ -86,11 +88,19 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
  - Hardtop carbon-epoxy bimini to support large solar panels and capture rainwater
  - New paint by Alexseal
  - Glow-in-the-dark coating for non-skid areas
- - Underwater LED lights
+ - Six underwater through-hull RGB LED lights
+ - Onboard waste treatment system by either [Raritan](https://www.raritaneng.com/en_US/) or [tom logisch](https://www.nauticexpo.com/prod/tom-logisch-exploring-world-better-way/product-64563-479247.html)
+ - [Schenker® watermaker by tom logisch](https://tomlogisch.com/schenker/)
+ - New wind generators: either vertical, [Superwind® by tom logisch](https://tomlogisch.com/superwind/), or DIY
+ - New navigation lights by either Ibuki, Lopolight, or K2W
+ - Food waste shredder (by [Delitek]())
+ - New rub rail (likely [BINO by TESSILMARE](https://rubrails-tessilmare.com/boat-rub-rails/bino-boat-rub-rails/))
 
 
 ## Equipment
  - Washer/dryer (Daewoo DWD-35MCRCR)
  - [Keelcrab](https://www.keelcrab.com)
  - EPIRB (RLB-41 by ACR)
- - FDM 3D printer for replacing broken parts without leaving the boat
+ - 3D printer (FDM)
+ - 4 stainless steel fishing pole holders
+ - 2 [woolen chafe guards](https://sailormall.net/woolen-chafe-guard-for-rope-o-14-22-mm-black-code-06-315-01/)
