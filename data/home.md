@@ -1,5 +1,7 @@
 # S/V Curious Cat
 
+Curious Cat is a fossil fuel-free solar electric sailing catamaran set to travel around the world while logging her excellent adventures for everyone to witness and feel extremely jealous.
+
 
 ## Specifications
 
@@ -25,11 +27,11 @@
     - two 5' long Lewmar Size 2 (cabin)
     - two 4-1/4' long drilled plunger Lewmar Size 2 (cockpit)
     - one 16-1/3' long Lewmar Size 3 (beam, mainsheet traveler)
-
-
-## About
-
-Curious Cat is a fossil fuel-free solar electric sailing catamaran set to travel around the world while logging her excellent adventures for everyone to witness and feel extremely jealous.
+- **Cleats**:
+    - six 10" aluminum deck cleats
+    - two 6" aluminum stern cleats
+    - two 5" plastic cleats (boom)
+    - two aluminum bow chocks
 
 
 ## Vessel’s origin
@@ -111,5 +113,5 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
  - Solar grill ([Sport Marine by GoSun](https://gosun.co/products/sport-marine))
  - EPIRB (RLB-41 by ACR)
  - 3D printer (FDM)
- - 4 stainless steel fishing pole holders
- - 2 woolen chafe guards
+ - four stainless steel fishing pole holders
+ - two woolen chafe guards
