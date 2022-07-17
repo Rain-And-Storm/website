@@ -3,25 +3,33 @@
 
 ## Specifications
 
-- **LOA**: 44' (13.41m)
-- **Beam**: 30' (9.14m)
-- **Mast**: aluminum, 62' (18.9m) from waterline
-- **Construction materials**: waffle weave kevlar vacuum bag foam core epoxy
-- **Propulsion**: two 10KW electric motors by [E-Tech](https://starboats.eu/electric-drives/e-tech-wg-inboard-engines/)
+- **LOA**: 44' (13.40m)
+- **Beam**: 28' (8.60m)
+- **Mast**: aluminum, 62' (18.9m) from the waterline
+- **Hull materials**: waffle weave kevlar foam core epoxy vacuum bag
+- **Propulsion**: two 10KW IP67 BLDC electric motors by [E-Tech](https://starboats.eu/electric-drives/e-tech-wg-inboard-engines/)
 - **Launched**: July 5th 1998
 - **Country of origin**: Canada
 - **Manufacturer**: TEK-composites, Inc.
-- **Design**: custom, cross between TEK-35 and Tektron 50 (both John Shuttleworth designs)
-- **Winches**: two Lewmar 50, three Lewmar 44, two Lewmar 40 (mast)
-- **Hatches**: eight Lewmar Size 30, two Lewmar Size 44 (escape), one Lewmar Size 50 (cabin)
+- **Design**: custom, cross between TEK-35 and Tektron 50 (both [John Shuttleworth](https://www.shuttleworthdesign.com/) designs)
+- **Hatches**:
+    - eight Lewmar Size 30
+    - two Lewmar Size 44 (escape)
+    - one Lewmar Size 50 (cabin)
 - **Portlights**: six Lewmar Atlantic Size 32
-<!-- - **Water maker**:  -->
-<!-- - **Water heater**:  -->
+- **Winches**:
+    - two self-tailing Lewmar 50
+    - three self-tailing Lewmar 44
+    - two self-tailing Lewmar 40 (mast)
+- **Tracks**:
+    - two 5' long Lewmar Size 2 (cabin)
+    - two 4-1/4' long drilled plunger Lewmar Size 2 (cockpit)
+    - one 16-1/3' long Lewmar Size 3 (beam, mainsheet traveler)
 
 
 ## About
 
-Curious Cat is a fossil fuel-free solar electric sailing catamaran set to travel around the world while logging her excellent adventures for everyone to see and feel extremely jealous.
+Curious Cat is a fossil fuel-free solar electric sailing catamaran set to travel around the world while logging her excellent adventures for everyone to witness and feel extremely jealous.
 
 
 ## Vessel’s origin
@@ -32,7 +40,7 @@ This boat is a love child of TEK-35 and Tektron 50, both [John Shuttleworth](htt
 Originally purchased for $1M by three couples that took her on a one-year voyage, she ended up being a slip queen for over 20 years on the Gulf Coast of Florida near Saint James City.
 After getting reposessed twice and going through many owners while remaining docked at the very same spot, she now belongs to yours truly as of March 2022.
 
-She is a very spacious yet fast composite performance cruising catamaran.  It’s a shame a boat like this one wasn’t used at all in over two decades, she’s got a lot of life left in her and deserves much more than just sitting dead in the water.  But new adventures await her now, let’s see where wind and current take her!
+She is a very spacious yet fast composite performance cruising catamaran.  It’s a shame a boat like this one wasn’t used at all in over two decades, she’s got a lot of life left in her and deserves much more than just sitting dead in the water.  But new adventures await her now, let’s see where the wind and current take her!
 
 
 ## Upgrades and modifications
@@ -42,7 +50,7 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
  - New davit system
  - Large aluminum bimini
  - Trampolines instead of nets (by [Sunrise Yacht Products](https://multihullnets.com))
- - Lightning guide
+ - Lightning guide with grounding plates on starboad side
  - Replaced leaky cabin windows with ten round hatches
  - Wind turbine on port side (Air X, 400W)
 
@@ -57,13 +65,13 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
 
 ### Will be done in the future
 
- - 240VAC and 120VAC inverters
  - New fenders by [AERÉ](http://aeredockingsolutions.com)
- - New shiny interior
  - New electronics and autopilot package by [nke Marine Electronics](http://nke-marine-electronics.com)
  - [B&G](https://www.bandg.com) AIS, radio, radar, and chart plotter
  - [Super B LiFePo4 batteries](https://www.super-b.com/en/lithium-marine-batteries/leisure-marine)
  - Shower boxes
+ - 240VAC and 120VAC inverters
+ - New shiny interior
  - [MacGlide](https://www.macglide.eu) anti-fouling system by MacTac
  - Electric dinghy by either [ZeroJet](https://www.zerojet.nz) or [OCTenders](https://octenders.co.nz)
  - New audio system
@@ -82,8 +90,8 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
  - Carbon fiber helms
  - Carbon winch handle by Karver
  - Rolling cleats by [Antal](http://antal.it/ENG/)
- - Solid state thermoelectric air conditioner by either ThermoTEC™ or TECA
- - Solid state thermoelectric fridge by [Phononic](https://phononic.com)
+ - Solid-state thermoelectric air conditioner by either ThermoTEC™ or TECA
+ - Solid-state thermoelectric fridge by [Phononic](https://phononic.com)
  - Pyrotek sound proofing for staterooms
  - Hardtop carbon-epoxy bimini to support large solar panels and capture rainwater
  - New paint by Alexseal
@@ -91,16 +99,17 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
  - Six underwater through-hull RGB LED lights
  - Onboard waste treatment system by either [Raritan](https://www.raritaneng.com/en_US/) or [tom logisch](https://www.nauticexpo.com/prod/tom-logisch-exploring-world-better-way/product-64563-479247.html)
  - [Schenker® watermaker by tom logisch](https://tomlogisch.com/schenker/)
- - New wind generators: either vertical, [Superwind® by tom logisch](https://tomlogisch.com/superwind/), or DIY
+ - New wind generators: either vertical, [Superwind® by tom logisch](https://tomlogisch.com/superwind/), [TESUP](https://www.tesup.us/product-page/atlas40-48v-4kw-wind-turbine-generator-for-homes-battery-energy-amazon-usa), or DIY
  - New navigation lights by either Ibuki, Lopolight, or K2W
- - Food waste shredder (by [Delitek]())
- - New rub rail (likely [BINO by TESSILMARE](https://rubrails-tessilmare.com/boat-rub-rails/bino-boat-rub-rails/))
+ - Food waste shredder by Delitek
+ - New rub rails (likely [BINO by TESSILMARE](https://rubrails-tessilmare.com/boat-rub-rails/bino-boat-rub-rails/))
 
 
 ## Equipment
  - Washer/dryer (Daewoo DWD-35MCRCR)
- - [Keelcrab](https://www.keelcrab.com)
+ - [Keelcrab underwater hull cleaning drone](https://www.keelcrab.com)
+ - Solar grill ([Sport Marine by GoSun](https://gosun.co/products/sport-marine))
  - EPIRB (RLB-41 by ACR)
  - 3D printer (FDM)
  - 4 stainless steel fishing pole holders
- - 2 [woolen chafe guards](https://sailormall.net/woolen-chafe-guard-for-rope-o-14-22-mm-black-code-06-315-01/)
+ - 2 woolen chafe guards
