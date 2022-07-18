@@ -13,9 +13,9 @@ An absolute stunner, this magnificent 45' vessel is a carbon kevlar daggerboard 
 I was pleasantly surprised to discover this rare and special 43' catamaran.  She was a bit out of my budget, but already electric, built out of best materials on the market, looking incredibly beautiful on the inside, and equipped with unique retractable propulsion system that can be lifted completely out of the water when not in use — as all propulsion systems on sailboats should be, in my humble opinion.  Both bottom and top parts of this vessel are built as one piece (monocoque construction), which makes it stronger and lighter — a feature only Seawind and couple other makers are known for.
 
 
-## Blue Saga (LUNA 47)
+## Blue Saga (2018 LUNA 47)
 
-This is a high-end 47' sailing liveaboard catamaran that incorporates many interesting modern technologoies.  Videos made by her owners served as great help in my research.  All-electric propulsion by OceanVolt, MacGlide environmentally-friendly antifouling system, flush port windows and hatches — those are all things that I imagined having on my dream boat.
+This is a high-end 47' sailing liveaboard catamaran that incorporates many interesting modern technologoies.  Videos made by her owners served as great help in my research.  All-electric propulsion, MacGlide environmentally-friendly antifouling sticker, flush port windows and hatches — those are the things that I imagined having on my dream boat.
 
 
 ## Freedom (2017 Farrier F-39)
