@@ -8,4 +8,4 @@ Maybe some hungry dolphin will eat it.
 
 These fishes jump out of the water all the time here, even small ones do that.  No idea why though.  Not that it matters.
 
-I'm no CSI, but my conclusion is that the fish jumped out and landed on the dock, then had a heart attack after seeing how big and beautiful my boat is.
+I’m no CSI, but my conclusion is that the fish jumped out and landed on the dock, then had a heart attack after seeing how big and beautiful my boat is.

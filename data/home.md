@@ -15,23 +15,23 @@ Curious Cat is a fossil fuel-free solar electric sailing catamaran set to travel
 - **Manufacturer**: TEK-composites, Inc.
 - **Design**: custom, cross between TEK-35 and Tektron 50 (both [John Shuttleworth](https://www.shuttleworthdesign.com/) designs)
 - **Hatches**:
-    - eight Lewmar Size 30
-    - two Lewmar Size 44 (escape)
-    - one Lewmar Size 50 (cabin)
+    - 8 × Lewmar Size 30
+    - 2 × Lewmar Size 44 (escape)
+    - 1 × Lewmar Size 50 (cabin)
 - **Portlights**: six Lewmar Atlantic Size 32
 - **Winches**:
-    - two self-tailing Lewmar 50
-    - three self-tailing Lewmar 44
-    - two self-tailing Lewmar 40 (mast)
+    - 2 × Lewmar 50 Self-tailing
+    - 3 × Lewmar 44 Self-tailing
+    - 2 × Lewmar 40 Self-tailing (mast)
 - **Tracks**:
-    - two 5' long Lewmar Size 2 (cabin)
-    - two 4-1/4' long drilled plunger Lewmar Size 2 (cockpit)
-    - one 16-1/3' long Lewmar Size 3 (beam, mainsheet traveler)
+    - 2 × Lewmar Size 2 (5' long, cabin)
+    - 2 × Lewmar Size 2 (drilled, 4-1/4' long, cockpit)
+    - 1 × Lewmar Size 3 (16-1/3' long, beam, mainsheet traveler)
 - **Cleats**:
-    - six 10" aluminum deck cleats
-    - two 6" aluminum stern cleats
-    - two 5" plastic cleats (boom)
-    - two aluminum bow chocks
+    - 6 × 10" aluminum deck cleats
+    - 2 × 6" aluminum stern cleats
+    - 2 × 5" plastic boom cleats
+    - 2 × aluminum bow chocks
 
 
 ## Vessel’s origin
@@ -113,5 +113,5 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
  - Solar grill ([Sport Marine by GoSun](https://gosun.co/products/sport-marine))
  - EPIRB (RLB-41 by ACR)
  - 3D printer (FDM)
- - four stainless steel fishing pole holders
- - two woolen chafe guards
+ - 4 × Stainless steel fishing pole holders
+ - 2 × Woolen chafe guards

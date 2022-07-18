@@ -2,12 +2,12 @@
 
 Met a guy named Jim today.
 
-He was passing my boat in his small motorized fiberglass kanoe on his way to a local bar.  He asked if this is the boat that used to be at Bob & Annie's, I said yes,
+He was passing my boat in his small motorized fiberglass kanoe on his way to a local bar.  He asked if this is the boat that used to be at Bob & Annie’s, I said yes,
 he then told me that he used to skipper my boat years ago.  I let him aboard.
 
-Turned out Jim used to work at Bob & Annie's boatyard back when this boat still had big windows and only one prior owner.
+Turned out Jim used to work at Bob & Annie’s boatyard back when this boat still had big windows and only one prior owner.
 He knows the vessel well, told me that the bottom part of the hull is made out of waffle veawe Kevlar.
-Confirmed that the resin is epoxy, but I still need to get that gas spectrometry done just to be sure it's not vinyl ester.
+Confirmed that the resin is epoxy, but I still need to get that gas spectrometry done just to be sure it’s not vinyl ester.
 
 He said he wanted to buy this boat for 15 years, but never got the money to do so.  Jim lives on a trimaran anchored not far from here.
 
