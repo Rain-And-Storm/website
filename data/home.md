@@ -75,7 +75,7 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
  - 240VAC and 120VAC inverters
  - New shiny interior
  - [MacGlide](https://www.macglide.eu) anti-fouling system by MacTac
- - Electric dinghy by either [ZeroJet](https://www.zerojet.nz) or [OCTenders](https://octenders.co.nz)
+ - Electric dinghy by either [ZeroJet](https://www.zerojet.nz), [Aeolos AP10](https://www.aeoloscomposites.com/aeolos-p10-dinghy), or [OCTenders](https://octenders.co.nz)
  - New audio system
  - 360° CCTV system for docking and security (potentially by [Yachtview 360°](http://www.yachtview360.eu))
  - FLIR for avoiding shipping containers and other surprises (potentially by [Raymarine](https://www.raymarine.com/flir-thermal-cameras/))
