@@ -1,24 +1,34 @@
 # S/V Curious Cat
 
-Curious Cat is a fossil fuel-free solar electric sailing catamaran set to travel around the world while logging her excellent adventures for everyone to witness and feel extremely jealous.
+Curious Cat is a fossil fuel-free solar electric sailing catamaran set to travel around the world while logging her excellent adventures for everyone to witness and feel very-very jealous.
 
 
 ## Specifications
 
 - **LOA**: 44' (13.40m)
 - **Beam**: 28' (8.60m)
-- **Mast**: aluminum, 62' (18.9m) from the waterline
-- **Hull materials**: waffle weave kevlar foam core epoxy vacuum bag
-- **Propulsion**: two 10KW IP67 BLDC electric motors by [E-Tech](https://starboats.eu/electric-drives/e-tech-wg-inboard-engines/)
 - **Launched**: July 5th 1998
 - **Country of origin**: Canada
 - **Manufacturer**: TEK-composites, Inc.
 - **Design**: custom, cross between TEK-35 and Tektron 50 (both [John Shuttleworth](https://www.shuttleworthdesign.com/) designs)
+- **Hull materials**: vacuum-bagged waffle weave kevlar on top of foam core, carbon fiber, epoxy, 
+- **Propulsion**:
+    - Volvo Penta MD22
+    - 2 × hydraulic pumps
+    - 2 × hydraulic motors
+    <!-- - two 10KW IP67 BLDC electric motors by [E-Tech](https://starboats.eu/electric-drives/e-tech-wg-inboard-engines/) -->
+    - 2 × 3-blade folding propellers
+- **Rigging**:
+    - 62' (18.9m) aluminum mast with two spreaders
+    - Stainless steel standing rigging
+    - 2 × Profurl sail roller furling units
+- **Portlights**: six Lewmar Atlantic Size 32
 - **Hatches**:
     - 8 × Lewmar Size 30
     - 2 × Lewmar Size 44 (escape)
     - 1 × Lewmar Size 50 (cabin)
-- **Portlights**: six Lewmar Atlantic Size 32
+- **Windlass**: Simpson-Lawrence 12V
+- **Anchor chain**: 42'
 - **Winches**:
     - 2 × Lewmar 50 Self-tailing
     - 3 × Lewmar 44 Self-tailing
@@ -64,6 +74,7 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
  - Replaced [Magma](https://magmaproducts.com/collections/grills-marine) gas grill with solar grill by [GoSun](https://gosun.co/products/sport-marine)
  - Replaced Volvo Penta MD22 diesel engine and hydraulics with 20KW electric propulsion system by [E-Tech](https://starboats.eu/electric-drives/)
  - Added stainless steel marine horns by [Schmitt & Ongaro](http://www.schmittongaromarine.com)
+ - Replaced incandescent lamps with LEDs
 
 ### Will be done in the future
 
@@ -98,7 +109,7 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
  - Hardtop carbon-epoxy bimini to support large solar panels and capture rainwater
  - New paint by Alexseal
  - Glow-in-the-dark coating for non-skid areas
- - Six underwater through-hull RGB LED lights
+ - Six underwater through-hull RGB LED lights, possibly two on the inner sides of the hulls
  - Onboard waste treatment system by either [Raritan](https://www.raritaneng.com/en_US/) or [tom logisch](https://www.nauticexpo.com/prod/tom-logisch-exploring-world-better-way/product-64563-479247.html)
  - [Schenker® watermaker by tom logisch](https://tomlogisch.com/schenker/)
  - New wind generators: either vertical, [Superwind® by tom logisch](https://tomlogisch.com/superwind/), [TESUP](https://www.tesup.us/product-page/atlas40-48v-4kw-wind-turbine-generator-for-homes-battery-energy-amazon-usa), or DIY
@@ -112,6 +123,11 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
  - [Keelcrab underwater hull cleaning drone](https://www.keelcrab.com)
  - Solar grill ([Sport Marine by GoSun](https://gosun.co/products/sport-marine))
  - EPIRB (RLB-41 by ACR)
- - 3D printer (FDM)
  - 4 × Stainless steel fishing pole holders
  - 2 × Woolen chafe guards
+ - 3D printer (FDM)
+ - Promariner ProNautic 1230P 12V battery charger
+ - 3 × Interstate AGM 12V 62 Ah batteries
+ - 4 × Sunpower 170W flexible solar panels
+ - 2 × Victron BlueSolar MPPT 100/30 charge controllers
+ - 2 × 5 gal solar showers

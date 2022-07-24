@@ -1,0 +1,5 @@
+# Erik Lerouge
+
+Reached out to [Erik Lerouge](http://erik.lerouge.pagesperso-orange.fr) hoping he could know a thing or two about my boat, since he’s the guy who designed Manta for TEK-composites, the boatyard that manufactured my boat.  Turns out he didn’t.  They just took one of his designs, "Jeffcat", which he made for French boatyards.  Quick internet search reveals that Jeffcat looks a lot like Manta... or more precisely, Manta is a rip-off of Jeffcat.  If I understood everything correctly, TEK-composites took Erik’s design and manufactured those cats without involving him at all, never reimbursed or credited him, and then sold Manta molds to US investors.  Just wow.
+
+This explains why John Shuttleworth said he wasn’t inovlved in designing my boat.  They took two of his designs and combined them into the one and only TEK-45, without involving him at all.  At least John worked with them on TEK-35 and Tektron 50 boats prior... interesting approach, but I’m not the one to judge — I absolutely love this catamaran.  I guess this makes my cat Shuttleworthy.
