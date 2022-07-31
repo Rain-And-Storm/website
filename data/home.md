@@ -7,17 +7,19 @@ Curious Cat is a fossil fuel-free solar electric sailing catamaran set to travel
 
 - **LOA**: 44' (13.40m)
 - **Beam**: 28' (8.60m)
+- **Draft**: 4' (1.22m)
+- **Hull type**: mini-keels
 - **Launched**: July 5th 1998
 - **Country of origin**: Canada
 - **Manufacturer**: TEK-composites, Inc.
 - **Design**: custom, cross between TEK-35 and Tektron 50 (both [John Shuttleworth](https://www.shuttleworthdesign.com/) designs)
-- **Hull materials**: vacuum-bagged waffle weave kevlar on top of foam core, carbon fiber, epoxy, 
+- **Hull materials**: vacuum-bagged waffle weave kevlar on top of foam core, carbon fiber, epoxy
 - **Propulsion**:
-    - Volvo Penta MD22
+    - Volvo Penta MD22 diesel engine
     - 2 × hydraulic pumps
     - 2 × hydraulic motors
     <!-- - two 10KW IP67 BLDC electric motors by [E-Tech](https://starboats.eu/electric-drives/e-tech-wg-inboard-engines/) -->
-    - 2 × 3-blade folding propellers
+    - 2 × 3-blade folding bronze propellers on 30mm shafts
 - **Rigging**:
     - 62' (18.9m) aluminum mast with two spreaders
     - Stainless steel standing rigging
@@ -27,8 +29,8 @@ Curious Cat is a fossil fuel-free solar electric sailing catamaran set to travel
     - 8 × Lewmar Size 30
     - 2 × Lewmar Size 44 (escape)
     - 1 × Lewmar Size 50 (cabin)
-- **Windlass**: Simpson-Lawrence 12V
-- **Anchor chain**: 42'
+- **Windlass**: Simpson-Lawrence Sprint 1500 12V, Gypsy RC162
+- **Anchor chain**: 3/8" BBB, 42' long
 - **Winches**:
     - 2 × Lewmar 50 Self-tailing
     - 3 × Lewmar 44 Self-tailing
@@ -130,4 +132,4 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
  - 3 × Interstate AGM 12V 62 Ah batteries
  - 4 × Sunpower 170W flexible solar panels
  - 2 × Victron BlueSolar MPPT 100/30 charge controllers
- - 2 × 5 gal solar showers
+ - 3 × 5 gal sun showers

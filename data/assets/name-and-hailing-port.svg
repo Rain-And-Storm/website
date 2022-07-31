@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="39.5in"
+   height="9.5in"
+   viewBox="0 0 1003.3 241.30001"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="name-and-hailing-port.svg"
+   inkscape:version="1.0.1 (c497b03c, 2020-09-10)">
+  <defs
+     id="defs2">
+    <rect
+       x="20.946592"
+       y="19.042356"
+       width="1043.5211"
+       height="217.08287"
+       id="rect835" />
+    <rect
+       x="20.946592"
+       y="19.042356"
+       width="1051.1381"
+       height="274.20994"
+       id="rect835-1" />
+    <rect
+       x="20.946592"
+       y="19.042356"
+       width="973.06439"
+       height="211.37016"
+       id="rect854" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.13894464"
+     inkscape:cx="1679.9905"
+     inkscape:cy="1264.299"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="in"
+     inkscape:window-width="1252"
+     inkscape:window-height="847"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       id="text833"
+       style="font-style:normal;font-weight:normal;font-size:139.69999999999998863px;line-height:1;font-family:sans-serif;letter-spacing:-5.29166999999999987px;white-space:pre;shape-inside:url(#rect835);fill:#000000;fill-opacity:1;stroke:none;"
+       x="396.02768"
+       y="0"
+       transform="translate(-44.19483,-10.915299)"><tspan
+         x="43.107579"
+         y="125.18222"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:139.7px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle">CURIOUS CAT</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       id="text833-5"
+       style="font-style:normal;font-weight:normal;font-size:139.69999999999998863px;line-height:1;font-family:sans-serif;letter-spacing:-5.29166999999999987px;white-space:pre;shape-inside:url(#rect835-1);fill:#000000;fill-opacity:1;stroke:none;"
+       x="396.02768"
+       y="0"
+       transform="translate(46.090534,105.53444)"><tspan
+         x="20.947266"
+         y="125.18222"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:139.7px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'">LAHAINA HI</tspan></tspan></text>
+  </g>
+</svg>

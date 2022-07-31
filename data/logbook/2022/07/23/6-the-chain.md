@@ -1,4 +1,4 @@
-# The chian
+# The chain
 
 Pulled out my main anchor's chain.  Appears to be 42' long, rusted through and through.  Need to replace that treasure before I decide to drop the anchor somewhere.  The rest of that rode seems to be dyneema or some other synthetic rope.  It's old but doesn't appear to be damaged, no need to replace that one yet.
 
