@@ -24,6 +24,8 @@ def stage(data):
     )
     htmlFile.write(html)
     htmlFile.close()
+    ## Copy asset files
+    utils.cpr("../data/assets/inspirations", data["definitions"]["runtime"]["cwd"] + "/" + data["config"]["Filesystem"]["DestinationDirPath"] + "/assets/inspirations")
     ## Add inspiration page link to sitemap
     if data["config"].getboolean("Site", "CreateSitemap", fallback=False):
         data["sitemap"].append("/inspirations/")

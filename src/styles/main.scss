@@ -79,6 +79,16 @@ ul {
     padding-left: $spacing * 1.45;
 }
 
+img {
+    width: 33.333%;
+    height: 25vh;
+    object-fit: cover;
+}
+
+hr {
+    opacity: 0.333;
+}
+
 .logbook {
     display: flex;
     margin: 0;

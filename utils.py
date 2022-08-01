@@ -1,5 +1,6 @@
 import os
 import re
+import shutil
 import sys
 from urllib.parse import quote
 from urllib.parse import urljoin
@@ -12,6 +13,9 @@ SCSS = Scss()
 
 def compileSass(scss):
     return SCSS.compile(scss)
+
+def cpr(src, dest):
+    return shutil.copytree(src, dest)
 
 def generatePageTitle(name, data):
     if len(name) > 0:
