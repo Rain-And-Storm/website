@@ -19,13 +19,13 @@ def stage(data):
     htmlFile = utils.mkfile(
         data["definitions"]["runtime"]["cwd"],
         data["config"]["Filesystem"]["DestinationDirPath"],
-        "inspirations",
+        data["config"]["Site"]["InspirationsPath"],
         data["definitions"]["filenames"]["index"]
     )
     htmlFile.write(html)
     htmlFile.close()
     ## Copy asset files
-    utils.cpr("../data/assets/inspirations", data["definitions"]["runtime"]["cwd"] + "/" + data["config"]["Filesystem"]["DestinationDirPath"] + "/assets/inspirations")
+    utils.cpr("../data/assets/inspirations", data["definitions"]["runtime"]["cwd"] + "/" + data["config"]["Filesystem"]["DestinationDirPath"] + "/assets/" + data["config"]["Site"]["InspirationsPath"])
     ## Add inspiration page link to sitemap
     if data["config"].getboolean("Site", "CreateSitemap", fallback=False):
-        data["sitemap"].append("/inspirations/")
+        data["sitemap"].append("/" + data["config"]["Site"]["InspirationsPath"] + "/")

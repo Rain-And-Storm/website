@@ -9,7 +9,7 @@ Vessels that have inspired Curious Cat to be what she is today.
 
 ![Kawaakari Erik Lerouge 137 main photo](../assets/inspirations/kawaakari-erik-lerouge-137/kawaakari-erik-lerouge-137-main.jpg)
 
-An absolute stunner, this magnificent 45' vessel is a carbon kevlar daggerboard cat capable of sailing at 26 knots!  Early in my research I was looking strictly for Erik Lerouge designs — that’s how much I like them.
+An absolute stunner, this magnificent 45' vessel is a carbon kevlar daggerboard cat capable of sailing at 26 knots!  Early in my search I was looking strictly for Erik Lerouge designs — that’s how much I like them.
 
 ---
 

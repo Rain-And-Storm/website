@@ -62,7 +62,7 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
 ### Done by previous owners
 
  - New davit system
- - Large aluminum bimini
+ - Large aluminum soft-top bimini
  - Trampolines instead of nets (by [Sunrise Yacht Products](https://multihullnets.com))
  - Lightning guide with grounding plates on starboad side
  - Replaced leaky cabin windows with ten round hatches
@@ -121,15 +121,20 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
 
 
 ## Equipment
- - Washer/dryer (Daewoo DWD-35MCRCR)
+ - Zodiac Wave Aluminum Floor 9' RIB tender
  - [Keelcrab underwater hull cleaning drone](https://www.keelcrab.com)
  - Solar grill ([Sport Marine by GoSun](https://gosun.co/products/sport-marine))
+ - Washer/dryer (Daewoo DWD-35MCRCR)
  - EPIRB (RLB-41 by ACR)
- - 4 × Stainless steel fishing pole holders
+ - Fishing
+     - 4 × Stainless steel fishing pole holders
+     - 2 × fishing rods
+ - 2 × Ritchie backlit compasses
  - 2 × Woolen chafe guards
  - 3D printer (FDM)
  - Promariner ProNautic 1230P 12V battery charger
  - 3 × Interstate AGM 12V 62 Ah batteries
- - 4 × Sunpower 170W flexible solar panels
- - 2 × Victron BlueSolar MPPT 100/30 charge controllers
+ - Photovoltaic system
+     - 4 × Sunpower 170W flexible solar panels
+     - 2 × Victron BlueSolar MPPT 100/30 charge controllers
  - 3 × 5 gal sun showers

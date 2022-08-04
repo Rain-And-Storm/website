@@ -113,7 +113,7 @@ def stage(data):
         htmlFile = utils.mkfile(
             data["definitions"]["runtime"]["cwd"],
             data["config"]["Filesystem"]["DestinationDirPath"],
-            "logbook",
+            data["config"]["Site"]["CaptainsLogPath"],
             logbookPage["year"],
             logbookPage["month"],
             logbookPage["day"],
@@ -123,7 +123,7 @@ def stage(data):
         htmlFile.close()
         ## Add this logbook page's link to sitemap
         if data["config"].getboolean("Site", "CreateSitemap", fallback=False):
-            data["sitemap"].append("/logbook/" + logbookPage["year"] + "/" + logbookPage["month"] + "/" + logbookPage["day"] + "/")
+            data["sitemap"].append("/" + data["config"]["Site"]["CaptainsLogPath"] + "/" + logbookPage["year"] + "/" + logbookPage["month"] + "/" + logbookPage["day"] + "/")
 
     #
     # Generate latest captain's log page
@@ -166,11 +166,11 @@ def stage(data):
     htmlFile = utils.mkfile(
         data["definitions"]["runtime"]["cwd"],
         data["config"]["Filesystem"]["DestinationDirPath"],
-        "logbook",
+        data["config"]["Site"]["CaptainsLogPath"],
         data["definitions"]["filenames"]["index"]
     )
     htmlFile.write(html)
     htmlFile.close()
     ## Add latest logbook page link to sitemap
     if data["config"].getboolean("Site", "CreateSitemap", fallback=False):
-        data["sitemap"].append("/logbook/")
+        data["sitemap"].append("/" + data["config"]["Site"]["CaptainsLogPath"] + "/")
