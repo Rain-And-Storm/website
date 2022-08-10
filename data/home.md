@@ -61,80 +61,92 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
 
 ### Done by previous owners
 
- - New davit system
- - Large aluminum soft-top bimini
- - Trampolines instead of nets (by [Sunrise Yacht Products](https://multihullnets.com))
- - Lightning guide with grounding plates on starboad side
- - Replaced leaky cabin windows with ten round hatches
- - Wind turbine on port side (Air X, 400W)
+- New davit system
+- Large aluminum soft-top bimini
+- Trampolines instead of nets (by [Sunrise Yacht Products](https://multihullnets.com))
+- Lightning guide with grounding plates on starboad side
+- Replaced leaky cabin windows with ten round hatches
+- Wind turbine on port side (Air X, 400W)
 
 ### Done by yours truly
 
- - Added photovoltaic system (by [SunPower](https://us.sunpower.com/products/solar-panels) and [Victron](https://www.victronenergy.com), purchased through [SunPoweredYachts](https://www.sunpoweredyachts.com))
- - Added high bilge water alarms (by [Johnson Pumps](https://www.spxflow.com/products/application?application=marine&subApplications=recreational-marine))
- - Replaced 2000 GPH Rule bilge pumps with 500 GPH [Johnson Pumps](https://www.spxflow.com/products/application?application=marine&subApplications=recreational-marine)
- - Replaced [Magma](https://magmaproducts.com/collections/grills-marine) gas grill with solar grill by [GoSun](https://gosun.co/products/sport-marine)
- - Replaced Volvo Penta MD22 diesel engine and hydraulics with 20KW electric propulsion system by [E-Tech](https://starboats.eu/electric-drives/)
- - Added stainless steel marine horns by [Schmitt & Ongaro](http://www.schmittongaromarine.com)
- - Replaced incandescent lamps with LEDs
+- Added photovoltaic system (by [SunPower](https://us.sunpower.com/products/solar-panels) and [Victron](https://www.victronenergy.com), purchased through [SunPoweredYachts](https://www.sunpoweredyachts.com))
+- Added high bilge water alarms (by [Johnson Pumps](https://www.spxflow.com/products/application?application=marine&subApplications=recreational-marine))
+- Replaced 2000 GPH Rule bilge pumps with 500 GPH [Johnson Pumps](https://www.spxflow.com/products/application?application=marine&subApplications=recreational-marine)
+- Replaced [Magma](https://magmaproducts.com/collections/grills-marine) gas grill with solar grill by [GoSun](https://gosun.co/products/sport-marine)
+- Replaced Volvo Penta MD22 diesel engine and hydraulics with 20KW electric propulsion system by [E-Tech](https://starboats.eu/electric-drives/)
+- Added stainless steel marine horns by [Schmitt & Ongaro](http://www.schmittongaromarine.com)
+- Replaced incandescent lamps with LEDs
+- Applied phosphorescent stickers to light switches
 
 ### Will be done in the future
 
- - New fenders by [AERÉ](http://aeredockingsolutions.com)
- - New electronics and autopilot package by [nke Marine Electronics](http://nke-marine-electronics.com)
- - [B&G](https://www.bandg.com) AIS, radio, radar, and chart plotter
- - [Super B LiFePo4 batteries](https://www.super-b.com/en/lithium-marine-batteries/leisure-marine)
- - Shower boxes
- - 240VAC and 120VAC inverters
- - New shiny interior
- - [MacGlide](https://www.macglide.eu) anti-fouling system by MacTac
- - Electric dinghy by either [ZeroJet](https://www.zerojet.nz), [Aeolos AP10](https://www.aeoloscomposites.com/aeolos-p10-dinghy), or [OCTenders](https://octenders.co.nz)
- - New audio system
- - 360° CCTV system for docking and security (potentially by [Yachtview 360°](http://www.yachtview360.eu))
- - FLIR for avoiding shipping containers and other surprises (potentially by [Raymarine](https://www.raymarine.com/flir-thermal-cameras/))
- - Rotating carbon fiber wing mast
- - Flush hatches and portlights by either Lewmar or Goiot Systems
- - OLED lights throughout the interior by either [UIV Chem](http://www.ioledlight.com) or [OLEDWorks](http://oledworks.com)
- - Induction stovetop
- - New transom shower
- - Shiny [Lewmar](https://www.lewmar.com) or [Ultra](https://www.ultramarine-anchors.com/anchor) stainless steel anchor
- - Anchor depth counter
- - Anchor washdown pump
- - Solid-state fresh water pump by [Kinetic Ceramics](https://www.kineticceramics.com/products/solid-state-pumps/)
- - Carbon fiber stanchions
- - Carbon fiber helms
- - Carbon winch handle by Karver
- - Rolling cleats by [Antal](http://antal.it/ENG/)
- - Solid-state thermoelectric air conditioner by either ThermoTEC™ or TECA
- - Solid-state thermoelectric fridge by [Phononic](https://phononic.com)
- - Pyrotek sound proofing for staterooms
- - Hardtop carbon-epoxy bimini to support large solar panels and capture rainwater
- - New paint by Alexseal
- - Glow-in-the-dark coating for non-skid areas
- - Six underwater through-hull RGB LED lights, possibly two on the inner sides of the hulls
- - Onboard waste treatment system by either [Raritan](https://www.raritaneng.com/en_US/) or [tom logisch](https://www.nauticexpo.com/prod/tom-logisch-exploring-world-better-way/product-64563-479247.html)
- - [Schenker® watermaker by tom logisch](https://tomlogisch.com/schenker/)
- - New wind generators: either vertical, [Superwind® by tom logisch](https://tomlogisch.com/superwind/), [TESUP](https://www.tesup.us/product-page/atlas40-48v-4kw-wind-turbine-generator-for-homes-battery-energy-amazon-usa), or DIY
- - New navigation lights by either Ibuki, Lopolight, or K2W
- - Food waste shredder by Delitek
- - New rub rails (likely [BINO by TESSILMARE](https://rubrails-tessilmare.com/boat-rub-rails/bino-boat-rub-rails/))
+- New fenders by [AERÉ](http://aeredockingsolutions.com)
+- New electronics and autopilot package by [nke Marine Electronics](http://nke-marine-electronics.com)
+- [B&G](https://www.bandg.com) AIS, radio, radar, and chart plotter
+- [Super B LiFePo4 batteries](https://www.super-b.com/en/lithium-marine-batteries/leisure-marine)
+- Shower boxes
+- 240VAC and 120VAC inverters
+- New shiny interior
+- [MacGlide](https://www.macglide.eu) anti-fouling system by MacTac
+- Electric dinghy by either [ZeroJet](https://www.zerojet.nz), [Aeolos AP10](https://www.aeoloscomposites.com/aeolos-p10-dinghy), or [OCTenders](https://octenders.co.nz)
+- New audio system
+- 360° CCTV system for docking and security (potentially by [Yachtview 360°](http://www.yachtview360.eu))
+- FLIR for avoiding shipping containers and other surprises (potentially by [Raymarine](https://www.raymarine.com/flir-thermal-cameras/))
+- Rotating carbon fiber wing mast
+- Flush hatches and portlights by either Lewmar or Goiot Systems
+- OLED lights throughout the interior by either [UIV Chem](http://www.ioledlight.com) or [OLEDWorks](http://oledworks.com)
+- Induction stovetop
+- New transom shower
+- Shiny [Lewmar](https://www.lewmar.com) or [Ultra](https://www.ultramarine-anchors.com/anchor) stainless steel anchor
+- Anchor depth counter
+- Anchor washdown pump
+- Solid-state fresh water pump by [Kinetic Ceramics](https://www.kineticceramics.com/products/solid-state-pumps/)
+- Carbon fiber stanchions
+- Carbon fiber helms
+- Carbon winch handle by Karver
+- Rolling cleats by [Antal](http://antal.it/ENG/)
+- Solid-state thermoelectric air conditioner by either ThermoTEC™ or TECA
+- Solid-state thermoelectric fridge by [Phononic](https://phononic.com)
+- Pyrotek sound proofing for staterooms
+- Hardtop carbon-epoxy bimini to support large solar panels and capture rainwater
+- New paint by Alexseal
+- Glow-in-the-dark coating for non-skid areas
+- Six underwater through-hull RGB LED lights, possibly two on the inner sides of the hulls
+- Onboard waste treatment system by either [Raritan](https://www.raritaneng.com/en_US/) or [tom logisch](https://www.nauticexpo.com/prod/tom-logisch-exploring-world-better-way/product-64563-479247.html)
+- [Schenker® watermaker by tom logisch](https://tomlogisch.com/schenker/)
+- New wind generators: either vertical, [Superwind® by tom logisch](https://tomlogisch.com/superwind/), [TESUP](https://www.tesup.us/product-page/atlas40-48v-4kw-wind-turbine-generator-for-homes-battery-energy-amazon-usa), or DIY
+- New navigation lights by either Ibuki, Lopolight, or K2W
+- Food waste shredder by Delitek
+- New rub rails (likely [BINO by TESSILMARE](https://rubrails-tessilmare.com/boat-rub-rails/bino-boat-rub-rails/))
 
 
 ## Equipment
- - Zodiac Wave Aluminum Floor 9' RIB tender
- - [Keelcrab underwater hull cleaning drone](https://www.keelcrab.com)
- - Solar grill ([Sport Marine by GoSun](https://gosun.co/products/sport-marine))
- - Washer/dryer (Daewoo DWD-35MCRCR)
- - EPIRB (RLB-41 by ACR)
- - Fishing
-     - 4 × Stainless steel fishing pole holders
-     - 2 × fishing rods
- - 2 × Ritchie backlit compasses
- - 2 × Woolen chafe guards
- - 3D printer (FDM)
- - Promariner ProNautic 1230P 12V battery charger
- - 3 × Interstate AGM 12V 62 Ah batteries
- - Photovoltaic system
-     - 4 × Sunpower 170W flexible solar panels
-     - 2 × Victron BlueSolar MPPT 100/30 charge controllers
- - 3 × 5 gal sun showers
+
+- Zodiac Wave Aluminum Floor 9' RIB tender
+- [Keelcrab underwater hull cleaning drone](https://www.keelcrab.com)
+- Solar grill ([Sport Marine by GoSun](https://gosun.co/products/sport-marine))
+- Washer/dryer (Daewoo DWD-35MCRCR)
+- EPIRB (RLB-41 by ACR)
+- Fishing
+    - 2 × fishing rods
+    - 4 × Stainless steel fishing pole holders
+- Navigation
+    - 2 × Ritchie backlit compasses
+- 2 × Woolen chafe guards by [Osculati](https://www.osculati.com/en/11034-06.315.01/woolen-chafe-guard-for-rope-ø-1422-mm-black)
+- 3D printer (FDM)
+- Power
+    - Promariner ProNautic 1230P 12V battery charger
+    - 3 × Interstate AGM 12V 62 Ah batteries
+    - Photovoltaic system
+        - 4 × Sunpower 170W flexible solar panels
+        - 2 × Victron BlueSolar MPPT 100/30 charge controllers
+- 3 × 5 gal sun showers
+- transom shower
+
+
+## Contact
+
+- [Reach out via email](mailto:svcuriouscat@protonmail.com)
+- [Source code to this website](https://github.com/svcuriouscat)
+- [Models for 3D printer](https://www.printables.com/social/309963-curious-cat/models)

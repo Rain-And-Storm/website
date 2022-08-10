@@ -54,6 +54,9 @@ def stage(data):
                 ## Loop through logbook years → months → days → records
                 records = sorted(next(os.walk(logbookYearMonthDayPath))[2], key=str.lower)
                 for recordFileName in records:
+                    ## Skip system files
+                    if recordFileName == '.DS_Store':
+                        continue
                     logbookYearMonthDayRecordPath = os.path.join(
                         logbookYearMonthDayPath,
                         recordFileName,

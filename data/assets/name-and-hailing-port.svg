@@ -63,7 +63,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -74,22 +74,22 @@
     <text
        xml:space="preserve"
        id="text833"
-       style="font-style:normal;font-weight:normal;font-size:139.69999999999998863px;line-height:1;font-family:sans-serif;letter-spacing:-5.29166999999999987px;white-space:pre;shape-inside:url(#rect835);fill:#000000;fill-opacity:1;stroke:none;"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:139.69999999999998863px;line-height:1;font-family:'.SF NS Rounded';-inkscape-font-specification:'.SF NS Rounded Bold';letter-spacing:0px;white-space:pre;shape-inside:url(#rect835);fill:#000000;fill-opacity:1;stroke:none;"
        x="396.02768"
        y="0"
-       transform="translate(-44.19483,-10.915299)"><tspan
-         x="43.107579"
-         y="125.18222"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:139.7px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle">CURIOUS CAT</tspan></tspan></text>
+       transform="translate(-42.731335,-33.585549)"><tspan
+         x="87.317783"
+         y="133.72207"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:139.7px;font-family:'.SF NS Rounded';-inkscape-font-specification:'.SF NS Rounded Bold';text-align:center;text-anchor:middle">CURIOUS CAT</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text833-5"
-       style="font-style:normal;font-weight:normal;font-size:139.69999999999998863px;line-height:1;font-family:sans-serif;letter-spacing:-5.29166999999999987px;white-space:pre;shape-inside:url(#rect835-1);fill:#000000;fill-opacity:1;stroke:none;"
+       style="font-style:normal;font-weight:normal;font-size:139.69999999999998863px;line-height:1;font-family:sans-serif;letter-spacing:0px;white-space:pre;shape-inside:url(#rect835-1);fill:#000000;fill-opacity:1;stroke:none;"
        x="396.02768"
        y="0"
-       transform="translate(46.090534,105.53444)"><tspan
+       transform="translate(79.542725,84.180908)"><tspan
          x="20.947266"
-         y="125.18222"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:139.7px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'">LAHAINA HI</tspan></tspan></text>
+         y="133.72207"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:139.7px;font-family:'.SF NS Rounded';-inkscape-font-specification:'.SF NS Rounded Bold'">LAHAINA, HI</tspan></tspan></text>
   </g>
 </svg>
