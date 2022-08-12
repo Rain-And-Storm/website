@@ -61,7 +61,7 @@ def stage(data):
                         logbookYearMonthDayPath,
                         recordFileName,
                     )
-                    logbookPages[-1]["records"][recordFileName] = open("../data/logbook/" + year + "/" + month + "/" + day + "/" + recordFileName, "r").read()
+                    logbookPages[-1]["records"][recordFileName] = open(os.path.join(data["definitions"]["runtime"]["cwd"], "data", "logbook", year, month, day, recordFileName), "r").read()
 
     #
     # Create captain's log HTML pages out of Markdown files
@@ -124,6 +124,12 @@ def stage(data):
         )
         htmlFile.write(html)
         htmlFile.close()
+        ## Copy asset files
+        if os.path.isdir(os.path.join(data["definitions"]["runtime"]["cwd"], "data", "logbook", logbookPage['year'], logbookPage['month'], logbookPage['day'], "assets")):
+            utils.cpr(
+                os.path.join(data["definitions"]["runtime"]["cwd"], "data", "logbook", logbookPage['year'], logbookPage['month'], logbookPage['day'], "assets"),
+                os.path.join(data["definitions"]["runtime"]["cwd"], data["config"]["Filesystem"]["DestinationDirPath"], data["config"]["Site"]["CaptainsLogPath"], logbookPage['year'], logbookPage['month'], logbookPage['day'], "assets")
+            )
         ## Add this logbook page's link to sitemap
         if data["config"].getboolean("Site", "CreateSitemap", fallback=False):
             data["sitemap"].append("/" + data["config"]["Site"]["CaptainsLogPath"] + "/" + logbookPage["year"] + "/" + logbookPage["month"] + "/" + logbookPage["day"] + "/")
@@ -174,6 +180,12 @@ def stage(data):
     )
     htmlFile.write(html)
     htmlFile.close()
+    ## Copy asset files
+    if os.path.isdir(os.path.join(data["definitions"]["runtime"]["cwd"], "data", "logbook", logbookPage['year'], logbookPage['month'], logbookPage['day'], "assets")):
+        utils.cpr(
+            os.path.join(data["definitions"]["runtime"]["cwd"], "data", "logbook", logbookPage['year'], logbookPage['month'], logbookPage['day'], "assets"),
+            os.path.join(data["definitions"]["runtime"]["cwd"], data["config"]["Filesystem"]["DestinationDirPath"], data["config"]["Site"]["CaptainsLogPath"], "assets")
+        )
     ## Add latest logbook page link to sitemap
     if data["config"].getboolean("Site", "CreateSitemap", fallback=False):
         data["sitemap"].append("/" + data["config"]["Site"]["CaptainsLogPath"] + "/")
