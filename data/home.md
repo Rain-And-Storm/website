@@ -19,7 +19,7 @@ Curious Cat is a fossil fuel-free solar electric sailing catamaran set to travel
     - 2 × hydraulic pumps
     - 2 × hydraulic motors
     <!-- - two 10KW IP67 BLDC electric motors by [E-Tech](https://starboats.eu/electric-drives/e-tech-wg-inboard-engines/) -->
-    - 2 × 3-blade folding bronze propellers on 30mm shafts
+    - 2 × 3-blade feathering bronze propellers on 30mm shafts
 - **Rigging**:
     - 62' (18.9m) fixed aluminum mast with two spreaders
         - 22mm battcar system by [Harken](https://www.harken.com/en/home/)
