@@ -2,7 +2,7 @@
 
 In order to get my AIS working in international waters, I’ll need to obtain MMSI through FCC.  One YouTube video outlined this process:
 
-1. Obtain restricted radio phone operator’s permit — $0, never expires
+1. Obtain restricted radiotelephone operator’s permit — $0, never expires
 1. Go to apps.fcc.gov/...
 1. Register to get FCC account, you’ll get an FCC registration number (FRN)
 1. Click on wireless.fcc.gov/..., enter your FRN number and password
