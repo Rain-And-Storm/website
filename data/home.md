@@ -7,7 +7,7 @@ Curious Cat is a fossil fuel-free solar electric sailing catamaran set to travel
 
 - **LOA**: 44' (13.40m)
 - **Beam**: 28' (8.60m)
-- **Draft**: 4' (1.22m)
+- **Draft**: 4' (1.20m)
 - **Hull type**: mini-keels
 - **Launched**: July 5th 1998
 - **Country of origin**: Canada
@@ -23,14 +23,19 @@ Curious Cat is a fossil fuel-free solar electric sailing catamaran set to travel
 - **Rigging**:
     - 62' (18.9m) fixed aluminum mast with two spreaders
         - 22mm battcar system by [Harken](https://www.harken.com/en/home/)
-    - Stainless steel standing rigging
+        - 18' 4" (5.6m) aluminum boom
+        - Fully battened mainsail
     - 2 × Profurl sail rollers
-    - Fully battened mainsail
+    - Stainless steel standing rigging
 - **Anchoring**:
-    - Simpson-Lawrence Sprint 1500 12V windlass, RC162 gypsy
+    - Simpson-Lawrence Sprint 1500 12V windlass
+        - RC162 gypsy
         - 3/8" BBB, 42' long anchor chain
         - Galvanized steel delta anchor
     - Galvanized steel bruce anchor
+- **Steering**:
+    - 2 × stainless steel helms by [Edson Marine](https://edsonmarine.com)
+    - Cable and chain steering system with two detachable wheel breaks
 - **Portlights**:
     - 6 × Lewmar Atlantic Size 32
 - **Hatches**:
@@ -67,12 +72,12 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
 
 ### Done by previous owners
 
-- New davit system
-- Large aluminum soft-top bimini
-- Trampolines instead of nets (by [Sunrise Yacht Products](https://multihullnets.com))
-- Lightning guide with grounding plates on starboad side
+- Switched to taller davit system
+- Added large aluminum soft-top bimini
+- Put trampolines instead of nets (by [Sunrise Yacht Products](https://multihullnets.com))
+- Added lightning guide with grounding plates on starboad side
 - Replaced leaky cabin windows with ten round 20" hatches
-- Wind turbine on port side (Air X, 400W)
+- Added wind turbine on port side (Air X, 400W)
 
 ### Done by yours truly
 
@@ -81,23 +86,27 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
 - Replaced 2000 GPH Rule bilge pumps with 500 GPH [Johnson Pumps](https://www.spxflow.com/products/application?application=marine&subApplications=recreational-marine)
 - Replaced [Magma](https://magmaproducts.com/collections/grills-marine) gas grill with solar grill by [GoSun](https://gosun.co/products/sport-marine)
 <!-- - Replaced Volvo Penta MD22 diesel engine and hydraulics with 20KW electric propulsion system by [E-Tech](https://starboats.eu/electric-drives/) -->
-- Stainless steel marine horns by [Schmitt & Ongaro](http://www.schmittongaromarine.com)
-- New electronics and autopilot by [nke](http://nke-marine-electronics.com)
-- Replaced incandescent lamps with LEDs
-- Phosphorescent stickers on light switches
+- Added stainless steel marine horns by [Schmitt & Ongaro](http://www.schmittongaromarine.com)
+- Installed new electronics and autopilot by [nke](http://nke-marine-electronics.com)
+- Replaced small incandescent lamps with LEDs throughout the salon
+- Applied phosphorescent stickers to light switches
+- Added [NAIS-500 class B AIS transceiver by B&G](https://www.bandg.com/bg/type/vhf-ais/nais-500--nspl-500--gps-500--n2k/)
+- Replaced old Raytheon radar with [B&G Halo20+](https://www.bandg.com/bg/type/radar/halo20bgradar-c73626e8/)
+- Replaced old Raytheon CRT chart plotter with [16" Zeus³S Glass Helm by B&G](https://www.bandg.com/bg/series/zeuss-glass-helm/integrated-display-processor/zeus3s-gh-mfd-16-display-only/)
 
 ### Will be done in the future
 
 - New fenders by [AERÉ](http://aeredockingsolutions.com)
-- [B&G](https://www.bandg.com) AIS, radio, radar, and chart plotter
+- 360° CCTV system for docking and security (potentially by [Yachtview 360°](http://www.yachtview360.eu))
+- New VHF radio by either B&G, Standard Horizon, or Icom
 - [Super B LiFePo4 batteries](https://www.super-b.com/en/lithium-marine-batteries/leisure-marine)
 - Shower boxes
+- Electric toilets
 - 240VAC and 120VAC inverters
 - New shiny interior
 - [MacGlide](https://www.macglide.eu) anti-fouling system by MacTac
 - Electric dinghy (either [ZeroJet](https://www.zerojet.nz), [Aeolos AP10](https://www.aeoloscomposites.com/aeolos-p10-dinghy), or [OCTenders](https://octenders.co.nz))
 - New audio system (possibly by Naim)
-- 360° CCTV system for docking and security (potentially by [Yachtview 360°](http://www.yachtview360.eu))
 - FLIR for avoiding shipping containers and other surprises (potentially by [Raymarine](https://www.raymarine.com/flir-thermal-cameras/))
 - Rotating carbon fiber wing mast
 - Kevlar or carbon fiber standing rigging
@@ -106,6 +115,8 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
 - Carbon fiber winch handle by Karver
 - Flush hatches and portlights by either Lewmar or Goiot Systems
 - OLED lights throughout the interior by either [UIV Chem](http://www.ioledlight.com) or [OLEDWorks](http://oledworks.com)
+- Two staterooms instead of four — workshop on starboard side, hydropnic garden on port side
+- Walk-in closets instead of heads in staterooms
 - Induction stovetop
 - New transom shower
 - Shiny [Lewmar](https://www.lewmar.com) or [Ultra](https://www.ultramarine-anchors.com/anchor) stainless steel anchor
@@ -117,6 +128,7 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
 - Solid-state thermoelectric fridge by [Phononic](https://phononic.com)
 - Pyrotek sound proofing for staterooms
 - Hardtop carbon-epoxy bimini to support large solar panels and capture rainwater
+- Reflective surface on the boom to increase energy output of solar panels
 - New topside paint by Alexseal
 - Glow-in-the-dark coating for non-skid areas
 - Six underwater through-hull RGB LED lights, possibly two more on the inner sides of the hulls

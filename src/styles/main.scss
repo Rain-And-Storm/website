@@ -84,6 +84,32 @@ hr {
     opacity: 0.333;
 }
 
+table {
+    background-color: rgba(50, 50, 50, 0.1);
+    border-collapse: separate;
+    border-spacing: 1px;
+    font-size: 50%;
+    white-space: nowrap;
+    width: 100%;
+
+    td {
+        padding: 2px;
+    }
+
+    tr {
+        &:nth-child(even) {
+            td {
+                background-color: rgba(200, 200, 200, 0.1);
+            }
+        }
+        &:nth-child(odd) {
+            td {
+                background-color: rgba(100, 100, 100, 0.1);
+            }
+        }
+    }
+}
+
 .inspirations {
     img {
         width: 33.333%;

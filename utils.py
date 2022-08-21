@@ -45,7 +45,7 @@ def mkfile(*paths):
     return open(os.path.join(*paths), "w")
 
 def renderMarkdown(md):
-    return markdown.markdown(md)
+    return markdown.markdown(md, extensions=['tables'])
 
 def renderTemplate(template, data):
     return pystache.render(template, data)
