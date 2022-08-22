@@ -30,10 +30,9 @@ This is a high-end 47' sailing liveaboard catamaran that incorporates many inter
 ---
 
 
-## Freedom — 2017 Farrier F-39
+## Ya — 2015 custom fossil-free monohull sailboat
 
-Built by [krake catamarane KG](http://www.krake-technology.de) using kevlar, carbon, and epoxy, that hull is a real beauty.  The boat is extremely well equipped, a very fast daggerboard trimaran that can easily do 18 knots upwind.  One of the only 39' Farrier trimarans ever produced!
-Although not a catamaran, this boat was the first vessel I fell in love with, and ended up getting very close to purchasing, but someone else got her instead.  Then I started looking at catamarans.
+Built out of vinylester, equipped with two 7.5KW motors by E-Tech.  This is what I want to do with my boat, the way I want Curious Cat to be: green, sustainable, free.  More info is available on [their website](https://fossilfreearoundtheworld.org).
 
 ---
 

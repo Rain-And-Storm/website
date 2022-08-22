@@ -81,7 +81,7 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
 
 ### Done by yours truly
 
-- Added photovoltaic system (by [SunPower](https://us.sunpower.com/products/solar-panels) and [Victron](https://www.victronenergy.com), purchased through [SunPoweredYachts](https://www.sunpoweredyachts.com))
+- Added photovoltaic system (by [SunPower](https://us.sunpower.com/products/solar-panels) and [Victron Energy](https://www.victronenergy.com), purchased through [SunPoweredYachts](https://www.sunpoweredyachts.com))
 - Added high bilge water alarms (by [Johnson Pumps](https://www.spxflow.com/products/application?application=marine&subApplications=recreational-marine))
 - Replaced 2000 GPH Rule bilge pumps with 500 GPH [Johnson Pumps](https://www.spxflow.com/products/application?application=marine&subApplications=recreational-marine)
 - Replaced [Magma](https://magmaproducts.com/collections/grills-marine) gas grill with solar grill by [GoSun](https://gosun.co/products/sport-marine)
@@ -104,13 +104,16 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
 - Electric toilets
 - 240VAC and 120VAC inverters
 - New shiny interior
+- Topside paind by [Alexseal](https://www.alexseal.com)
 - [MacGlide](https://www.macglide.eu) anti-fouling system by MacTac
 - Electric dinghy (either [ZeroJet](https://www.zerojet.nz), [Aeolos AP10](https://www.aeoloscomposites.com/aeolos-p10-dinghy), or [OCTenders](https://octenders.co.nz))
 - New audio system (possibly by Naim)
 - FLIR for avoiding shipping containers and other surprises (potentially by [Raymarine](https://www.raymarine.com/flir-thermal-cameras/))
 - Rotating carbon fiber wing mast
-- Kevlar or carbon fiber standing rigging
+- Composite standing rigging
+- Turnbuckle covers
 - Carbon fiber stanchions
+- Composite lifelines
 - Carbon fiber helms
 - Carbon fiber winch handle by Karver
 - Flush hatches and portlights by either Lewmar or Goiot Systems

@@ -15,3 +15,9 @@ lat = 26.51190409963851
 long = -82.082561631909
 date = "2022-04-07"
 name = "Private Dock"
+
+[[destinations]]
+lat = 26.506817874423575
+long = -82.08201526327758
+date = "2022-14-08"
+name = "Golden Palms Resort"
