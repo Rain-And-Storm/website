@@ -50,7 +50,7 @@ On one of the pictures I spotted a strange shiny thing on the wall, that was a c
 ![MAXI JAZZ Feral 50 main photo](../assets/inspirations/maxi-jazz-feral-50/maxi-jazz-feral-50-main.jpg)![MAXI JAZZ Feral 50 cabin photo](../assets/inspirations/maxi-jazz-feral-50/maxi-jazz-feral-50-cabin.jpg)![MAXI JAZZ Feral 50 salon photo](../assets/inspirations/maxi-jazz-feral-50/maxi-jazz-feral-50-salon.jpg)
 
 Custom-made one-of-a-kind composite 50' performance cruising catamaran built by Waikato Marine Composites in New Zealand.
-Designed by Nic Bailey.  The construction is carbon fibre kevlar vacuumed hull with incredibly beautiful lines inside and out.  Both the interior and body somehow remind me of a flying saucer.  Painted with Atlex Elite Polyurethane, this is one of the vessels I look up to, a real masterpiece.
+Designed by Nic Bailey.  The construction is carbon fiber kevlar vacuumed hull with incredibly beautiful lines inside and out.  Both the interior and body somehow remind me of a flying saucer.  Painted with Atlex Elite Polyurethane, this is one of the vessels I look up to, a real masterpiece.
 
 ---
 

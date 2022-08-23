@@ -25,7 +25,9 @@ Curious Cat is a fossil fuel-free solar electric sailing catamaran set to travel
         - 22mm battcar system by [Harken](https://www.harken.com/en/home/)
         - 18' 4" (5.6m) aluminum boom
         - Fully battened mainsail
-    - 2 × Profurl sail rollers
+    - Furling systems
+        - Profurl NCI-42 furler (forestay)
+        - Profurl N31/N41 furler (inner forestay)
     - Stainless steel standing rigging
 - **Anchoring**:
     - Simpson-Lawrence Sprint 1500 12V windlass
@@ -74,7 +76,7 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
 
 - Switched to taller davit system
 - Added large aluminum soft-top bimini
-- Put trampolines instead of nets (by [Sunrise Yacht Products](https://multihullnets.com))
+- Switched nets for trampolines (by [Sunrise Yacht Products](https://multihullnets.com))
 - Added lightning guide with grounding plates on starboad side
 - Replaced leaky cabin windows with ten round 20" hatches
 - Added wind turbine on port side (Air X, 400W)
@@ -96,6 +98,7 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
 
 ### Will be done in the future
 
+- Grade 5 titanium thru-hull fittings by either [Allied Titanium](https://www.alliedtitanium.com) or [Gemlux](https://gemlux.com)
 - New fenders by [AERÉ](http://aeredockingsolutions.com)
 - 360° CCTV system for docking and security (potentially by [Yachtview 360°](http://www.yachtview360.eu))
 - New VHF radio by either B&G, Standard Horizon, or Icom
@@ -141,6 +144,7 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
 - New navigation lights by either Ibuki, Lopolight, or K2W
 - Food waste shredder by Delitek
 - New rub rails (likely [BINO by TESSILMARE](https://rubrails-tessilmare.com/boat-rub-rails/bino-boat-rub-rails/))
+- Electric headsail furling systems by Harken, Reckmann, Selden, Facnor, or [Profurl](https://www.profurl.com)
 
 
 ## Equipment
@@ -161,13 +165,14 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
 - 2 × Woolen chafe guards by [Osculati](https://www.osculati.com/en/11034-06.315.01/woolen-chafe-guard-for-rope-ø-1422-mm-black)
 - Electric
     - Promariner ProNautic 1230P 12V battery charger
-    - 3 × Interstate AGM 12V 62 Ah batteries
+    - Batteries
+        - 3 × Interstate AGM 12V batteries, 62Ah each
     - Photovoltaic system
         - 4 × Sunpower 170W flexible solar panels
         - 2 × Victron BlueSolar MPPT 100/30 charge controllers
 - 3D printer (FDM)
 - 3 × 5 gal sun showers
-- Transom shower
+- Transom shower by [Whale Pumps](https://www.whalepumps.com/marine/)
 
 
 ## Links
