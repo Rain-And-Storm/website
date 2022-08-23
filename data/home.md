@@ -178,5 +178,5 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
 ## Links
 
 - [Reach out via email](mailto:svcuriouscat@protonmail.com)
-- [Models for 3D printer](https://www.printables.com/social/309963-curious-cat/models)
+- [Designs for 3D printer](https://www.printables.com/social/309963-curious-cat/models)
 - [Source code](https://github.com/svcuriouscat)

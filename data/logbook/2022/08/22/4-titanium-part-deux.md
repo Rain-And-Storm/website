@@ -9,7 +9,7 @@ I’ve pretty much set my mind on switching to titanium when it comes to not jus
 So far here’s the list of companies I’ve found to source titanium parts from:
 
 - [Allied Titanium](https://www.alliedtitanium.com) — the titanium juggernaut, almost everything is Grade 5, but seems like their products are manufactured in China.  Could still be good, not trying to say anything, but there’s an option for making custom orders, US- or EU-made for extra money.
-- [Gemlux](https://gemlux.com) — another company that produces things like thru-hull fittings, hinges, cleats, etc.  No idea what grade of titanium they use, but emailed them, hope they tell.
+- [Gemlux](https://gemlux.com) — another company that produces things like thru-hull fittings, hinges, cleats, etc.  No idea what grade of titanium they use, but emailed them, hope they tell.  Update: they promptly replied next morning; Grade 2, made in Thailand.
 - [Titan Marine Hardware](http://www.titan-marine-hardware.com) — these guys have titanium hose clamps (not constant tension though), thru-hulls, and many other goodies.  Don’t seem to be as shiny, but that’s probably just sandblast finish.  It’s fine, being too flashy can spoil trouble.
 - [Titanium Precision Parts](http://www.titaniumprecisionparts.com) — not a wide selection, they only have like ten marine-specific products, but the whole catalog isn’t miniscule.
 - [Spectore](https://www.spectore.com) — very evil name, something from James Bond movies.  No idea why their fasteners are Grade 2 but everything else seems to be Grade 5.  They even sell something called [Black Titanium](https://www.spectore.com/collections/black-titanium) — told you they were creepy.
