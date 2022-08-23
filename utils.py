@@ -17,6 +17,12 @@ def compileSass(scss):
 def cpr(src, dest):
     return shutil.copytree(src, dest)
 
+def filenameToAnchorTagId(filename):
+    noExt = os.path.splitext(filename)[0]
+    array = noExt.split("-")
+    array.pop(0)
+    return '-'.join(array)
+
 def generatePageTitle(name, data):
     if len(name) > 0:
         return name + " " + data["config"]["Site"]["PageTitleSeparator"] + " " + data["config"]["Site"]["Name"]

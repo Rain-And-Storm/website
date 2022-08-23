@@ -10,6 +10,15 @@ def formatLogbookPageDate(logbookPage):
     return datetime.datetime(int(logbookPage["year"]), int(logbookPage["month"]), int(logbookPage["day"])).strftime("%d.%m.%Y")
 
 def stage(data):
+    # 
+    # Schema for logbookPage:
+    #  - year: string
+    #  - month: string
+    #  - day: string
+    #  - records: dict
+    #  - prevPage: logbookPage
+    #  - nextPage: logbookPage
+    #
     logbookPages = []
 
     #
@@ -71,6 +80,9 @@ def stage(data):
         records = logbookPage["records"]
         recordsHtml = "<h1>Captain’s log<br />Dateline: " + formattedDate + "</h1>"
         for recordFileName in records:
+            # Add ID anchor
+            recordsHtml += "<a id=\"" + utils.filenameToAnchorTagId(recordFileName) + "\"></a>"
+            # Render the logbook entry
             recordsHtml += utils.renderMarkdown(records[recordFileName])
         prevLinkHtml = ""
         if "prevPage" in logbookPage:
@@ -142,6 +154,9 @@ def stage(data):
     records = logbookPage["records"]
     recordsHtml = "<h1>Captain’s log<br />Dateline: " + formattedDate + "</h1>"
     for recordFileName in records:
+        # Add ID anchor
+        recordsHtml += "<a id=\"" + utils.filenameToAnchorTagId(recordFileName) + "\"></a>"
+        # Render the logbook entry
         recordsHtml += utils.renderMarkdown(records[recordFileName])
     prevLinkHtml = ""
     if "prevPage" in logbookPage:
