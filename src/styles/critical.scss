@@ -1,10 +1,20 @@
 // Critical CSS that goes inline into HEAD of every page
 
-@option compress: yes;
+// @import "variables";
+// Colors
+$color-bg: #fff;
+$color-fg: #010101;
+
+// Dark mode colors
+$dark-color-bg: #000;
+$dark-color-fg: #efefef;
+
+// General
+$spacing: 1rem;
 
 body {
-    background-color: #fff;
-    color: #010101;
+    background-color: $color-bg;
+    color: $color-fg;
     font-family: Arial, sans-serif;
 }
 
@@ -12,8 +22,8 @@ body {
 @media (prefers-color-scheme: dark) {
 
     body {
-        background-color: #000;
-        color: #efefef;
+        background-color: $dark-color-bg;
+        color: $dark-color-fg;
     }
 
 }

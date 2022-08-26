@@ -2,17 +2,15 @@ import os
 import re
 import shutil
 import sys
-from urllib.parse import quote
-from urllib.parse import urljoin
+from urllib.parse import quote, urljoin
 
 import markdown
 import pystache
-from scss import Scss
-
-SCSS = Scss()
+import sass
 
 def compileSass(scss):
-    return SCSS.compile(scss)
+    print(resolveFsPath(getCwd(), "src", "styles"))
+    return sass.compile(string=scss, include_paths=resolveFsPath(getCwd(), "src", "styles"), output_style='compressed')
 
 def cpr(src, dest):
     return shutil.copytree(src, dest)
@@ -35,6 +33,9 @@ def generateNavigation():
     links.append(getWebPageLink("/inspirations/", "Inspirations"))
     return links
 
+def getCwd():
+    return os.path.dirname(os.path.realpath(__file__))
+
 def getWebPageLink(target, label):
     return {
         "href": quote(target),
@@ -55,6 +56,9 @@ def renderMarkdown(md):
 
 def renderTemplate(template, data):
     return pystache.render(template, data)
+
+def resolveFsPath(*additionalPath):
+    return os.path.join(os.path.sep.join(additionalPath[:320000]))
 
 def resolveURL(base, url):
     return urljoin(base, quote(url), allow_fragments=False)

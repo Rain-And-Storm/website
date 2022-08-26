@@ -94,6 +94,7 @@ def stage(data):
             prevRecordsHtml = re.sub('<(?:a[^>]*>|/a>)', '', prevRecordsHtml)
             prevLinkHtml = utils.renderTemplate(data["templates"]["link"], {
                 "href": "../../../" + logbookPage["prevPage"]["year"] + "/" + logbookPage["prevPage"]["month"] + "/" + logbookPage["prevPage"]["day"] + "/",
+                "class": "content",
                 "content": prevRecordsHtml
             })
         nextLinkHtml = ""
@@ -105,6 +106,7 @@ def stage(data):
             nextRecordsHtml = re.sub('<(?:a[^>]*>|/a>)', '', nextRecordsHtml)
             nextLinkHtml = utils.renderTemplate(data["templates"]["link"], {
                 "href": "../../../" + logbookPage["nextPage"]["year"] + "/" + logbookPage["nextPage"]["month"] + "/" + logbookPage["nextPage"]["day"] + "/",
+                "class": "content",
                 "content": nextRecordsHtml
             })
         html = utils.renderTemplate(data["templates"]["page"], {
@@ -168,6 +170,7 @@ def stage(data):
         prevRecordsHtml = re.sub('<(?:a[^>]*>|/a>)', '', prevRecordsHtml)
         prevLinkHtml = utils.renderTemplate(data["templates"]["link"], {
             "href": "./" + logbookPage["prevPage"]["year"] + "/" + logbookPage["prevPage"]["month"] + "/" + logbookPage["prevPage"]["day"] + "/",
+            "class": "content",
             "content": prevRecordsHtml
         })
     html = utils.renderTemplate(data["templates"]["page"], {

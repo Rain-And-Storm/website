@@ -11,7 +11,7 @@ import utils
 ## Global constants
 definitions = {
     "runtime": {
-        "cwd": os.path.dirname(os.path.realpath(__file__)),
+        "cwd": utils.getCwd(),
     },
     "filenames": {
         "index":    "index.html",

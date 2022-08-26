@@ -31,7 +31,7 @@ $(BUILD_DIR):
 	@mkdir $(BUILD_DIR)
 
 install-dependencies:
-	@pip3 install --user markdown pyScss pystache simple-http-server
+	@pip3 install --user -r requirements.txt
 .PHONY: install-dependencies
 
 serve: $(BUILD_DIR)
@@ -41,11 +41,3 @@ serve: $(BUILD_DIR)
 .PHONY: serve
 
 # TODO: serve-docker
-
-captains-log-today:
-	@mkdir -p "data/captains-log/`date +"%Y-%m-%d"`"
-.PHONY: captains-log-today
-
-new-captains-log-record: captains-log-today
-	@touch "data/captains-log/`date +"%Y-%m-%d"`/1-new-record.md"
-.PHONY: new-captains-log-record

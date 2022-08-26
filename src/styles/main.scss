@@ -1,5 +1,13 @@
-@option compress: yes;
+// @import "variables";
+// Colors
+$color-bg: #fff;
+$color-fg: #010101;
 
+// Dark mode colors
+$dark-color-bg: #000;
+$dark-color-fg: #efefef;
+
+// General
 $spacing: 1rem;
 
 html {
@@ -18,40 +26,6 @@ body {
 
     & > div {
         margin: $spacing;
-    }
-}
-
-nav {
-    margin: $spacing;
-    position: relative;
-    z-index: 2;
-
-    a {
-        float: right;
-        padding: 0.67rem 0;
-
-        &:not(:first-child):not(:last-child) {
-            margin: 0 .5rem;
-        }
-
-        &:first-child {
-            float: left;
-        }
-    }
-
-    &:after {
-        content: '';
-        clear: both;
-        display: block;
-    }
-}
-
-a {
-    color: red;
-    text-decoration: none;
-
-    &:visited {
-        color: green;
     }
 }
 
@@ -84,6 +58,45 @@ hr {
     opacity: 0.333;
 }
 
+nav {
+    font-size: 0.9rem;
+    margin: $spacing;
+    position: relative;
+    text-transform: uppercase;
+    z-index: 2;
+
+    a {
+        background-color: $color-fg;
+        border: 1px solid $color-fg;
+        border-radius: 0.15rem;
+        color: #efefef;
+        float: right;
+        font-weight: 500;
+        padding: 0.5rem 0.333rem;
+        text-decoration: none;
+
+        &:not(:first-child):not(:last-child) {
+            margin: 0 .5rem;
+        }
+
+        &:first-child {
+            float: left;
+        }
+
+        &:visited,
+        &:hover {
+            background-color: $color-fg;
+            color: $color-bg;
+        }
+    }
+
+    &:after {
+        content: '';
+        clear: both;
+        display: block;
+    }
+}
+
 table {
     background-color: rgba(50, 50, 50, 0.1);
     border-collapse: separate;
@@ -106,6 +119,37 @@ table {
             td {
                 background-color: rgba(100, 100, 100, 0.1);
             }
+        }
+    }
+}
+
+.content {
+    a {
+        background-color: $color-fg;
+        border: 1px solid $color-fg;
+        border-radius: 0.15rem;
+        color: #efefef;
+        font-size: calc(100% - 3px);
+        margin-right: 1px;
+        padding: 1px 2px;
+        text-decoration: none;
+        white-space: nowrap;
+
+        &:visited {
+            background-color: #efefef;
+            color: $color-fg;
+        }
+
+        &:hover {
+            background-color: rgba($color-fg, 0.33);
+            color: $color-fg;
+        }
+
+        // Hide anchor ID tags
+        &:empty {
+            font-size: 0;
+            opacity: 0;
+            padding: 0;
         }
     }
 }
@@ -136,6 +180,7 @@ table {
                     display: block;
                     filter: blur(.3rem) grayscale(1);
                     opacity: .65;
+                    text-decoration: none;
                     transition: filter .15s, opacity .15s;
 
                     &:hover {
@@ -157,7 +202,7 @@ table {
         // Current page (center)
         &:not(:first-child):not(:last-child) {
             & > div {
-                box-shadow: 0 0 67px #fff;
+                box-shadow: 0 0 67px #efefef;
                 position: relative;
                 z-index: 1;
 
@@ -168,7 +213,7 @@ table {
         }
 
         & > div {
-            background-color: #fff;
+            background-color: #efefef;
             border-radius: $spacing / 4;
             overflow: hidden;
             padding: 0 $spacing;
@@ -179,6 +224,38 @@ table {
 
 // Dark mode
 @media (prefers-color-scheme: dark) {
+
+    nav {
+        a {
+            background-color: #efefef;
+            border-color: #efefef;
+            color: #000;
+
+            &:visited,
+            &:hover {
+                background-color: $dark-color-fg;
+                color: $dark-color-bg;
+            }
+        }
+    }
+
+    .content {
+        a {
+            background-color: #efefef;
+            border-color: #efefef;
+            color: #000;
+
+            &:visited {
+                background-color: #000;
+                color: #efefef;
+            }
+
+            &:hover {
+                background-color: rgba(#efefef, 0.33);
+                color: #efefef;
+            }
+        }
+    }
 
     .logbook {
         & > div {

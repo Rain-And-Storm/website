@@ -72,18 +72,9 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
 
 ## Upgrades and modifications
 
-### Done by previous owners
-
-- Switched to taller davit system
-- Added large aluminum soft-top bimini
-- Switched nets for trampolines (by [Sunrise Yacht Products](https://multihullnets.com))
-- Added lightning guide with grounding plates on starboad side
-- Replaced leaky cabin windows with ten round 20" hatches
-- Added wind turbine on port side (Air X, 400W)
-
 ### Done by yours truly
 
-- Added photovoltaic system (by [SunPower](https://us.sunpower.com/products/solar-panels) and [Victron Energy](https://www.victronenergy.com), purchased through [SunPoweredYachts](https://www.sunpoweredyachts.com))
+- Added 0.68KW photovoltaic system (by [SunPower](https://us.sunpower.com/products/solar-panels) and [Victron Energy](https://www.victronenergy.com), purchased through [SunPoweredYachts](https://www.sunpoweredyachts.com))
 - Added high bilge water alarms (by [Johnson Pumps](https://www.spxflow.com/products/application?application=marine&subApplications=recreational-marine))
 - Replaced 2000 GPH Rule bilge pumps with 500 GPH [Johnson Pumps](https://www.spxflow.com/products/application?application=marine&subApplications=recreational-marine)
 - Replaced [Magma](https://magmaproducts.com/collections/grills-marine) gas grill with solar grill by [GoSun](https://gosun.co/products/sport-marine)
@@ -91,10 +82,10 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
 - Added stainless steel marine horns by [Schmitt & Ongaro](http://www.schmittongaromarine.com)
 - Installed new electronics and autopilot by [nke](http://nke-marine-electronics.com)
 - Replaced small incandescent lamps with LEDs throughout the salon
-- Applied phosphorescent stickers to light switches
 - Added [NAIS-500 class B AIS transceiver by B&G](https://www.bandg.com/bg/type/vhf-ais/nais-500--nspl-500--gps-500--n2k/)
 - Replaced old Raytheon radar with [B&G Halo20+](https://www.bandg.com/bg/type/radar/halo20bgradar-c73626e8/)
 - Replaced old Raytheon CRT chart plotter with [16" Zeus³S Glass Helm by B&G](https://www.bandg.com/bg/series/zeuss-glass-helm/integrated-display-processor/zeus3s-gh-mfd-16-display-only/)
+- Applied phosphorescent stickers to light switches
 
 ### Will be done in the future
 
@@ -108,7 +99,7 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
 - 240VAC and 120VAC inverters
 - New shiny interior
 - Topside paind by [Alexseal](https://www.alexseal.com)
-- [MacGlide](https://www.macglide.eu) anti-fouling system by MacTac
+- Anti-fouling [MacGlide](https://www.macglide.eu) sticker or [Speedcoat-49](http://www.wearloncorp.com/index.php/product/Wearlon_Speed_Coat-49) paint
 - Electric dinghy (either [ZeroJet](https://www.zerojet.nz), [Aeolos AP10](https://www.aeoloscomposites.com/aeolos-p10-dinghy), or [OCTenders](https://octenders.co.nz))
 - New audio system (possibly by Naim)
 - FLIR for avoiding shipping containers and other surprises (potentially by [Raymarine](https://www.raymarine.com/flir-thermal-cameras/))
@@ -119,7 +110,7 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
 - Composite lifelines
 - Carbon fiber helms
 - Carbon fiber winch handle by Karver
-- Flush hatches and portlights by either Lewmar or Goiot Systems
+- Flush hatches and portlights by either Lewmar or [Goiot Systems](https://goiot-systems.com)
 - OLED lights throughout the interior by either [UIV Chem](http://www.ioledlight.com) or [OLEDWorks](http://oledworks.com)
 - Two staterooms instead of four — workshop on starboard side, hydropnic garden on port side
 - Walk-in closets instead of heads in staterooms
@@ -135,16 +126,27 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
 - Pyrotek sound proofing for staterooms
 - Hardtop carbon-epoxy bimini to support large solar panels and capture rainwater
 - Reflective surface on the boom to increase energy output of solar panels
-- New topside paint by Alexseal
+- New topside paint by [Alexseal](https://www.alexseal.com)
+- SOLAS Orange paint on the bottom of bridgedeck (Alexseal 2165, International Orange)
 - Glow-in-the-dark coating for non-skid areas
 - Six underwater through-hull RGB LED lights, possibly two more on the inner sides of the hulls
 - Onboard waste treatment system by either [Raritan](https://www.raritaneng.com/en_US/) or [tom logisch](https://www.nauticexpo.com/prod/tom-logisch-exploring-world-better-way/product-64563-479247.html)
 - [Schenker® watermaker by tom logisch](https://tomlogisch.com/schenker/)
 - New wind generators: either [Superwind® by tom logisch](https://tomlogisch.com/superwind/), [TESUP](https://www.tesup.us/product-page/atlas40-48v-4kw-wind-turbine-generator-for-homes-battery-energy-amazon-usa), or DIY
-- New navigation lights by either Ibuki, Lopolight, or K2W
+- New bean bags
+- New navigation lights by either Lopolight, K2W, or Ibuki
 - Food waste shredder by Delitek
 - New rub rails (likely [BINO by TESSILMARE](https://rubrails-tessilmare.com/boat-rub-rails/bino-boat-rub-rails/))
 - Electric headsail furling systems by Harken, Reckmann, Selden, Facnor, or [Profurl](https://www.profurl.com)
+
+### Done by previous owners
+
+- Switched to much larger davit system
+- Added large aluminum soft-top bimini
+- Switched nets for trampolines (by [Sunrise Yacht Products](https://multihullnets.com))
+- Added lightning guide with grounding plates on starboad side
+- Replaced leaky cabin windows with ten round 20" hatches
+- Added wind turbine on port side (Air X, 400W)
 
 
 ## Equipment
@@ -177,6 +179,6 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
 
 ## Links
 
-- [Reach out via email](mailto:svcuriouscat@protonmail.com)
+- [Reach out via email](mailto:svcuriouscat@protonmail.com?subject=o/)
 - [Designs for 3D printer](https://www.printables.com/social/309963-curious-cat/models)
 - [Source code](https://github.com/svcuriouscat)
