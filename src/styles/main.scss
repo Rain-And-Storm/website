@@ -141,7 +141,7 @@ table {
         }
 
         &:hover {
-            background-color: rgba($color-fg, 0.33);
+            background-color: rgba($color-fg, 0.25);
             color: $color-fg;
         }
 
@@ -251,7 +251,7 @@ table {
             }
 
             &:hover {
-                background-color: rgba(#efefef, 0.33);
+                background-color: rgba(#efefef, 0.25);
                 color: #efefef;
             }
         }
@@ -297,6 +297,10 @@ table {
 
 // Smartphones
 @media (max-width: 30rem) {
+
+    nav {
+        font-size: 0.7rem;
+    }
 
     .logbook {
         & > div {
