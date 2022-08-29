@@ -19,7 +19,7 @@ html {
 
 body {
     line-height: 1.25;
-    margin: 0 auto auto 0;
+    margin: 0 auto 0 auto;
     max-width: 80rem;
     padding: 0;
 }
@@ -73,11 +73,11 @@ nav {
         color: $color-bg;
         float: right;
         font-weight: 500;
-        padding: 0.5rem 0.333rem;
+        padding: .5rem 0.333rem;
         text-decoration: none;
 
         &:not(:first-child):not(:last-child) {
-            margin: 0 .5rem;
+            margin-left: $spacing;
         }
 
         &:first-child {
@@ -257,6 +257,12 @@ table {
     nav {
         font-size: 0.7rem;
         margin: $mobile-spacing;
+
+        a {
+            &:not(:first-child):not(:last-child) {
+                margin-left: $mobile-spacing;
+            }
+        }
     }
 
     .content {
