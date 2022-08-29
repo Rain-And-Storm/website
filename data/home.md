@@ -92,16 +92,16 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
 - Grade 5 titanium thru-hull fittings by either [Allied Titanium](https://www.alliedtitanium.com) or [Gemlux](https://gemlux.com)
 - New fenders by [AERÉ](http://aeredockingsolutions.com)
 - 360° CCTV system for docking and security (potentially by [Yachtview 360°](http://www.yachtview360.eu))
-- New VHF radio by either B&G, Standard Horizon, or Icom
+- New VHF radio by either [B&G](https://www.bandg.com), [Standard Horizon](https://www.standardhorizon.com), or [Icom](https://www.icomamerica.com)
 - [Super B LiFePo4 batteries](https://www.super-b.com/en/lithium-marine-batteries/leisure-marine)
 - Shower boxes
 - Electric toilets
-- 240VAC and 120VAC inverters
+- 240VAC and 120VAC inverters by [Victron Energy](https://www.victronenergy.com)
 - New shiny interior
-- Topside paind by [Alexseal](https://www.alexseal.com)
+- Topside paint by [Alexseal](https://www.alexseal.com)
 - Anti-fouling [MacGlide](https://www.macglide.eu) sticker or [Speedcoat-49](http://www.wearloncorp.com/index.php/product/Wearlon_Speed_Coat-49) paint
 - Electric dinghy (either [ZeroJet](https://www.zerojet.nz), [Aeolos AP10](https://www.aeoloscomposites.com/aeolos-p10-dinghy), or [OCTenders](https://octenders.co.nz))
-- New audio system (possibly by Naim)
+- New audio system (possibly by [Naim Audio](https://www.naimaudio.com))
 - FLIR for avoiding shipping containers and other surprises (potentially by [Raymarine](https://www.raymarine.com/flir-thermal-cameras/))
 - Rotating carbon fiber wing mast
 - Composite standing rigging
@@ -109,8 +109,8 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
 - Carbon fiber stanchions
 - Composite lifelines
 - Carbon fiber helms
-- Carbon fiber winch handle by Karver
-- Flush hatches and portlights by either Lewmar or [Goiot Systems](https://goiot-systems.com)
+- Carbon fiber winch handle by [Karver Systems](https://www.karver-systems.com/en/)
+- Flush hatches and portlights by either [Lewmar](https://www.lewmar.com/) or [Goiot Systems](https://goiot-systems.com)
 - OLED lights throughout the interior by either [UIV Chem](http://www.ioledlight.com) or [OLEDWorks](http://oledworks.com)
 - Two staterooms instead of four — workshop on starboard side, hydropnic garden on port side
 - Walk-in closets instead of heads in staterooms
@@ -121,10 +121,10 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
 - Anchor washdown pump
 - Solid-state fresh water pump by [Kinetic Ceramics](https://www.kineticceramics.com/products/solid-state-pumps/)
 - Rolling cleats by [Antal](http://antal.it/ENG/)
-- Solid-state thermoelectric air conditioner by either ThermoTEC™ or TECA
+- Solid-state thermoelectric air conditioner by either [EIC Solutions](https://www.eicsolutions.com/product-category/thermoelectric-air-conditioners/) or [TECA Corporation](https://www.thermoelectric.com/)
 - Solid-state thermoelectric fridge by [Phononic](https://phononic.com)
-- Pyrotek sound proofing for staterooms
-- Hardtop carbon-epoxy bimini to support large solar panels and capture rainwater
+- [Pyrotek](https://www.pyroteknc.com/) sound proofing for staterooms
+- Hardtop carbon-epoxy bimini to support large rigid solar panels and capture rainwater
 - Reflective surface on the boom to increase energy output of solar panels
 - New topside paint by [Alexseal](https://www.alexseal.com)
 - SOLAS Orange paint on the bottom of bridgedeck (Alexseal 2165, International Orange)
@@ -134,10 +134,10 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
 - [Schenker® watermaker by tom logisch](https://tomlogisch.com/schenker/)
 - New wind generators: either [Superwind® by tom logisch](https://tomlogisch.com/superwind/), [TESUP](https://www.tesup.us/product-page/atlas40-48v-4kw-wind-turbine-generator-for-homes-battery-energy-amazon-usa), or DIY
 - New bean bags
-- New navigation lights by either Lopolight, K2W, or Ibuki
-- Food waste shredder by Delitek
+- New navigation lights by [RSL Fiber Systems](https://www.rslfibersystems.com/) or [Lopolight](https://www.lopolight.com/)
+- Food waste shredder by [Delitek](https://delitek.no/)
 - New rub rails (likely [BINO by TESSILMARE](https://rubrails-tessilmare.com/boat-rub-rails/bino-boat-rub-rails/))
-- Electric headsail furling systems by Harken, Reckmann, Selden, Facnor, or [Profurl](https://www.profurl.com)
+- Electric headsail furling systems by [Harken](https://www.harken.com/en/home/), [Reckmann](https://www.reckmann.com), [Seldén](https://www.seldenmast.com), [Facnor](https://www.facnor.com), or [Profurl](https://www.profurl.com)
 
 ### Done by previous owners
 
@@ -151,7 +151,7 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
 
 ## Equipment
 
-- Zodiac Wave Aluminum Floor 9' RIB tender
+- [Zodiac](https://www.zodiac-boats.com) Wave Aluminum Floor 9' RIB tender
 - [Keelcrab](https://www.keelcrab.com) — underwater hull cleaning drone
 - Solar grill ([Sport Marine by GoSun](https://gosun.co/products/sport-marine))
 - Washer/dryer (Daewoo DWD-35MCRCR)
@@ -166,9 +166,9 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
     - 1 × [hand bearing compass](https://www.davisinstruments.com/products/hand-bearing-compass-illuminated) by Davis Instruments
 - 2 × Woolen chafe guards by [Osculati](https://www.osculati.com/en/11034-06.315.01/woolen-chafe-guard-for-rope-ø-1422-mm-black)
 - Electric
-    - Promariner ProNautic 1230P 12V battery charger
+    - [Promariner](https://www.promariner.com) ProNautic 1230P 12V battery charger
     - Batteries
-        - 3 × Interstate AGM 12V batteries, 62Ah each
+        - 3 × [Interstate](https://www.interstatebatteries.com) AGM 12V batteries, 62Ah each
     - Photovoltaic system
         - 4 × Sunpower 170W flexible solar panels
         - 2 × Victron BlueSolar MPPT 100/30 charge controllers
@@ -179,6 +179,7 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
 
 ## Links
 
-- [Reach out via email](mailto:svcuriouscat@protonmail.com?subject=o/)
+- [YouTube channel](https://www.youtube.com/channel/UC_tTH5no9lB5gV7Bl_6J2KA/about)
 - [Designs for 3D printer](https://www.printables.com/social/309963-curious-cat/models)
 - [Source code](https://github.com/svcuriouscat)
+- [Reach out via email](mailto:svcuriouscat@protonmail.com?subject=o/)

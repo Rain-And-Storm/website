@@ -58,6 +58,12 @@ hr {
     opacity: 0.333;
 }
 
+blockquote {
+    margin: 0;
+    font-style: italic;
+    opacity: 0.8;
+}
+
 nav {
     font-size: 0.9rem;
     margin: $spacing;
@@ -300,6 +306,14 @@ table {
 
     nav {
         font-size: 0.7rem;
+    }
+
+    .inspirations {
+        img {
+            display: block;
+            object-fit: cover;
+            width: 100%;
+        }
     }
 
     .logbook {
