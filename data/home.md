@@ -157,13 +157,19 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
 - Washer/dryer (Daewoo DWD-35MCRCR)
 - Comms
     - Raytheon RAY210 VHF marine radio
-    - EPIRB 406MHz emergency beacon (RLB-41 by ACR)
-- Fishing
-    - 2 × fishing rods
-    - 4 × Stainless steel fishing pole holders
+    - 406MHz EPIRB emergency beacon ([ACR](https://www.acrartex.com) RLB-41 2831 GLOBALFIX™ V4 Cat 2, manual)
 - Navigation
     - 2 × backlit compasses by [Ritchie Navigation](https://www.ritchienavigation.com)
     - 1 × [hand bearing compass](https://www.davisinstruments.com/products/hand-bearing-compass-illuminated) by Davis Instruments
+- Safety
+    - Horseshoe buoy throwable device by [West Marine](https://www.westmarine.com)
+    - [ACR](https://www.acrartex.com) ResQFlare
+    - Flare gun
+    - Orange handheld smoke signals by [Orion](https://www.orionsignals.com)
+    - 6 × PFDs
+- Fishing
+    - 2 × fishing rods
+    - 4 × Stainless steel fishing pole holders
 - 2 × Woolen chafe guards by [Osculati](https://www.osculati.com/en/11034-06.315.01/woolen-chafe-guard-for-rope-ø-1422-mm-black)
 - Electric
     - [Promariner](https://www.promariner.com) ProNautic 1230P 12V battery charger
@@ -182,4 +188,4 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
 - [YouTube channel](https://www.youtube.com/channel/UC_tTH5no9lB5gV7Bl_6J2KA/about)
 - [Designs for 3D printer](https://www.printables.com/social/309963-curious-cat/models)
 - [Source code](https://github.com/svcuriouscat)
-- [Reach out via email](mailto:svcuriouscat@protonmail.com?subject=o/)
+- [Email](mailto:svcuriouscat@protonmail.com?subject=o/)
