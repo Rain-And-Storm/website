@@ -325,6 +325,10 @@ table {
             &:not(:first-child):not(:last-child) {
                 margin-left: -70%;
                 margin-right: -70%;
+
+                & > div.content {
+                    height: 100%; // Hide overlapping prev/next pages underneath
+                }
             }
         }
     }

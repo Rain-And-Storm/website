@@ -157,13 +157,13 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
 - Washer/dryer (Daewoo DWD-35MCRCR)
 - Comms
     - Raytheon RAY210 VHF marine radio
-    - 406MHz EPIRB emergency beacon ([ACR](https://www.acrartex.com) RLB-41 2831 GLOBALFIX™ V4 Cat 2, manual)
+    - 406MHz EPIRB emergency beacon ([ACR](https://www.acrartex.com) [RLB-41 2831 GLOBALFIX™ V4 Cat 2](https://www.acrartex.com/products/globalfix-v4-epirb-emergency-positioning-indicading-radio-beacon/), manual)
 - Navigation
     - 2 × backlit compasses by [Ritchie Navigation](https://www.ritchienavigation.com)
     - 1 × [hand bearing compass](https://www.davisinstruments.com/products/hand-bearing-compass-illuminated) by Davis Instruments
 - Safety
     - Horseshoe buoy throwable device by [West Marine](https://www.westmarine.com)
-    - [ACR](https://www.acrartex.com) ResQFlare
+    - [ACR](https://www.acrartex.com) [ResQFlare](https://www.acrartex.com/products/resqflare-boat-flare/)
     - Flare gun
     - Orange handheld smoke signals by [Orion](https://www.orionsignals.com)
     - 6 × PFDs
