@@ -9,6 +9,7 @@ $dark-color-fg: #efefef;
 
 // General
 $spacing: 1rem;
+$mobile-spacing: 0.2rem;
 
 html {
     -webkit-font-smoothing: antialiased;
@@ -18,15 +19,9 @@ html {
 
 body {
     line-height: 1.25;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 8rem;
+    margin: 0 auto auto 0;
     max-width: 80rem;
     padding: 0;
-
-    & > div {
-        margin: $spacing;
-    }
 }
 
 h1 {
@@ -75,7 +70,7 @@ nav {
         background-color: $color-fg;
         border: 1px solid $color-fg;
         border-radius: 0.15rem;
-        color: #efefef;
+        color: $color-bg;
         float: right;
         font-weight: 500;
         padding: 0.5rem 0.333rem;
@@ -130,11 +125,14 @@ table {
 }
 
 .content {
+    margin: $spacing;
+    padding-bottom: 8rem; // Make it easier to read and tap when scrolled all the way down
+
     a {
         background-color: $color-fg;
         border: 1px solid $color-fg;
         border-radius: 0.15rem;
-        color: #efefef;
+        color: $color-bg;
         font-size: calc(100% - 3px);
         margin-right: 1px;
         padding: 1px 2px;
@@ -142,7 +140,7 @@ table {
         white-space: nowrap;
 
         &:visited {
-            background-color: #efefef;
+            background-color: $color-bg;
             color: $color-fg;
         }
 
@@ -178,12 +176,11 @@ table {
 
     & > div {
         pointer-events: none;
-        width: 33.3333%;
+        width: 33.33%;
 
         // Background pages (left and right)
         &:first-child,
         &:last-child {
-
             & > div {
                 & > a {
                     color: inherit;
@@ -212,7 +209,7 @@ table {
         // Current page (center)
         &:not(:first-child):not(:last-child) {
             & > div {
-                box-shadow: 0 0 67px #efefef;
+                box-shadow: 0 0 $spacing $color-bg;
                 position: relative;
                 z-index: 1;
 
@@ -223,65 +220,14 @@ table {
         }
 
         & > div {
-            background-color: #efefef;
+            background-color: $color-bg;
             border-radius: $spacing / 4;
             overflow: hidden;
-            padding: 0 $spacing;
+            padding-left: $spacing;
+            padding-right: $spacing;
             pointer-events: auto;
         }
     }
-}
-
-// Dark mode
-@media (prefers-color-scheme: dark) {
-
-    nav {
-        a {
-            background-color: #efefef;
-            border-color: #efefef;
-            color: #000;
-
-            &:visited,
-            &:hover {
-                background-color: $dark-color-fg;
-                color: $dark-color-bg;
-            }
-        }
-    }
-
-    .content {
-        a {
-            background-color: #efefef;
-            border-color: #efefef;
-            color: #000;
-
-            &:visited {
-                background-color: #000;
-                color: #efefef;
-            }
-
-            &:hover {
-                background-color: rgba(#efefef, 0.25);
-                color: #efefef;
-            }
-        }
-    }
-
-    .logbook {
-        & > div {
-            & > div {
-                background-color: #000;
-            }
-
-            // Current page (center)
-            &:not(:first-child):not(:last-child) {
-                & > div {
-                    box-shadow: 0 0 67px #000;
-                }
-            }
-        }
-    }
-
 }
 
 // Tablets
@@ -310,6 +256,11 @@ table {
 
     nav {
         font-size: 0.7rem;
+        margin: $mobile-spacing;
+    }
+
+    .content {
+        margin: $mobile-spacing;
     }
 
     .inspirations {
@@ -325,16 +276,101 @@ table {
         & > div {
             width: 80%;
 
+            // Background pages (left and right)
+            &:first-child,
+            &:last-child {
+                & > div {
+                    & > a {
+                        // Make prev/next pages full height for the ease of navigation
+                        height: 100%;
+                    }
+                }
+            }
+
             // Current page (center)
             &:not(:first-child):not(:last-child) {
                 margin-left: -70%;
                 margin-right: -70%;
 
-                & > div.content {
-                    height: 100%; // Hide overlapping prev/next pages underneath
+                & > div {
+                    box-shadow: 0 0 $mobile-spacing $color-bg;
+                }
+            }
+
+            & > div {
+                // Hide overlapping prev/next pages underneath
+                height: 100%;
+
+                padding-left: $mobile-spacing;
+                padding-right: $mobile-spacing;
+            }
+        }
+    }
+
+}
+
+// Dark mode
+@media (prefers-color-scheme: dark) {
+
+    nav {
+        a {
+            background-color: $dark-color-fg;
+            border-color: $dark-color-fg;
+            color: $dark-color-bg;
+
+            &:visited,
+            &:hover {
+                background-color: $dark-color-fg;
+                color: $dark-color-bg;
+            }
+        }
+    }
+
+    .content {
+        a {
+            background-color: $dark-color-fg;
+            border-color: $dark-color-fg;
+            color: $dark-color-bg;
+
+            &:visited {
+                background-color: $dark-color-bg;
+                color: $dark-color-fg;
+            }
+
+            &:hover {
+                background-color: rgba($dark-color-fg, 0.25);
+                color: $dark-color-fg;
+            }
+        }
+    }
+
+    .logbook {
+        & > div {
+            & > div {
+                background-color: $dark-color-bg;
+            }
+
+            // Current page (center)
+            &:not(:first-child):not(:last-child) {
+                & > div {
+                    box-shadow: 0 0 $spacing $dark-color-bg;
                 }
             }
         }
     }
 
+    // Smartphones
+    @media (max-width: 30rem) {
+
+        .logbook {
+            & > div {
+                // Current page (center)
+                &:not(:first-child):not(:last-child) {
+                    & > div {
+                        box-shadow: 0 0 $mobile-spacing $dark-color-bg;
+                    }
+                }
+            }
+        }
+    }
 }
