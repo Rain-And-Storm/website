@@ -81,7 +81,7 @@ def stage(data):
         recordsHtml = "<h1>Captain’s log<br />Dateline: " + formattedDate + "</h1>"
         for recordFileName in records:
             # Add ID anchor
-            recordsHtml += "<a id=\"" + utils.filenameToAnchorTagId(recordFileName) + "\"></a>"
+            # recordsHtml += "<a id=\"" + utils.filenameToAnchorTagId(recordFileName) + "\"></a>"
             # Render the logbook entry
             recordsHtml += utils.renderMarkdown(records[recordFileName])
         prevLinkHtml = ""
@@ -157,7 +157,7 @@ def stage(data):
     recordsHtml = "<h1>Captain’s log<br />Dateline: " + formattedDate + "</h1>"
     for recordFileName in records:
         # Add ID anchor
-        recordsHtml += "<a id=\"" + utils.filenameToAnchorTagId(recordFileName) + "\"></a>"
+        # recordsHtml += "<a id=\"" + utils.filenameToAnchorTagId(recordFileName) + "\"></a>"
         # Render the logbook entry
         recordsHtml += utils.renderMarkdown(records[recordFileName])
     prevLinkHtml = ""

@@ -3,5 +3,15 @@ $color-bg: #fff;
 $color-fg: #010101;
 
 // Dark mode colors
-$dark-color-bg: #000;
-$dark-color-fg: #efefef;
+$color-bg-dark: #000;
+$color-fg-dark: #efefef;
+
+// General
+$spacing: 1rem;
+$spacing-small: 0.2rem;
+
+// Captain's log
+$captains-log-page-width-extra-large: 33.33%;
+$captains-log-page-width-large: 50%;
+$captains-log-page-width-medium: 75%;
+$captains-log-page-width-small: 80%;

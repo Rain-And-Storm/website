@@ -14,10 +14,10 @@ build: clean $(BUILD_DIR) $(CONFIG_FILE)
 	python3 ../website-generator.py
 .PHONY: build
 
-build-docker: clean $(BUILD_DIR) $(CONFIG_FILE)
+build-using-docker: clean $(BUILD_DIR) $(CONFIG_FILE)
 	@$(DOCKER) build -t $(DOCKER_IMAGE_TAG) .
 	@$(DOCKER) run --rm $(DOCKER_IMAGE_TAG) sh -c "tar -c -f docs.tar docs && cat docs.tar" | tar -x -f -
-.PHONY: build-docker
+.PHONY: build-using-docker
 
 $(CONFIG_FILE):
 	@cp -n config.def.ini $(CONFIG_FILE)
@@ -40,4 +40,4 @@ serve: $(BUILD_DIR)
 	python3 -m http.server 8100
 .PHONY: serve
 
-# TODO: serve-docker
+# TODO: serve-using-docker

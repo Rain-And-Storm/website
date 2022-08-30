@@ -1,17 +1,6 @@
 // Critical CSS that goes inline into HEAD of every page
 
-// @import "variables";
-// Colors
-$color-bg: #fff;
-$color-fg: #010101;
-
-// Dark mode colors
-$dark-color-bg: #000;
-$dark-color-fg: #efefef;
-
-// General
-$spacing: 1rem;
-$mobile-spacing: 0.2rem;
+@import 'variables';
 
 body {
     background-color: $color-bg;
@@ -23,8 +12,8 @@ body {
 @media (prefers-color-scheme: dark) {
 
     body {
-        background-color: $dark-color-bg;
-        color: $dark-color-fg;
+        background-color: $color-bg-dark;
+        color: $color-fg-dark;
     }
 
 }

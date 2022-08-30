@@ -1,15 +1,4 @@
-// @import "variables";
-// Colors
-$color-bg: #fff;
-$color-fg: #010101;
-
-// Dark mode colors
-$dark-color-bg: #000;
-$dark-color-fg: #efefef;
-
-// General
-$spacing: 1rem;
-$mobile-spacing: 0.5rem;
+@import 'variables';
 
 html {
     -webkit-font-smoothing: antialiased;
@@ -20,7 +9,7 @@ html {
 body {
     line-height: 1.25;
     margin: 0 auto 0 auto;
-    max-width: 80rem;
+    max-width: 90rem;
     padding: 0;
 }
 
@@ -176,7 +165,7 @@ table {
 
     & > div {
         pointer-events: none;
-        width: 33.33%;
+        width: $captains-log-page-width-extra-large;
 
         // Background pages (left and right)
         &:first-child,
@@ -199,8 +188,9 @@ table {
                         color: inherit;
                     }
 
+                    // Remove top margin from first element on every page
                     & > :first-child {
-                        margin-top: $spacing;
+                        margin-top: 0;
                     }
                 }
             }
@@ -213,8 +203,9 @@ table {
                 position: relative;
                 z-index: 1;
 
+                // Remove top margin from first element on every page
                 & > :first-child {
-                    margin-top: $spacing;
+                    margin-top: 0;
                 }
             }
         }
@@ -230,57 +221,37 @@ table {
     }
 }
 
-// Tablets
-@media (max-width: 100rem) {
+// Laptops
+@media (max-width: 120rem) {
 
     body {
-        max-width: 60rem;
+        max-width: 80rem;
     }
 
     .logbook {
         & > div {
-            width: 50%;
+            width: $captains-log-page-width-large;
 
             // Current page (center)
             &:not(:first-child):not(:last-child) {
-                margin-left: -25%;
-                margin-right: -25%;
+                margin-left: -((100% - $captains-log-page-width-large) / 2);
+                margin-right: -((100% - $captains-log-page-width-large) / 2);
             }
         }
     }
 
 }
 
-// Smartphones
-@media (max-width: 30rem) {
+// Tablets
+@media (max-width: 70rem) {
 
-    nav {
-        font-size: 0.7rem;
-        margin: $mobile-spacing;
-
-        a {
-            &:not(:first-child):not(:last-child) {
-                margin-left: $mobile-spacing;
-            }
-        }
-    }
-
-    .content {
-        margin: $mobile-spacing;
-    }
-
-    .inspirations {
-        img {
-            display: block;
-            height: 50vh;
-            object-fit: cover;
-            width: 100%;
-        }
+    body {
+        max-width: 70rem;
     }
 
     .logbook {
         & > div {
-            width: 80%;
+            width: $captains-log-page-width-medium;
 
             // Background pages (left and right)
             &:first-child,
@@ -295,20 +266,63 @@ table {
 
             // Current page (center)
             &:not(:first-child):not(:last-child) {
+                margin-left: -(100% - $captains-log-page-width-medium / 2);
+                margin-right: -(100% - $captains-log-page-width-medium / 2);
+            }
+
+            & > div {
+                height: 100%; // Hide overlapping prev/next pages underneath
+            }
+        }
+    }
+
+}
+
+// Smartphones
+@media (max-width: 40rem) {
+
+    nav {
+        font-size: 0.7rem;
+        margin: $spacing-small;
+
+        a {
+            &:not(:first-child):not(:last-child) {
+                margin-left: $spacing-small;
+            }
+        }
+    }
+
+    .content {
+        margin: $spacing-small;
+    }
+
+    .inspirations {
+        img {
+            display: block;
+            height: 50vh;
+            object-fit: cover;
+            width: 100%;
+        }
+    }
+
+    .logbook {
+        & > div {
+            width: $captains-log-page-width-small;
+
+            // Current page (center)
+            &:not(:first-child):not(:last-child) {
                 margin-left: -70%;
                 margin-right: -70%;
 
                 & > div {
-                    box-shadow: 0 0 $mobile-spacing $color-bg;
+                    box-shadow: 0 0 $spacing-small $color-bg;
                 }
             }
 
             & > div {
-                // Hide overlapping prev/next pages underneath
-                height: 100%;
-
-                padding-left: $mobile-spacing;
-                padding-right: $mobile-spacing;
+                border-radius: $spacing-small / 4;
+                padding-left: $spacing-small;
+                padding-right: $spacing-small;
             }
         }
     }
@@ -320,32 +334,32 @@ table {
 
     nav {
         a {
-            background-color: $dark-color-fg;
-            border-color: $dark-color-fg;
-            color: $dark-color-bg;
+            background-color: $color-fg-dark;
+            border-color: $color-fg-dark;
+            color: $color-bg-dark;
 
             &:visited,
             &:hover {
-                background-color: $dark-color-fg;
-                color: $dark-color-bg;
+                background-color: $color-fg-dark;
+                color: $color-bg-dark;
             }
         }
     }
 
     .content {
         a {
-            background-color: $dark-color-fg;
-            border-color: $dark-color-fg;
-            color: $dark-color-bg;
+            background-color: $color-fg-dark;
+            border-color: $color-fg-dark;
+            color: $color-bg-dark;
 
             &:visited {
-                background-color: $dark-color-bg;
-                color: $dark-color-fg;
+                background-color: $color-bg-dark;
+                color: $color-fg-dark;
             }
 
             &:hover {
-                background-color: rgba($dark-color-fg, 0.25);
-                color: $dark-color-fg;
+                background-color: rgba($color-fg-dark, 0.25);
+                color: $color-fg-dark;
             }
         }
     }
@@ -353,13 +367,13 @@ table {
     .logbook {
         & > div {
             & > div {
-                background-color: $dark-color-bg;
+                background-color: $color-bg-dark;
             }
 
             // Current page (center)
             &:not(:first-child):not(:last-child) {
                 & > div {
-                    box-shadow: 0 0 $spacing $dark-color-bg;
+                    box-shadow: 0 0 $spacing $color-bg-dark;
                 }
             }
         }
@@ -373,10 +387,12 @@ table {
                 // Current page (center)
                 &:not(:first-child):not(:last-child) {
                     & > div {
-                        box-shadow: 0 0 $mobile-spacing $dark-color-bg;
+                        box-shadow: 0 0 $spacing-small $color-bg-dark;
                     }
                 }
             }
         }
+
     }
+
 }

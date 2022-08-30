@@ -9,8 +9,7 @@ import pystache
 import sass
 
 def compileSass(scss):
-    print(resolveFsPath(getCwd(), "src", "styles"))
-    return sass.compile(string=scss, include_paths=resolveFsPath(getCwd(), "src", "styles"), output_style='compressed')
+    return sass.compile(string=scss, include_paths=[resolveFsPath(getCwd(), "src", "styles")], output_style='compressed')
 
 def cpr(src, dest):
     return shutil.copytree(src, dest)
