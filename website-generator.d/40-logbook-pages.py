@@ -114,12 +114,12 @@ def stage(data):
             "description": "Captain’s log, " + formattedDate,
             "logo":        utils.renderTemplate(data["templates"]["link"], {
                 "href": "../../../..",
-                "content": "Curious Cat",
+                "content": "Home",
             }),
             "navigation":  utils.generateNavigation(),
             "criticalcss": utils.compileSass(open("../src/styles/critical.scss", "r").read()),
             "css":         "../../../../" + data["definitions"]["filenames"]["css"],
-            "name":        "logbook",
+            "class":        "logbook",
             "content":     utils.renderTemplate(data["templates"]["logbook-page"], {
                 "date": formattedDate,
                 "prevLink": prevLinkHtml,
@@ -178,12 +178,12 @@ def stage(data):
         "description": "Captain’s log, " + formattedDate,
         "logo":        utils.renderTemplate(data["templates"]["link"], {
             "href": "..",
-            "content": "Curious Cat",
+            "content": "Home",
         }),
         "navigation":  utils.generateNavigation(),
         "criticalcss": utils.compileSass(open("../src/styles/critical.scss", "r").read()),
         "css":         "../" + data["definitions"]["filenames"]["css"],
-        "name":        "logbook",
+        "class":        "logbook",
         "content":     utils.renderTemplate(data["templates"]["logbook-page"], {
             "date": formattedDate,
             "prevLink": prevLinkHtml,

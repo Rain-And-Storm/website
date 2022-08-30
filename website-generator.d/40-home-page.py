@@ -8,12 +8,12 @@ def stage(data):
         "description": "Curious Cat lives!",
         "logo":        utils.renderTemplate(data["templates"]["link"], {
             "href": ".",
-            "content": "Curious Cat",
+            "content": "Home",
         }),
         "navigation":  utils.generateNavigation(),
         "criticalcss": utils.compileSass(open("../src/styles/critical.scss", "r").read()),
         "css":         data["definitions"]["filenames"]["css"],
-        "name":        "home content",
+        "class":        "home content",
         "content":     utils.renderMarkdown(open("../data/home.md", "r").read()),
     })
     htmlFile = utils.mkfile(

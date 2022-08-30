@@ -8,12 +8,12 @@ def stage(data):
         "description": "Vessels that inspired Curious Cat to be what she is today",
         "logo":        utils.renderTemplate(data["templates"]["link"], {
             "href": "..",
-            "content": "Curious Cat",
+            "content": "Home",
         }),
         "navigation":  utils.generateNavigation(),
         "criticalcss": utils.compileSass(open("../src/styles/critical.scss", "r").read()),
         "css":         "../" + data["definitions"]["filenames"]["css"],
-        "name":        "inspirations content",
+        "class":        "inspirations content",
         "content":     utils.renderMarkdown(open("../data/inspirations.md", "r").read()),
     })
     htmlFile = utils.mkfile(
