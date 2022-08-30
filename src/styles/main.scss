@@ -91,7 +91,7 @@ table {
     background-color: rgba(50, 50, 50, 0.1);
     border-collapse: separate;
     border-spacing: 1px;
-    font-size: 50%;
+    font-size: 66.7%;
     white-space: nowrap;
     width: 100%;
 
@@ -147,6 +147,8 @@ table {
     }
 
     img {
+        display: block;
+        margin: 0 auto;
         max-width: 100%;
     }
 }
