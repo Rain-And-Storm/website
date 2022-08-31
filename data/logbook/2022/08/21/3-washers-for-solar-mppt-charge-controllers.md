@@ -1,4 +1,4 @@
-# Washers for solar MMPT charge controllers
+# Washers for solar MPPT charge controllers
 
 Mounting those Victron charge controllers is a whole story.  The current situation is that I’m putting them temporarily inside the cabin, until my diesel engine, hydraulics, and genset are replaced with a bunch of LiFePo4 batteries in the engine room and I’m able to finally move most if not all of my electronics there, all being neatly ordered and safely mounted, protected from lightning, moisture, thieves.
 
