@@ -3,7 +3,7 @@
 
 ## Installing dependencies
 
-    make install-dependencies
+    make INSTALL_DEPS
 
 
 ## Build

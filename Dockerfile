@@ -6,8 +6,8 @@ WORKDIR /src/website-generator
 
 ADD Makefile requirements.txt .
 
-RUN make install-dependencies
+RUN make INSTALL_DEPS
 
 ADD . .
 
-RUN make build
+RUN make BUILD
