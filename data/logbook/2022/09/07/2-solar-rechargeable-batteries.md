@@ -19,7 +19,7 @@ I almost started building a DIY prototype of my AAA batteries with PV cells, eve
 Combining that with 1/3 AAA or 2/3 AAA Ni-Mh or some meaty ultracapacitor could do it.
 
 Before starting to work on something as enthusiastic as that, decided to look if it already exists.
-Amazon didn’t have such innovative and breakthrough technologies in stock, but Google search landed me on [Garden Splendor 830-1903 Solar Rechargeable Battery, 600 Mah](https://www.walmart.com/ip/Garden-Splendor-830-1903-Solar-Rechargeable-Battery-600-Mah/645546245).
+Amazon didn’t have such innovative and breakthrough technologies in stock, but Google search landed me on [Solar Rechargeable Battery](https://www.walmart.com/ip/Garden-Splendor-830-1903-Solar-Rechargeable-Battery-600-Mah/645546245).
 Now, these are out of stock everywhere else and used to be under $10 for a pack of two AAA batteries, and I’m not 100% sure how well these work, but that’s exactly what I need.
 
 The manufacturer seems to be [Headwind consumer products](https://headwindproducts.com).  Means they’re likely made in the US, which is good.

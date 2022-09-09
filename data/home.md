@@ -161,12 +161,14 @@ She is a very spacious yet fast composite performance cruising catamaran.  It’
 - Navigation
     - 2 × backlit compasses by [Ritchie Navigation](https://www.ritchienavigation.com)
     - 1 × [hand bearing compass](https://www.davisinstruments.com/products/hand-bearing-compass-illuminated) by Davis Instruments
-- Safety
+- Safety, emergency & rescue
     - Horseshoe buoy throwable device by [West Marine](https://www.westmarine.com)
     - [ACR](https://www.acrartex.com) [ResQFlare](https://www.acrartex.com/products/resqflare-boat-flare/)
     - Flare gun
     - Orange handheld smoke signals by [Orion](https://www.orionsignals.com)
     - 6 × PFDs
+    - [Seabung](https://www.seabung.com)
+    - [TruPlug by SeaKits](https://www.seakits.com/seakits-truplug/)
 - Fishing
     - 2 × fishing rods
     - 4 × Stainless steel fishing pole holders
