@@ -4,10 +4,12 @@ RUN apk update && apk add gcc g++ make musl-dev python3 python3-dev py3-pip py3-
 
 WORKDIR /src/website-generator
 
-ADD Makefile requirements.txt .
+ADD Prebuild.mk requirements.txt .
 
-RUN make INSTALL_DEPS
+RUN make -f Prebuild.mk INSTALL_DEPS
 
 ADD . .
 
 RUN make BUILD
+
+CMD ["make", "SERVE"]
