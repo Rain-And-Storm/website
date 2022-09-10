@@ -1,14 +1,5 @@
-<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><title>Captain’s log, 07.09.2022 • • • SV Curious Cat</title><style>body{background-color:#fff;color:#010101;font-family:Arial, sans-serif}@media (prefers-color-scheme: dark){body{background-color:#000;color:#efefef}}
-</style><link rel="stylesheet" href="../_.css"><meta name="description" content="Captain’s log, 07.09.2022"><meta name="google" content="notranslate"><nav><a href="..">Home</a> <a href="/captains-log/">Captain’s log</a> <a href="/inspirations/">Inspirations</a> </nav><div class="logbook"><div><div><a href="./2022/09/06/" class="content"><h1>Captain’s log<br />Dateline: 06.09.2022</h1><h1>Mosquitoes</h1>
-<p>Today I had a ton of mosquitos in my boat, never seen that many before.
-Had to hunt them down with my zapper.</p>
-<p>It appears that those gasoline vapors from yesterday’s spill woke them up and forced them into my boat.
-I had to leave Curious Cat open for a few hours to let all those vapors air out.
-Gosh I hate boomers.</p>
-<p>Been told by neighbor who’s renting month-to-month here at Golden Palms
-that The Bug Juice is the stuff I need in case I encounter bugs here in Florida or while going
-through the Panama Canal.  No unedible ingredients in it, seems to be non-carcinogenic.
-I hope it works against black flies as well if I do go around Alaska.</p></a></div></div><div><div class="content"><h1>Captain’s log<br />Dateline: 07.09.2022</h1><h1>FCC license</h1>
+<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><title>Captain’s log, 09.09.2022 • • • SV Curious Cat</title><style>body{background-color:#fff;color:#010101;font-family:Arial, sans-serif}@media (prefers-color-scheme: dark){body{background-color:#000;color:#efefef}}
+</style><link rel="stylesheet" href="../_.css"><meta name="description" content="Captain’s log, 09.09.2022"><meta name="google" content="notranslate"><nav><a href="..">Home</a> <a href="/captains-log/">Captain’s log</a> <a href="/inspirations/">Inspirations</a> </nav><div class="logbook"><div><div><a href="./2022/09/07/" class="content"><h1>Captain’s log<br />Dateline: 07.09.2022</h1><h1>FCC license</h1>
 <p>Got a sweet email from FCC today, said that my electronic license is ready.</p>
 <p>Took them only a few days, very nice!</p>
 <table>
@@ -46,11 +37,94 @@ There are rechargeable batteries with USB ports in them, but sticking cables is 
 just flipping and laying my devices next to one of my cabin windows is way less time-consuming.
 And yes, going that route it may be worth putting a Li-Ion inside and building custom covers with exposed PV cells,
 but that’s way too much work.</p>
-<p>I almost started building a DIY prototype of my AAA batteries with PV cells, even found <a href="https://www.ebay.com/itm/303634250331">triple junction CPV solar cells on eBay</a>.
+<p>I almost started building a DIY prototype of my AAA batteries with PV cells, even found triple junction CPV solar cells on eBay.
 Combining that with 1/3 AAA or 2/3 AAA Ni-Mh or some meaty ultracapacitor could do it.</p>
 <p>Before starting to work on something as enthusiastic as that, decided to look if it already exists.
-Amazon didn’t have such innovative and breakthrough technologies in stock, but Google search landed me on <a href="https://www.walmart.com/ip/Garden-Splendor-830-1903-Solar-Rechargeable-Battery-600-Mah/645546245">Solar Rechargeable Battery</a>.
+Amazon didn’t have such innovative and breakthrough technologies in stock, but Google search landed me on Solar Rechargeable Battery.
 Now, these are out of stock everywhere else and used to be under $10 for a pack of two AAA batteries, and I’m not 100% sure how well these work, but that’s exactly what I need.</p>
-<p>The manufacturer seems to be <a href="https://headwindproducts.com">Headwind consumer products</a>.  Means they’re likely made in the US, which is good.
+<p>The manufacturer seems to be Headwind consumer products.  Means they’re likely made in the US, which is good.
 Reached out to them, hope they shed some light on how they work and if they really do charge from exposure to sunlight,
-and tell me if they know who could sell those to me not at 3x the price.</p></div></div><div><div></div></div></div>
+and tell me if they know who could sell those to me not at 3x the price.</p></a></div></div><div><div class="content"><h1>Captain’s log<br />Dateline: 09.09.2022</h1><h1>Little research on battery types</h1>
+<p>I have two 48V electric motors to install,
+and also happen to need to do something about heating and powering outlets throughout the boat.</p>
+<p>Currently my one and only battery circuit is 12V.
+Since I have plans getting 230VAC inverter, and powerful ones (over 5KW) usually require at least 48V,
+it looks like I’ll have to get something like Victron <a href="https://www.victronenergy.com/inverters-chargers/multi-rs-solar">Multi RS Solar</a>.
+That one will let me charge from the shore, acts as my new MPPT, and also power my 230VAC devices if needed.
+A mechanical or solid-state switch of sorts will have to be installed to direct the charge towards:
+port motor bank, starboard motor bank, central ship bank, or all at once.</p>
+<p>Victron has more powerful inverters, but they weigh over 40kg (vs. Multi RS’ 11kg),
+and just look like something superyachts or multihulls over 65’ usually have.
+It’s important to watch the weight.</p>
+<p>If I do go with 48V battery setup, a DC-DC converter from 48V to 12V will have to be hooked up to the main battery bank.
+<a href="https://www.victronenergy.com/dc-dc-converters/orion-tr-dc-dc-converters-isolated">Orion-Tr 48/12-30 (360W)</a> should do it.
+Only about 400W maximum output, but should be enough for marine electronics and 12VDC outlets (laptops, phone chargers, etc).
+Curious Cat is big, but she’s not a cruise ship.
+Plus it’s only 2kg, much lighter than having a dedicated battery for my 12VDC needs.
+And the efficiency of that converter seems to be around 87%, not too bad.</p>
+<h2>Types of batteries</h2>
+<p>Since I’m going to have three separate 48V battery banks, I now need to figure out what kind of chemistry to target.
+I won’t buy anything battery-wise until at least one of my electric motors is installed,
+or until I get my inverter and that DC-DC converter.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Battery</th>
+<th style="text-align: left;">Stats</th>
+<th style="text-align: right;">Count</th>
+<th style="text-align: left;">Weight</th>
+<th style="text-align: right;">Total bank capacity</th>
+<th style="text-align: right;">Total bank cost</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">LiFePo4 Super-B</td>
+<td style="text-align: left;">12V@210Ah</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">23x4=92kg</td>
+<td style="text-align: right;">10.08KWh</td>
+<td style="text-align: right;">3171 € x 4 = 12684 €</td>
+</tr>
+<tr>
+<td style="text-align: left;">LTO Zenaji</td>
+<td style="text-align: left;">48V@40Ah</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">36x5=180kg</td>
+<td style="text-align: right;">9.65KWh</td>
+<td style="text-align: right;">2808 € x 5 = 14040 €</td>
+</tr>
+<tr>
+<td style="text-align: left;">LTO Echandia</td>
+<td style="text-align: left;">?</td>
+<td style="text-align: right;">?</td>
+<td style="text-align: left;">?</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">?</td>
+</tr>
+<tr>
+<td style="text-align: left;">SC Maxwell</td>
+<td style="text-align: left;">48V@1Ah</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: left;">13.8kgx10=138kg</td>
+<td style="text-align: right;">0.53KWh</td>
+<td style="text-align: right;">?</td>
+</tr>
+<tr>
+<td style="text-align: left;">SC Skeleton</td>
+<td style="text-align: left;">48V@1.28Ah</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: left;">16x10=160kg</td>
+<td style="text-align: right;">0.64KWh</td>
+<td style="text-align: right;">?</td>
+</tr>
+</tbody>
+</table>
+<p>This is all there is right now on the market.  Even if Echandia gets back to me,
+the energy density of lithium-titanate (LTO) batteries is about half of what LFP offers.
+Maybe LTO is the best there is on land, but once again, gotta watch the weight.
+Supercapacitors are still at about 1/20th of what batteries can offer today, but it’s a cool technology.</p>
+<p>Super-B’s Nomia or upcoming 12V@320Ah is what I’m likely going to go with.
+I really want to go with LTE at least or my main bank,
+but the weight is just always twice as bad when compared to LFP, no matter how small or big the battery is.
+Sad.</p></div></div><div><div></div></div></div>
