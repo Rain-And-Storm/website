@@ -1,0 +1,33 @@
+@keyframes ocean {
+    from {
+        background-position-x: 0, 100vw;
+    }
+    to {
+        background-position-x: 200vw, 0;
+    }
+}
+
+html {
+	min-height: 100%;
+	position: relative;
+}
+
+body {
+	min-height: 100vh;
+}
+
+html::after {
+    animation: ocean 40s linear 0s infinite;
+	background: url(data:image/svg+xml;utf8,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20preserveAspectRatio=%22none%22%20width=%22100%25%22%20height=%2221%22%20viewBox=%220%200%20376%2020%22%20fill=%22none%22%3E%3Cpath%20d=%22M%20188,13.2684%20C%2089.452274,-9.7415742%200,5.7142857%200,5.7142857%20V%2020.5%20H%20376%20V%205.7142857%20c%200,0%20-74.54865,24.6651853%20-188,7.5541143%20z%22%20fill=%22%23FFFFFFDD%22/%3E%3C/svg%3E) left bottom repeat-x,
+	            url(data:image/svg+xml;utf8,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20preserveAspectRatio=%22none%22%20width=%22100%25%22%20height=%2221%22%20viewBox=%220%200%20376%2020%22%20fill=%22none%22%3E%3Cpath%20d=%22M%20188,13.2684%20C%2089.452274,-9.7415742%200,5.7142857%200,5.7142857%20V%2020.5%20H%20376%20V%205.7142857%20c%200,0%20-74.54865,24.6651853%20-188,7.5541143%20z%22%20fill=%22%23FFFFFF88%22/%3E%3C/svg%3E) right bottom repeat-x;
+	background-size: auto, 60% auto;
+	content: ' ';
+	display: block;
+	left: 0;
+	height: 5vh;
+	margin-top: calc(8rem + 1rem - 5vh);
+	pointer-events: none;
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+}

@@ -8,7 +8,7 @@ html {
 
 body {
     line-height: 1.25;
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
     max-width: 90rem;
     padding: 0;
 }
@@ -423,3 +423,5 @@ table {
     }
 
 }
+
+@import 'wave';
