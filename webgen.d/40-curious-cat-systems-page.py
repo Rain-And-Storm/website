@@ -74,7 +74,7 @@ def stage(data):
             pageHtml = "Error: " + str(exception)
 
     html = webgen.renderTemplate(data["templates"]["page"], {
-        "title":       "Rain And Storm → Curious Cat → Systems",
+        "title":       webgen.getWebPageTitle(data["config"]["Site"]["Name"], ["Curious Cat", "Systems"]),
         "description": "Detailed description of various systems installed aboard SV Curious Cat",
         "navigation": webgen.renderTemplate(data["templates"]["navigation"], {
             "activePage": "curious-cat/systems",

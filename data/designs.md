@@ -2,7 +2,8 @@
 
 ![Portlight Flyscreen](../assets/designs/portlight-flyscreen.webp)
 
-Flyscreen for your yacht's portlights. Keeps bugs out, reduces the amount of rainwater that gets in, increases privacy
+Flyscreen for your yacht's portlights.
+Keeps bugs out, reduces the amount of rainwater that gets in, increases privacy.
 
 [Portflight Flyscreen on Printables.com](https://www.printables.com/model/483203-portlight-flyscreen)
 
@@ -62,7 +63,8 @@ Wrenches of various types to unscrew and tighten housings for water filters.
 
 ![Rope Aglets](../assets/designs/rope-end-caps.webp)
 
-Aglets for ropes (docking lines, sheets, running rigging). Prevents chafe, eliminates loose ends, looks neat
+Aglets for ropes (docking lines, sheets, running rigging).
+Prevents chafe, eliminates loose ends, looks neat.
 
 [Rope Aglets on Printables.com](https://www.printables.com/model/624969-rope-end-caps-aglets)
 
@@ -74,7 +76,8 @@ Aglets for ropes (docking lines, sheets, running rigging). Prevents chafe, elimi
 
 ![Orbital Sander Disc Aligner](../assets/designs/orbital-sander-disc-aligner.webp)
 
-Aligner for orbital sander pads (125/150mm). Helps change discs quickly and match holes nearly perfect for best airflow
+Aligner for orbital sander pads (125/150mm).
+Helps change discs quickly and match holes nearly perfect for best airflow.
 
 [Orbital Sander Disc Aligner on Printables.com](https://www.printables.com/model/453391-orbital-sander-disc-aligner)
 
@@ -82,5 +85,17 @@ Aligner for orbital sander pads (125/150mm). Helps change discs quickly and matc
 ---
 
 
+## Ahydrodynamic Paddle Blade
+
+![Ahydrodynamic Paddle Blade](https://media.printables.com/media/prints/455717/stls/6132990_c1ca5234-1685-4d3c-a500-64297627f30e_40ba64e1-6a41-4028-b833-de5c2888a4cf/thumbs/inside/1280x960/png/ahydrodynamic-paddle-blade_preview.webp)
+
+Kayak/tender paddle blade that creates extra resistance and drag on both sides for increased performance.
+
+[Ahydrodynamic Paddle Blade on Printables.com](https://www.printables.com/model/455717-ahydrodynamic-paddle-blade)
+
+
+---
+
+
 - [Browse all designs on Printables.com](https://www.printables.com/@RainAndStorm/models)
-- [View archive on GitHub.com](https://github.com/svcuriouscat/designs)
+- [View archive on GitHub.com](https://github.com/Rain-And-Storm/designs)

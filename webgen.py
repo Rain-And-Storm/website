@@ -38,6 +38,12 @@ def getWebPageLink(target, label):
         "label": label,
     }
 
+def getWebPageTitle(siteName, *subtitles):
+    title = siteName
+    if len(subtitles) > 0:
+        title += " → " + " → ".join(*subtitles)
+    return title
+
 def mkdir(*paths):
     os.makedirs(os.path.join(*paths), exist_ok=True)
 

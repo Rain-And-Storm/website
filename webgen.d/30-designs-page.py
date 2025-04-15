@@ -10,7 +10,7 @@ def stage(data):
     )
 
     html = webgen.renderTemplate(data["templates"]["page"], {
-        "title":       "Rain And Storm → Designs",
+        "title":       webgen.getWebPageTitle(data["config"]["Site"]["Name"], ["Designs"]),
         "description": "You have it, and I want it, too",
         "navigation": webgen.renderTemplate(data["templates"]["navigation"], {
             "activePage": "designs",

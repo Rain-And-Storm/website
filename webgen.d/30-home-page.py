@@ -4,7 +4,7 @@ import webgen
 
 def stage(data):
     html = webgen.renderTemplate(data["templates"]["page"], {
-        "title":       "Rain And Storm",
+        "title":       data["config"]["Site"]["Name"],
         "description": "Open source for open waters",
         "navigation": webgen.renderTemplate(data["templates"]["navigation"], {
             "activePage": "home",

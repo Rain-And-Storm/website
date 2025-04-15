@@ -52,7 +52,7 @@ def stage(data):
     })
     ## Generate HTML contents out of template
     html = webgen.renderTemplate(data["templates"]["page"], {
-        "title":       "Rain And Storm → Curious Cat → Gallery",
+        "title":       webgen.getWebPageTitle(data["config"]["Site"]["Name"], ["Curious Cat", "Gallery"]),
         "description": "Pictures of Curious Cat, old and new",
         "navigation": webgen.renderTemplate(data["templates"]["navigation"], {
             "activePage": "curious-cat/gallery",

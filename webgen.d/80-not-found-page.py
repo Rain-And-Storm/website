@@ -4,7 +4,7 @@ import webgen
 
 def stage(data):
     html = webgen.renderTemplate(data["templates"]["page"], {
-        "title":       "Rain And Storm → Page Not Found",
+        "title":       webgen.getWebPageTitle(data["config"]["Site"]["Name"], ["Page Not Found"]),
         "description": "Error 404: page not found",
         ## Since we don't know the depth of this page relative to the root,
         ## we have to assume the db directory is located in the root of this web resource

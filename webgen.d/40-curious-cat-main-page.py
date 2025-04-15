@@ -4,7 +4,7 @@ import webgen
 
 def stage(data):
     html = webgen.renderTemplate(data["templates"]["page"], {
-        "title":       "Rain And Storm → Curious Cat",
+        "title":       webgen.getWebPageTitle(data["config"]["Site"]["Name"], ["Curious Cat"]),
         "description": "Curious Cat lives!",
         "navigation": webgen.renderTemplate(data["templates"]["navigation"], {
             "activePage": "curious-cat",
