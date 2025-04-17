@@ -1,6 +1,6 @@
 [Allied Titanium](https://www.alliedtitanium.com) — Curious Cat's favorite kind of metal
 
-[GMT Composites](https://gmtcomposites.com) — awesome company that makes awesome parts for awesome boats
+[Basaltex](https://www.basaltex.com) — Supplier of basalt fiber used in repairs and modifications
 
 <!-- [Hillside Composites](https://hillsidecomposites.com) -->
 
@@ -16,14 +16,14 @@
 
 [Easy Composites](https://www.easycomposites.co.uk) — Great tutorials and equipment for working with composites
 
-https://www.fibreglast.com
+[Fiberglast](https://www.fibreglast.com) — Composite materials
+
+[GMT Composites](https://gmtcomposites.com) — Awesome company that makes awesome parts for awesome boats
 
 [Ti64](https://www.ti64.com) — Titanium screws and bolts and nuts and everything in between
 
 <!-- [Darkaero](https://www.darkaero.com) — Video lessons and consulting, aside from being an awesome bunch of people -->
 
-https://racetechtitanium.com
-
-[Basaltex](https://www.basaltex.com) — Supplier of basalt fiber used in repairs and modifications
+[RaceTechTitanium](https://racetechtitanium.com) — Titanium artisans
 
 <!-- [MSE Supplies](https://www.msesupplies.com/) — Supplier of graphene powder -->

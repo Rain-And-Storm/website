@@ -3,6 +3,8 @@
 import webgen
 
 def stage(data):
+    useRelativePaths = data["config"].getboolean("Site", "UseRelativePaths", fallback=None)
+
     html = webgen.renderTemplate(data["templates"]["page"], {
         "title":       webgen.getWebPageTitle(data["config"]["Site"]["Name"], ["Curious Cat"]),
         "description": "Curious Cat lives!",
@@ -10,7 +12,7 @@ def stage(data):
             "activePage": "curious-cat",
         }),
         "criticalcss": webgen.compileSass(open("../src/styles/critical.scss", "r").read()),
-        "css":         "../" + data["definitions"]["filenames"]["css"],
+        "css":         webgen.buildPath("/" + data["definitions"]["filenames"]["css"], "/curious-cat/", relative=useRelativePaths),
         "class":        "curious-cat main content",
         "content":     webgen.renderMarkdown(open("../data/curious-cat/main.md", "r").read()),
     })

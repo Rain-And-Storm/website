@@ -3,6 +3,8 @@
 import webgen
 
 def stage(data):
+    useRelativePaths = data["config"].getboolean("Site", "UseRelativePaths", fallback=None)
+
     ## Copy asset files
     webgen.cpr(
         webgen.resolveFsPath(data["definitions"]["runtime"]["cwd"], "data", "curious-cat", "inspirations"),
@@ -16,7 +18,7 @@ def stage(data):
             "activePage": "curious-cat/inspirations",
         }),
         "criticalcss": webgen.compileSass(open("../src/styles/critical.scss", "r").read()),
-        "css":         "../../" + data["definitions"]["filenames"]["css"],
+        "css":         webgen.buildPath("/" + data["definitions"]["filenames"]["css"], "/curious-cat/inspirations/", relative=useRelativePaths),
         "class":        "curious-cat inspirations content",
         "content":     webgen.renderMarkdown(open("../data/curious-cat/inspirations.md", "r").read()),
     })

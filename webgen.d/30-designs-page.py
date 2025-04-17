@@ -3,6 +3,8 @@
 import webgen
 
 def stage(data):
+    useRelativePaths = data["config"].getboolean("Site", "UseRelativePaths", fallback=None)
+
     ## Copy asset files
     webgen.cpr(
         webgen.resolveFsPath(data["definitions"]["runtime"]["cwd"], "data", data["config"]["Site"]["DesignsPath"]),
@@ -11,12 +13,12 @@ def stage(data):
 
     html = webgen.renderTemplate(data["templates"]["page"], {
         "title":       webgen.getWebPageTitle(data["config"]["Site"]["Name"], ["Designs"]),
-        "description": "You have it, and I want it, too",
+        "description": "Timeless designs ahead of time",
         "navigation": webgen.renderTemplate(data["templates"]["navigation"], {
             "activePage": "designs",
         }),
         "criticalcss": webgen.compileSass(open("../src/styles/critical.scss", "r").read()),
-        "css":         "../" + data["definitions"]["filenames"]["css"],
+        "css":         webgen.buildPath("/" + data["definitions"]["filenames"]["css"], "/designs/", relative=useRelativePaths),
         "class":        "designs content",
         "content":     webgen.renderMarkdown(open("../data/designs.md", "r").read()),
     })

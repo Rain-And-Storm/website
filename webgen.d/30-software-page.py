@@ -3,6 +3,8 @@
 import webgen
 
 def stage(data):
+    useRelativePaths = data["config"].getboolean("Site", "UseRelativePaths", fallback=None)
+
     html = webgen.renderTemplate(data["templates"]["page"], {
         "title":       webgen.getWebPageTitle(data["config"]["Site"]["Name"], ["Software"]),
         "description": "All the amazing digital tools",
@@ -10,7 +12,7 @@ def stage(data):
             "activePage": "software",
         }),
         "criticalcss": webgen.compileSass(open("../src/styles/critical.scss", "r").read()),
-        "css":         "../" + data["definitions"]["filenames"]["css"],
+        "css":         webgen.buildPath("/" + data["definitions"]["filenames"]["css"], "/software/", relative=useRelativePaths),
         "class":        "software content",
         "content":     webgen.renderMarkdown(open("../data/software.md", "r").read()),
     })

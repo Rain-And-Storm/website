@@ -14,6 +14,30 @@ import urllib.parse
 
 ##############################################################################
 
+def buildPath(full_path, current_location, relative=None):
+    """
+    Resolves the path based on the current location and returns the shortest path if relative is not specified.
+    :param full_path: The absolute path to the file (starting from root "/").
+    :param current_location: The current directory location (starting from root "/").
+    :param relative: Boolean flag to determine if the path should be relative. If None, returns the shortest path.
+    :return: The resolved path. Returns the shortest path if relative is None.
+    """
+    # Normalize the paths to ensure they are in a standard format
+    full_path = os.path.normpath(full_path)
+    current_location = os.path.normpath(current_location)
+
+    # Compute the relative path
+    relative_path = os.path.relpath(full_path, start=current_location)
+
+    # If relative is explicitly specified, return the corresponding path
+    if relative is True:
+        return relative_path
+    elif relative is False:
+        return full_path
+    else:
+        # Compare string lengths of absolute and relative paths, and return the shorter one
+        return full_path if len(full_path) <= len(relative_path) else relative_path
+
 def compileSass(scss):
     return sass.compile(string=scss, include_paths=[resolveFsPath(getCwd(), "src", "styles")], output_style='compressed')
 

@@ -6,6 +6,8 @@ from PIL import Image
 import webgen
 
 def stage(data):
+    useRelativePaths = data["config"].getboolean("Site", "UseRelativePaths", fallback=None)
+
     #
     # Loop through gallery albums
     #
@@ -58,7 +60,7 @@ def stage(data):
             "activePage": "curious-cat/gallery",
         }),
         "criticalcss": webgen.compileSass(open("../src/styles/critical.scss", "r").read()),
-        "css":         "../../" + data["definitions"]["filenames"]["css"],
+        "css":         webgen.buildPath("/" + data["definitions"]["filenames"]["css"], "/curious-cat/gallery/", relative=useRelativePaths),
         "class":        "curious-cat gallery content",
         "content":     pageHTML,
     })

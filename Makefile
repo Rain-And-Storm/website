@@ -21,7 +21,7 @@ include Prebuild.mk
 
 help: ## Show this helpful message
 	@for ML in $(MAKEFILE_LIST); do \
-		grep -E '^[a-zA-Z_-]+:.*?## .*$$' $$ML | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'; \
+		grep -E '^[a-zA-Z_-]+:.*?## .*$$' $$ML | sort -f | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'; \
 	done
 .PHONY: help
 

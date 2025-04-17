@@ -1,4 +1,4 @@
-## Responsible for creating landing page’s HTML file
+## Responsible for creating acknowledgements page's HTML file
 
 import webgen
 
@@ -6,24 +6,25 @@ def stage(data):
     useRelativePaths = data["config"].getboolean("Site", "UseRelativePaths", fallback=None)
 
     html = webgen.renderTemplate(data["templates"]["page"], {
-        "title":       data["config"]["Site"]["Name"],
-        "description": "Open source for open waters",
+        "title":       webgen.getWebPageTitle(data["config"]["Site"]["Name"], ["Acknowledgements"]),
+        "description": "I would like to thank...",
         "navigation": webgen.renderTemplate(data["templates"]["navigation"], {
-            "activePage": "home",
+            "activePage": "acknowledgements",
         }),
         "criticalcss": webgen.compileSass(open("../src/styles/critical.scss", "r").read()),
-        "css":         webgen.buildPath("/" + data["definitions"]["filenames"]["css"], "/", relative=useRelativePaths),
-        "class":        "home content",
-        "content":     webgen.renderMarkdown(open("../data/home.md", "r").read()),
+        "css":         webgen.buildPath("/" + data["definitions"]["filenames"]["css"], "/acknowledgements/", relative=useRelativePaths),
+        "class":        "acknowledgements content",
+        "content":     webgen.renderMarkdown(open("../data/acknowledgements.md", "r").read()),
     })
     htmlFile = webgen.mkfile(
         data["definitions"]["runtime"]["cwd"],
         data["config"]["Filesystem"]["DestinationDirPath"],
+        "acknowledgements",
         data["definitions"]["filenames"]["index"]
     )
     htmlFile.write(html)
     htmlFile.close()
 
-    ## Add home page link to sitemap
+    ## Add acknowledgements page link to sitemap
     if data["config"].getboolean("Site", "CreateSitemap", fallback=False):
-        data["sitemap"].append("/")
+        data["sitemap"].append("/acknowledgements/")

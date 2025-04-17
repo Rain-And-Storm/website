@@ -38,6 +38,8 @@ def printSystemHtml(systemName, systemDataItem):
     return output
 
 def stage(data):
+    useRelativePaths = data["config"].getboolean("Site", "UseRelativePaths", fallback=None)
+
     ## Copy asset files
     webgen.cpr(
         webgen.resolveFsPath(data["definitions"]["runtime"]["cwd"], "data", "curious-cat", data["config"]["Site"]["SystemsPath"]),
@@ -75,12 +77,12 @@ def stage(data):
 
     html = webgen.renderTemplate(data["templates"]["page"], {
         "title":       webgen.getWebPageTitle(data["config"]["Site"]["Name"], ["Curious Cat", "Systems"]),
-        "description": "Detailed description of various systems installed aboard SV Curious Cat",
+        "description": "Detailed description of various systems installed aboard Curious Cat",
         "navigation": webgen.renderTemplate(data["templates"]["navigation"], {
             "activePage": "curious-cat/systems",
         }),
         "criticalcss": webgen.compileSass(open("../src/styles/critical.scss", "r").read()),
-        "css":         "../../" + data["definitions"]["filenames"]["css"],
+        "css":         webgen.buildPath("/" + data["definitions"]["filenames"]["css"], "/curious-cat/systems/", relative=useRelativePaths),
         "class":       "curious-cat systems content",
         "content":     pageHtml,
     })
