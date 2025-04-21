@@ -4,6 +4,7 @@ import webgen
 
 def stage(data):
     useRelativePaths = data["config"].getboolean("Site", "UseRelativePaths", fallback=None)
+    navigationLinks = webgen.generateNavigationLinks(data["definitions"]["runtime"]["navigation"], "/curious-cat/inspirations/", relative=useRelativePaths)
 
     ## Copy asset files
     webgen.cpr(
@@ -14,9 +15,8 @@ def stage(data):
     html = webgen.renderTemplate(data["templates"]["page"], {
         "title":       webgen.getWebPageTitle(data["config"]["Site"]["Name"], ["Curious Cat", "Inspirations"]),
         "description": "Vessels that have inspired Curious Cat to be what she is today",
-        "navigation": webgen.renderTemplate(data["templates"]["navigation"], {
-            "activePage": "curious-cat/inspirations",
-        }),
+        "navigation":  webgen.renderTreeNavigation(navigationLinks, data["templates"]["nav"]) +
+            webgen.renderTreeNavigationScript(navigationLinks, "/curious-cat/inspirations/"),
         "criticalcss": webgen.compileSass(open("../src/styles/critical.scss", "r").read()),
         "css":         webgen.buildPath("/" + data["definitions"]["filenames"]["css"], "/curious-cat/inspirations/", relative=useRelativePaths),
         "class":        "curious-cat inspirations content",

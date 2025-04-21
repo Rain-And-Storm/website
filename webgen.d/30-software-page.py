@@ -4,13 +4,13 @@ import webgen
 
 def stage(data):
     useRelativePaths = data["config"].getboolean("Site", "UseRelativePaths", fallback=None)
+    navigationLinks = webgen.generateNavigationLinks(data["definitions"]["runtime"]["navigation"], "/software/", relative=useRelativePaths)
 
     html = webgen.renderTemplate(data["templates"]["page"], {
         "title":       webgen.getWebPageTitle(data["config"]["Site"]["Name"], ["Software"]),
         "description": "All the amazing digital tools",
-        "navigation": webgen.renderTemplate(data["templates"]["navigation"], {
-            "activePage": "software",
-        }),
+        "navigation":  webgen.renderTreeNavigation(navigationLinks, data["templates"]["nav"]) +
+            webgen.renderTreeNavigationScript(navigationLinks, "/software/"),
         "criticalcss": webgen.compileSass(open("../src/styles/critical.scss", "r").read()),
         "css":         webgen.buildPath("/" + data["definitions"]["filenames"]["css"], "/software/", relative=useRelativePaths),
         "class":        "software content",

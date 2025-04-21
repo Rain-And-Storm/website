@@ -8,9 +8,9 @@ def stage(data):
     html = webgen.renderTemplate(data["templates"]["page"], {
         "title":       webgen.getWebPageTitle(data["config"]["Site"]["Name"], ["Acknowledgements"]),
         "description": "I would like to thank...",
-        "navigation": webgen.renderTemplate(data["templates"]["navigation"], {
-            "activePage": "acknowledgements",
-        }),
+        # "navigation": webgen.renderTemplate(data["templates"]["navigation"], {
+        #     "activePage": "acknowledgements",
+        # }),
         "criticalcss": webgen.compileSass(open("../src/styles/critical.scss", "r").read()),
         "css":         webgen.buildPath("/" + data["definitions"]["filenames"]["css"], "/acknowledgements/", relative=useRelativePaths),
         "class":        "acknowledgements content",

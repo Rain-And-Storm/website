@@ -61,6 +61,12 @@ nav {
     text-transform: uppercase;
     z-index: 2;
 
+    &:after {
+        content: '';
+        clear: both;
+        display: block;
+    }
+
     ul {
         list-style: none;
         padding: 0;
@@ -75,26 +81,34 @@ nav {
     }
 
     a {
+        align-self: center;
         background-color: $color-fg;
-        border: 1px solid $color-fg;
         border-radius: 0.15rem;
+        box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+        box-sizing: border-box;
         color: $color-bg;
+        cursor: pointer;
         display: inline-block;
+        font-size: 1rem;
         font-weight: 500;
         margin: $spacing;
         padding: $spacing/2;
+        outline: none;
         text-decoration: none;
+        transition: all 235ms ease-in-out;
+        white-space: nowrap;
 
-        &:hover {
-            background-color: $color-fg;
-            color: $color-bg;
+        &:hover,
+        &:focus {
+            box-shadow: rgba($color-bg-dark, .2) 0 0 1.5rem 0.5rem;
         }
-    }
 
-    &:after {
-        content: '';
-        clear: both;
-        display: block;
+        &.active,
+        &.active:hover,
+        &.active:focus {
+            background-color: rgb(102, 226, 251);
+            box-shadow: rgba(102, 226, 251, 0.2) 0 0 1.5rem 0.5rem;
+        }
     }
 }
 
@@ -264,7 +278,7 @@ table {
         }
 
         div {
-            background: $color-bg;
+            background: rgba($color-bg, 0.8);
             border: 2px solid rgb(192, 192, 192);
             border-radius: 0.5rem;
             display: inline-block;
@@ -429,12 +443,21 @@ table {
     nav {
         a {
             background-color: $color-fg-dark;
-            border-color: $color-fg-dark;
             color: $color-bg-dark;
 
-            &:hover {
+            &:hover,
+            &:focus {
                 background-color: $color-fg-dark;
+                box-shadow: rgba($color-bg, .2) 0 0 1.5rem 0.5rem;
                 color: $color-bg-dark;
+            }
+
+            &.active,
+            &.active:hover,
+            &.active:focus {
+                background-color: rgb(102, 226, 251);
+                box-shadow: rgba(102, 226, 251, .2) 0 0 1.5rem 0.5rem;
+                color: $color-bg;
             }
         }
     }
@@ -455,7 +478,7 @@ table {
     .curious-cat {
         &.systems {
             div {
-                background: $color-bg-dark;
+                background: rgba($color-bg-dark, 0.8);
             }
         }
     }

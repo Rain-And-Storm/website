@@ -53,6 +53,21 @@ def filenameToAnchorTagId(filename):
     array.pop(0)
     return '-'.join(array)
 
+def generateNavigationLinks(links, current_location, relative=None):
+    navLinks = []
+    for link in links:
+        navLink = {
+            "id": "nav-link__" + (link["destination"].strip("/").replace("/", "__") or "root"),
+            "destination": buildPath(link["destination"], current_location, relative),
+            "label": link["label"]
+        }
+        if "children" in link and len(link["children"]) > 0:
+            navLink["children"] = generateNavigationLinks(link["children"], current_location, relative)
+        if link["destination"] == current_location:
+            navLink["active"] = True
+        navLinks.append(navLink)
+    return navLinks
+
 def getCwd():
     return os.path.dirname(os.path.realpath(__file__))
 
@@ -83,6 +98,81 @@ def renderMarkdown(md):
 def renderTemplate(template, data):
     return pystache.render(template, data)
 
+def renderTreeNavigation(links, template):
+    result = ""
+    for link in links:
+        if "children" in link and len(link["children"]) > 0:
+            childrenHtml = renderTreeNavigation(link["children"], template)
+            link["childrenHtml"] = childrenHtml
+    result = renderTemplate(template, links)
+    return result
+
+def renderTreeNavigationScript(links, current_location):
+    if len(links) < 1:
+        return "";
+
+    return """
+<script src="//unpkg.com/leader-line@1.0.8/leader-line.min.js"></script>
+<script>
+
+setTimeout(() => {
+    const lineOptions = {
+        color: 'lightblue',
+        size: 2,
+        path: 'magnet',
+        dash: {
+            animation: true
+        },
+        endPlug: 'behind',
+    };
+
+    new LeaderLine(
+        document.getElementById('nav-link__root'),
+        document.getElementById('nav-link__designs'),
+        lineOptions
+    );
+
+    new LeaderLine(
+        document.getElementById('nav-link__root'),
+        document.getElementById('nav-link__software'),
+        lineOptions
+    );
+
+/*
+    new LeaderLine(
+        document.getElementById('nav-link__root'),
+        document.getElementById('nav-link__acknowledgements'),
+        lineOptions
+    );
+*/
+
+    new LeaderLine(
+        document.getElementById('nav-link__root'),
+        document.getElementById('nav-link__curious-cat'),
+        lineOptions
+    );
+
+    new LeaderLine(
+        document.getElementById('nav-link__curious-cat'),
+        document.getElementById('nav-link__curious-cat__gallery'),
+        lineOptions
+    );
+
+    new LeaderLine(
+        document.getElementById('nav-link__curious-cat'),
+        document.getElementById('nav-link__curious-cat__inspirations'),
+        lineOptions
+    );
+
+    new LeaderLine(
+        document.getElementById('nav-link__curious-cat'),
+        document.getElementById('nav-link__curious-cat__systems'),
+        lineOptions
+    );
+}, 0);
+
+</script>"""
+
 def resolveFsPath(*additionalPath):
     return os.path.join(os.path.sep.join(additionalPath[:320000]))
 
@@ -96,6 +186,40 @@ if __name__ == "__main__":
     definitions = {
         "runtime": {
             "cwd": getCwd(),
+            "navigation": [
+                {
+                    "destination": "/",
+                    "label": "Rain And Storm",
+                    "children": [
+                        {
+                            "destination": "/designs/",
+                            "label": "Designs"
+                        },
+                        {
+                            "destination": "/software/",
+                            "label": "Software"
+                        },
+                        {
+                            "destination": "/curious-cat/",
+                            "label": "Curious Cat",
+                            "children": [
+                                {
+                                    "destination": "/curious-cat/gallery/",
+                                    "label": "Gallery"
+                                },
+                                {
+                                    "destination": "/curious-cat/inspirations/",
+                                    "label": "Inspirations"
+                                },
+                                {
+                                    "destination": "/curious-cat/systems/",
+                                    "label": "Systems"
+                                }
+                            ]
+                        },
+                    ]
+                }
+            ]
         },
         "filenames": {
             "index":    "index.html",

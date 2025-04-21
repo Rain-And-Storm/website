@@ -7,6 +7,7 @@ import webgen
 
 def stage(data):
     useRelativePaths = data["config"].getboolean("Site", "UseRelativePaths", fallback=None)
+    navigationLinks = webgen.generateNavigationLinks(data["definitions"]["runtime"]["navigation"], "/curious-cat/gallery/", relative=useRelativePaths)
 
     #
     # Loop through gallery albums
@@ -56,9 +57,8 @@ def stage(data):
     html = webgen.renderTemplate(data["templates"]["page"], {
         "title":       webgen.getWebPageTitle(data["config"]["Site"]["Name"], ["Curious Cat", "Gallery"]),
         "description": "Pictures of Curious Cat, old and new",
-        "navigation": webgen.renderTemplate(data["templates"]["navigation"], {
-            "activePage": "curious-cat/gallery",
-        }),
+        "navigation":  webgen.renderTreeNavigation(navigationLinks, data["templates"]["nav"]) +
+            webgen.renderTreeNavigationScript(navigationLinks, "/curious-cat/gallery/"),
         "criticalcss": webgen.compileSass(open("../src/styles/critical.scss", "r").read()),
         "css":         webgen.buildPath("/" + data["definitions"]["filenames"]["css"], "/curious-cat/gallery/", relative=useRelativePaths),
         "class":        "curious-cat gallery content",

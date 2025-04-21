@@ -1,0 +1,8 @@
+<ul>
+    {{#.}}
+    <li>
+        <a id="{{id}}" href="{{destination}}"{{#active}}class="active"{{/active}}>{{label}}</a>
+        {{{childrenHtml}}}
+    </li>
+    {{/.}}
+</ul>
