@@ -47,13 +47,13 @@ Prevents dock lines and rodes from drowning completely if they fall into the wat
 ---
 
 
-## Water Fiter Housing Wrench
+## Water Filter Housing Wrench
 
-![Water Fiter Housing Wrench](../assets/designs/water-filter-housing-wrench.webp)
+![Water Filter Housing Wrench](../assets/designs/water-filter-housing-wrench.webp)
 
 Wrenches of various types to unscrew and tighten housings for water filters.
 
-[Water Fiter Housing Wrench on Printables.com](https://www.printables.com/model/1202466-water-filter-housing-wrench)
+[Water Filter Housing Wrench on Printables.com](https://www.printables.com/model/1202466-water-filter-housing-wrench)
 
 
 ---
@@ -67,6 +67,18 @@ Aglets for ropes (docking lines, sheets, running rigging).
 Prevents chafe, eliminates loose ends, looks neat.
 
 [Rope Aglets on Printables.com](https://www.printables.com/model/624969-rope-end-caps-aglets)
+
+
+---
+
+
+## Fishing Bobber
+
+![Fishing Bobber](../assets/designs/fishing-bobber.webp)
+
+Fishing float
+
+[Fishing Bobber on Printables.com](https://www.printables.com/model/1302608-fishing-float-bobber)
 
 
 ---

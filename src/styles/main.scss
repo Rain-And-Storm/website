@@ -1,4 +1,4 @@
-@import 'variables';
+@import "variables";
 
 html {
     background-color: $color-bg;
@@ -62,7 +62,7 @@ nav {
     z-index: 2;
 
     &:after {
-        content: '';
+        content: "";
         clear: both;
         display: block;
     }
@@ -84,7 +84,7 @@ nav {
         align-self: center;
         background-color: $color-fg;
         border-radius: 0.15rem;
-        box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+        box-shadow: rgba(0, 0, 0, 0.2) 15px 28px 25px -18px;
         box-sizing: border-box;
         color: $color-bg;
         cursor: pointer;
@@ -100,7 +100,7 @@ nav {
 
         &:hover,
         &:focus {
-            box-shadow: rgba($color-bg-dark, .2) 0 0 1.5rem 0.5rem;
+            box-shadow: rgba($color-bg-dark, 0.2) 0 0 1.5rem 0.5rem;
         }
 
         &.active,
@@ -108,6 +108,7 @@ nav {
         &.active:focus {
             background-color: rgb(102, 226, 251);
             box-shadow: rgba(102, 226, 251, 0.2) 0 0 1.5rem 0.5rem;
+            color: $color-fg;
         }
     }
 }
@@ -188,6 +189,7 @@ table {
 
         a {
             border: none;
+            font-size: 125%;
             font-weight: bold;
             height: 8rem;
             line-height: 8rem;
@@ -206,12 +208,12 @@ table {
             }
 
             &.patreon {
-                background-color: #fff;
-                color: #000;
+                background-color: #000;
+                color: #fff;
             }
 
             &.instagram {
-                background-color: #61B4F8;
+                background-color: #61b4f8;
                 color: #fff;
             }
 
@@ -235,12 +237,11 @@ table {
 
 .designs {
     img {
-        width: 25%
+        width: 25%;
     }
 }
 
 .curious-cat {
-
     &.gallery {
         div {
             display: flex;
@@ -334,21 +335,17 @@ table {
             }
         }
     }
-
 }
 
 // Laptops
 @media (max-width: 120rem) {
-
     body {
         max-width: 80rem;
     }
-
 }
 
 // Tablets
 @media (max-width: 70rem) {
-
     body {
         max-width: 70rem;
     }
@@ -361,7 +358,7 @@ table {
 
     .designs {
         img {
-            width: 50%
+            width: 50%;
         }
     }
 
@@ -374,12 +371,10 @@ table {
             }
         }
     }
-
 }
 
 // Smartphones
 @media (max-width: 40rem) {
-
     nav {
         font-size: 0.7rem;
         margin: $spacing-small $spacing-small 0 $spacing-small;
@@ -408,7 +403,7 @@ table {
 
     .designs {
         img {
-            width: 100%
+            width: 100%;
         }
     }
 
@@ -430,12 +425,10 @@ table {
             }
         }
     }
-
 }
 
 // Dark mode
 @media (prefers-color-scheme: dark) {
-
     html {
         background-color: $color-bg-dark;
     }
@@ -448,7 +441,7 @@ table {
             &:hover,
             &:focus {
                 background-color: $color-fg-dark;
-                box-shadow: rgba($color-bg, .2) 0 0 1.5rem 0.5rem;
+                box-shadow: rgba($color-bg, 0.2) 0 0 1.5rem 0.5rem;
                 color: $color-bg-dark;
             }
 
@@ -456,7 +449,7 @@ table {
             &.active:hover,
             &.active:focus {
                 background-color: rgb(102, 226, 251);
-                box-shadow: rgba(102, 226, 251, .2) 0 0 1.5rem 0.5rem;
+                box-shadow: rgba(102, 226, 251, 0.2) 0 0 1.5rem 0.5rem;
                 color: $color-bg;
             }
         }
@@ -475,6 +468,17 @@ table {
         }
     }
 
+    .home {
+        .big-links {
+            a {
+                &.patreon {
+                    background-color: #fff;
+                    color: #000;
+                }
+            }
+        }
+    }
+
     .curious-cat {
         &.systems {
             div {
@@ -485,7 +489,6 @@ table {
 
     // Smartphones
     @media (max-width: 30rem) {
-
         .curious-cat {
             &.systems {
                 fieldset {
@@ -497,7 +500,5 @@ table {
                 }
             }
         }
-
     }
-
 }

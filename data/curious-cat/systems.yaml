@@ -311,6 +311,8 @@ electric:
     link: https://www.promariner.com/en/p/63130/ProNautic-1230P
     image: https://www.westmarine.com/dw/image/v2/BGFG_PRD/on/demandware.static/-/Sites-wm-master-catalog/default/dw848e2fd1/images/orig/12039467_1500.15062018013015.jpg
 
+# HILLMAN 1/8" x 1" 8' ALUM - FLAT  -  6208 SKU 764257 H# 11295
+
 # - what: Scotty AI 1.5KW 48VDC-to-12VDC battery charger
 # - what: Monitoring system [Victron Cerbo GX](https://www.victronenergy.com/panel-systems-remote-monitoring/cerbo-gx) 🇳🇱
 # - what: 2 × 200A 58V fuse by Victron
@@ -332,8 +334,26 @@ fishing:
     name: landing net
     material: aluminum, nylon
 
+  ## Rods
+  - what: fishing rod
+    name: fishing rod
+  - what: small fishing rod
+    name: small fishing rod
+
+  ## Line
+  - what: fishing line
+    name: fishing line
+    manufacturer: Daiwa
+    manufactured_in: JP
+    connected_to: fishing rod, small fishing rod
 # https://www.ebay.com/itm/276703272679
 
+  ## Traps
+  - what: titanium crab trap
+    name: small crab trap
+    material: titanium, nylon, PLA
+    link: https://www.printables.com/model/1181125-titanium-shrimp-trap
+    image: ../../assets/curious-cat/systems/titanium-crab-trap.jpg
 
 ##############################################################################
 
@@ -668,7 +688,7 @@ paint:
 #         - ✅ C2075 (not C2028 — what is "LV"?)
 #         - target surface: ?? grit
 # **Interior**:
-#     - [ALEXSEAL® Interior Topcoat 578](https://www.alexseal.com/products/premium-interior-coatings/interior-topcoat-578) 
+#     - [ALEXSEAL® Interior Topcoat 578](https://www.alexseal.com/products/premium-interior-coatings/interior-topcoat-578)
 #         - N....
 #         - C6402
 #         - R6068
@@ -790,7 +810,7 @@ rigging:
     lengh: 18-1/3'
 # lazy jack system
 #    - what: 2 × 5" plastic cleat for lazy jacks
-#    - nylon rope 
+#    - nylon rope
 # - 2 × [barbell squat pad](https://www.amazon.com/dp/B01MPY50V2) on T-top for cushioning
 
   - what: separator
@@ -1166,7 +1186,7 @@ steering:
     connected_to: helm wheels
     name: helm roller chains
     size: ANSI 50
-    material: grade 5 titanium 
+    material: grade 5 titanium
     manufacturer: RaceTech Titanium
     link: https://racetechtitanium.com
     manufactured_in: US
@@ -1265,7 +1285,7 @@ waste:
     connected_to: toilets
     name: solenoid valves
     manufacturer: Jabsco
-    model: 37030-2012 
+    model: 37030-2012
     voltage: 12VDC
     count: 2
 
@@ -1284,7 +1304,7 @@ waste:
     connected_to: waste water tanks
     name: waste pump
     manufacturer: Johnson Pump
-    model: Viking Power 16 # 10-13350-03 
+    model: Viking Power 16 # 10-13350-03
     voltage: 12VDC
     location: port bow
     image: ../../assets/curious-cat/systems/waste-pump_port.jpg
@@ -1548,12 +1568,22 @@ workshop:
     link: https://shop.mitutoyo.eu/web/mitutoyo/en/mitutoyo/01.03.04A/Digital%20ABS%20Caliper%20CoolantProof%20IP67/$catalogue/mitutoyoData/PR/500-738-20/index.xhtml
     manufactured_in: JP
 
-  - what: bolt identificator
+  - what: thread identificator
     name: boltsorter
     manufacturer: Boltsorter
     image: ../../assets/curious-cat/systems/boltsorter.webp
     link: https://boltsorter.com/
     manufactured_in: US
+
+  - what: adjustable wrench
+    name: unsinkable corrosion-resistant wrench
+    image: ../../assets/curious-cat/systems/titanium-wrench.webp
+    model: 6 inch
+    material: titanium
+    link: https://countycomm.com/
+    manufacturer: Maratac
+    manufactured_in: US
+    notes: made unsinkable using foam camera strap by Nordic Flash
 
 # https://www.ghoststop.com/laser-grid-gs1/
 
