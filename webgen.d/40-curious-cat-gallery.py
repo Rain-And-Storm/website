@@ -9,9 +9,7 @@ def stage(data):
     useRelativePaths = data["config"].getboolean("Site", "UseRelativePaths", fallback=None)
     navigationLinks = webgen.generateNavigationLinks(data["definitions"]["runtime"]["navigation"], "/curious-cat/gallery/", relative=useRelativePaths)
 
-    #
-    # Loop through gallery albums
-    #
+    ## Loop through gallery albums
     gallerySourcePath = os.path.join(
         data["definitions"]["runtime"]["cwd"],
         "data",
@@ -61,7 +59,7 @@ def stage(data):
             webgen.renderTreeNavigationScript(navigationLinks, "/curious-cat/gallery/"),
         "criticalcss": webgen.compileSass(open("../src/styles/critical.scss", "r").read()),
         "css":         webgen.buildPath("/" + data["definitions"]["filenames"]["css"], "/curious-cat/gallery/", relative=useRelativePaths),
-        "class":        "curious-cat gallery content",
+        "class":       "curious-cat gallery content",
         "content":     pageHTML,
     })
     ## Create new HTML file

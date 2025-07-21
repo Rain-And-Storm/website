@@ -1,27 +1,64 @@
 ## Responsible for creating designs page's HTML file
 
+import os
+from PIL import Image
+
 import webgen
 
 def stage(data):
     useRelativePaths = data["config"].getboolean("Site", "UseRelativePaths", fallback=None)
     navigationLinks = webgen.generateNavigationLinks(data["definitions"]["runtime"]["navigation"], "/designs/", relative=useRelativePaths)
 
-    ## Copy asset files
-    webgen.cpr(
-        webgen.resolveFsPath(data["definitions"]["runtime"]["cwd"], "data", data["config"]["Site"]["DesignsPath"]),
-        webgen.resolveFsPath(data["definitions"]["runtime"]["cwd"], data["config"]["Filesystem"]["DestinationDirPath"], "assets", data["config"]["Site"]["DesignsPath"])
+    ## Loop through design folders
+    designsSourcePath = os.path.join(
+        data["definitions"]["runtime"]["cwd"],
+        "data",
+        data["config"]["Site"]["DesignsPath"],
     )
+    designs = []
+    designsSourcePath = os.path.abspath(designsSourcePath)
+    designsDirNames = sorted(next(os.walk(designsSourcePath))[1])
+    for designDirName in designsDirNames:
+        designDirPath = os.path.join(designsSourcePath, designDirName)
 
+        if not os.path.isdir(designDirPath) or not os.path.isfile(os.path.join(designDirPath, "README.md")):
+            continue
+
+        designs.append({
+            "images": [],
+            "description": webgen.renderMarkdown(open(os.path.join(designDirPath, "README.md"), "r").read())
+        })
+
+        ## Loop through files within each design's directory
+        designFiles = sorted(next(os.walk(designDirPath))[2])
+        for designFileName in designFiles:
+            if designFileName.startswith(".") or not designFileName.endswith(".webp"):
+                continue
+            designAndImageFilePath = designDirName + "/" + designFileName
+            designAndImageThumbFilePath = designDirName + "/thumb_" + designFileName
+            ## Create thumbnail
+            image = Image.open("../data/designs/" + designDirName + "/" + designFileName)
+            image.thumbnail((640, 640))
+            webgen.mkdir(data["definitions"]["runtime"]["cwd"], data["config"]["Filesystem"]["DestinationDirPath"], "designs", designDirName)
+            image.save(webgen.resolveFsPath(data["definitions"]["runtime"]["cwd"], data["config"]["Filesystem"]["DestinationDirPath"], "designs", designAndImageThumbFilePath))
+            ## Append to array of albums
+            designs[-1]["images"].append({ "orig": "../../designs/" + designAndImageFilePath, "thumb": "../../designs/" + designAndImageThumbFilePath })
+    pageHTML = webgen.renderTemplate(data["templates"]["designs"], {
+        "designs": designs
+    })
+    ## Generate HTML contents out of template
     html = webgen.renderTemplate(data["templates"]["page"], {
         "title":       webgen.getWebPageTitle(data["config"]["Site"]["Name"], ["Designs"]),
-        "description": "Timeless designs ahead of time",
+        "description": "Timeless designs ahead of their time",
         "navigation":  webgen.renderTreeNavigation(navigationLinks, data["templates"]["nav"]) +
             webgen.renderTreeNavigationScript(navigationLinks, "/designs/"),
         "criticalcss": webgen.compileSass(open("../src/styles/critical.scss", "r").read()),
         "css":         webgen.buildPath("/" + data["definitions"]["filenames"]["css"], "/designs/", relative=useRelativePaths),
-        "class":        "designs content",
-        "content":     webgen.renderMarkdown(open("../data/designs.md", "r").read()),
+        "class":       "designs content",
+        "content":     pageHTML + "<hr />" + webgen.renderMarkdown(open("../data/designs.md", "r").read()),
     })
+
+    ## Create new HTML file
     htmlFile = webgen.mkfile(
         data["definitions"]["runtime"]["cwd"],
         data["config"]["Filesystem"]["DestinationDirPath"],
