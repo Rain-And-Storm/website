@@ -31,8 +31,9 @@ anchoring:
     image: ../../assets/curious-cat/systems/anchor_bruce.jpg
   - what: secondary anchor rode
     connected_to: secondary_anchor
-    name: rode
+    name: three-strand rope
     material: nylon
+    size: 5/8"
     length: 300'
 
   - what: separator
@@ -224,15 +225,7 @@ docking:
     connected_to: fenders
     name: braided nylon fender lines
     link: https://www.amazon.com/dp/B07HWDQJ51
-    count: 4
-  - what: fender boards
-    connected_to: fenders
-    name: wooden fender planks
-    count: 2
-  - what: fender lines for fender boards
-    connected_to: fender boards
-    name: braided nylon fender lines
-    link: https://www.amazon.com/dp/B07HWDQJ51
+    image: https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTh4R25N9gXzkYszYzlzaUsG-jhA9FRGI03S-qhxFjL488FSTlyIyWUTHefKCTQOKVEGyGfYrFLe2Z-4nSsNmYZaxjhYRyF3xhVIZqZhA1cQtE&usqp=CAc
     count: 4
   - what: docking lines
     name: docking lines
@@ -373,8 +366,8 @@ food:
     name: sun kettle
     material: stainless steel, culinary-grade silicone
     capacity: 14oz
-    image: https://gosun.co/cdn/shop/products/kettle-solar-water-boiler-gosun-140786.jpg
     link: https://gosun.co/products/sun-kettle
+    image: ../../assets/curious-cat/systems/solar_water_boiler.webp
     # TODO: add ambassador code to the link
     notes: great for boiling water, making coffee and hot chocolate
 
@@ -391,6 +384,38 @@ food:
     name: Magic Bullet blender
     voltage: 110VAC
 
+  - what: separator
+
+  - what: kitchen knife 1
+    name: Kitchen Knife
+    model: Nakiri
+    size: 180mm
+    material: titanium-silver alloy, plastic
+    manufacturer: Hocho
+    manufactured_in: JP
+    link: https://www.hocho-knife.com/forever-hybrid-silver-titanium-nakiri-vegetable-180mm/
+    image: ../../assets/curious-cat/systems/forever-forever-hybrid-silver-titanium-21-japanese-chefs-nakirivegetable-180mm__74817.jpg
+
+  - what: kitchen knife 2
+    name: Kitchen Knife
+    model: Deba
+    size: 160mm
+    material: titanium-silver alloy, plastic
+    manufacturer: Hocho
+    manufactured_in: JP
+    link: https://www.hocho-knife.com/forever-hybrid-silver-titanium-deba-knife-160mm/
+    image: ../../assets/curious-cat/systems/forever-forever-hybrid-silver-titanium-21-japanese-chefs-deba-knife-160mm__90558.jpg
+
+  - what: kitchen knife 3
+    name: Kitchen Knife
+    model: Petty
+    size: 120mm
+    material: titanium-silver alloy, plastic
+    manufacturer: Hocho
+    manufactured_in: JP
+    link: https://www.hocho-knife.com/forever-hybrid-silver-titanium-petty-knife-utility-120mm/
+    image: ../../assets/curious-cat/systems/forever-forever-hybrid-silver-titanium-21-japanese-chefs-petty-knifeutility-120mm__47086.jpg
+
 # - what: Moccamaster coffee machine, home style burr grinder
 # https://aquasprouts.com/products/aqua-grow-plugs
 # https://bell-howell.com/products/8573
@@ -401,6 +426,16 @@ food:
 
 
 inspection:
+  ## Drone
+  - what: submarine drone
+    name: ROV
+    manufacturer: Blueye
+    model: Pioneer
+    image: ../../assets/curious-cat/systems/rov.webp
+    link: https://www.blueyerobotics.com/rov/pioneer
+    designed_in: NO
+    manufactured_in: PL
+
   ## Moisture
   - what: moisture meter
     name: moisture meter
@@ -707,6 +742,27 @@ paint:
 
 ##############################################################################
 
+
+propulsion:
+  - what: port motor
+    name: electric outboard motor
+    location: Port aft
+    size: 15kW
+    voltage: 48V
+    link: https://rimdrivetechnology.nl/product/pod-15-0/
+    image: ../../assets/curious-cat/systems/rdt-pod-15.avif
+    manufactured_in: NL
+    notes: Counter-clockwise
+
+  - what: starboard motor
+    name: electric outboard motor
+    location: Starboard aft
+    size: 15kW
+    voltage: 48V
+    link: https://rimdrivetechnology.nl/product/pod-15-0/
+    image: ../../assets/curious-cat/systems/rdt-pod-15.avif
+    manufactured_in: NL
+    notes: Clockwise
 
 # propulsion:
 # https://tbnation.net/products/cmc-pt-35-tilt-and-trim-jackplate-for-up-to-35-hp (was recommended by Rim Technologies)
@@ -1230,13 +1286,13 @@ steering:
 
 transportation:
   - what: tender
-    name: RIB dinghy with aluminum floor
-    manufacturer: Zodiac Nautic
-    model: Wave 275
+    name: inflatable tender
+    manufacturer: Raptor
+    model: XLT 160 Airdeck
     image: ../../assets/curious-cat/systems/tender.jpg
-    link: https://defender.com/en_us/zodiac-wave-275-aluminum-floor-9-boat-2020
-    length: 9'
-    manufactured_in: FR
+    link: https://bigcarptackle.com/products/raptor-160xlt-airdeck-floor
+    length: 5' 3"
+    designed_in: NL
 
   - what: separator
 
@@ -1247,20 +1303,10 @@ transportation:
     model: Kicker
     image: ../../assets/curious-cat/systems/tender-outboard.jpg
     link: https://www.thrustme.no/eu/kicker-eu
-    designed_in: "NO"
+    designed_in: NO
     manufactured_in: CN
-  - what: oars
-    connected_to: tender
-    name: pair of oars
-    length: 78"
-    manufacturer: Oceansouth
-    material: aluminum, polypropylene
-    link: https://www.ebay.com/itm/251802096274
-    image: ../../assets/curious-cat/systems/tender-oars.jpg
 
 # Sabfoil Torpedo 100L
-# https://truekit.us/products/true-kit-navigator
-# https://www.3dtender.com/models-twin-fastcat-200-713-156-0-0.html
 
 
 ##############################################################################
@@ -1303,17 +1349,11 @@ waste:
   - what: discharge pump
     connected_to: waste water tanks
     name: waste pump
-    manufacturer: Johnson Pump
-    model: Viking Power 16 # 10-13350-03
+    manufacturer: Whale
+    model: Gulper
     voltage: 12VDC
     location: port bow
-    image: ../../assets/curious-cat/systems/waste-pump_port.jpg
-#   - what: waste pump
-#     name: waste pump
-#     manufacturer: Whale
-#     model: Gulper
-#     voltage: 12VDC
-#     location: starboard bow
+    image: ../../assets/curious-cat/systems/waste-pump_port.webp
 
 
 ##############################################################################
@@ -1470,10 +1510,14 @@ water:
 
   - what: separator
 
-  - what: sun shower
+  - what: sun shower 1
     name: sun shower
     capacity: 4 gal.
-    count: 2
+    image: ../../assets/curious-cat/systems/sun-shower.webp
+    link: https://nextadventure.net/products/portable-sun-shower-2000005826
+  - what: sun shower 2
+    name: sun shower
+    capacity: 4 gal.
     image: ../../assets/curious-cat/systems/sun-shower.webp
     link: https://nextadventure.net/products/portable-sun-shower-2000005826
 

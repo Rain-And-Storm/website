@@ -13,3 +13,5 @@ and open-source solar-electric sailing catamaran Curious Cat
 ## How to run
 
     make serve
+
+<!-- Design ideas: https://oxide.computer -->
