@@ -43,11 +43,11 @@ anchoring:
     material: steel
     weight: 35lbs
     image: ../../assets/curious-cat/systems/anchor_cqr.webp
-#  - what: rope
-#    connected_to: backup anchor
-#    name: docking lines
-#    material: nylon
-#    length: 150'
+  #  - what: rope
+  #    connected_to: backup anchor
+  #    name: docking lines
+  #    material: nylon
+  #    length: 150'
 
   - what: separator
 
@@ -70,9 +70,7 @@ anchoring:
 
 # https://www.smartasaker.com/en/rock-wedge
 
-
 ##############################################################################
-
 
 cleaning:
   - what: scraper
@@ -105,7 +103,6 @@ cleaning:
   #   manufactured_in: CN
   #   link: https://www.ryobitools.com/products/details/46396036766
 
-
 communication:
   - what: satellite internet
     name: satellite internet dish & router kit
@@ -128,9 +125,7 @@ communication:
     location: top of the mast
 # https://outmar.com/en/starlink-mast-mount/stanchion-mount
 
-
 ##############################################################################
-
 
 decals:
   - what: decal
@@ -150,9 +145,7 @@ decals:
     image: ../../assets/curious-cat/systems/vessel-number-plate.png
     link: https://vesselplacards.com/product/stainless-steel-placard/
 
-
 ##############################################################################
-
 
 diving equipment:
   - what: tank
@@ -181,12 +174,10 @@ diving equipment:
     model: MiniComp
     voltage: 12VDC
     max_pressure: 300bar
-    link:  https://www.minidive.com/en/products/12-v-compressor.html
+    link: https://www.minidive.com/en/products/12-v-compressor.html
     image: https://www.minidive.com/1697-large_default/12-v-compressor.jpg
 
-
 ##############################################################################
-
 
 docking:
   ## Cleats
@@ -221,10 +212,11 @@ docking:
     count: 4
     image: ../../assets/curious-cat/systems/fender.jpg
     link: https://www.taylormadeproducts.com/products/fenders-and-buoys/boat-fenders/super-gard-fenders/
-  - what: fender line
+  - what: fender whips
     connected_to: fenders
-    name: braided nylon fender lines
+    name: fender whips
     link: https://www.amazon.com/dp/B07HWDQJ51
+    material: nylon
     image: https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTh4R25N9gXzkYszYzlzaUsG-jhA9FRGI03S-qhxFjL488FSTlyIyWUTHefKCTQOKVEGyGfYrFLe2Z-4nSsNmYZaxjhYRyF3xhVIZqZhA1cQtE&usqp=CAc
     count: 4
   - what: docking lines
@@ -241,9 +233,7 @@ docking:
     size: 14mm – 22mm rope diameter
     count: 4
 
-
 ##############################################################################
-
 
 electric:
   ## Batteries
@@ -312,9 +302,7 @@ electric:
 # - what: 2 × MEGA-Fuse holder by Victron
 # - what: 2 × [275A 48V Switch by Victron](https://www.victronenergy.com/dc-distribution-systems/battery-switch-on-off)
 
-
 ##############################################################################
-
 
 fishing:
   ## Nets
@@ -339,7 +327,7 @@ fishing:
     manufacturer: Daiwa
     manufactured_in: JP
     connected_to: fishing rod, small fishing rod
-# https://www.ebay.com/itm/276703272679
+  # https://www.ebay.com/itm/276703272679
 
   ## Traps
   - what: titanium crab trap
@@ -349,7 +337,6 @@ fishing:
     image: ../../assets/curious-cat/systems/titanium-crab-trap.jpg
 
 ##############################################################################
-
 
 food:
   ## GoSun
@@ -421,19 +408,17 @@ food:
 # https://bell-howell.com/products/8573
 # https://us.peugeot-saveurs.com/en_us/electric-salt-mills
 
-
 ##############################################################################
-
 
 inspection:
   ## Drone
   - what: submarine drone
     name: ROV
-    manufacturer: Blueye
+    manufacturer: Blueye Robotics
     model: Pioneer
     image: ../../assets/curious-cat/systems/rov.webp
     link: https://www.blueyerobotics.com/rov/pioneer
-    designed_in: NO
+    designed_in: "NO"
     manufactured_in: PL
 
   ## Moisture
@@ -454,9 +439,7 @@ inspection:
     manufactured_in: DE
     image: ../../assets/curious-cat/systems/video-endoscope.jpg
 
-
 ##############################################################################
-
 
 laundry:
   ## Equipment
@@ -475,9 +458,7 @@ laundry:
     manufacturer: Molly's Suds
     manufactured_in: US
 
-
 ##############################################################################
-
 
 lights:
   ## Navigation
@@ -499,9 +480,7 @@ lights:
     notes: LED
 # https://agiltron.com/product/optical-fiber-end-cap/
 
-
 ##############################################################################
-
 
 navigation:
   ## Radar
@@ -534,15 +513,20 @@ navigation:
 
   - what: separator
 
-  ## Compass(es)
-  - what: compass
-    name: backlit binnacle-mount compasses
-    count: 2
-    location: in front of helms
+  ## Compasses
+  - what: compass 1
+    name: backlit binnacle-mount compass
+    location: port helm
     manufacturer: Ritchie Navigation
     image: ../../assets/curious-cat/systems/compass.jpg
     link: https://www.ritchienavigation.com
-  - what: compass
+  - what: compass 2
+    name: backlit binnacle-mount compass
+    location: starboard helm
+    manufacturer: Ritchie Navigation
+    image: ../../assets/curious-cat/systems/compass.jpg
+    link: https://www.ritchienavigation.com
+  - what: handheld compass
     name: illuminated hand bearing compass
     image: ../../assets/curious-cat/systems/hand-bearing-compass.jpg
     link: https://defender.com/en_us/davis-instruments-illuminated-handheld-compass-215
@@ -597,7 +581,6 @@ navigation:
     location: cockpit (starboard)
 
 ##############################################################################
-
 
 openings:
   ## Portlights
@@ -666,9 +649,7 @@ openings:
     manufactured_in: CA
 # https://rondal.com/en/products/hatches/
 
-
 ##############################################################################
-
 
 paint:
   ## Topdeck
@@ -739,34 +720,35 @@ paint:
 # https://nanotechmaterials.com/cool-roof-coating-system/
 # https://lifetimepluscoatings.com/cool-life/
 
-
 ##############################################################################
-
 
 propulsion:
   - what: port motor
-    name: electric outboard motor
+    name: electric motor
     location: Port aft
     size: 15kW
     voltage: 48V
+    manufacturer: Rim Drive Technology
+    model: POD 15.0
     link: https://rimdrivetechnology.nl/product/pod-15-0/
     image: ../../assets/curious-cat/systems/rdt-pod-15.avif
     manufactured_in: NL
-    notes: Counter-clockwise
+    notes: Counter-clockwise rotation
 
   - what: starboard motor
-    name: electric outboard motor
+    name: electric motor
     location: Starboard aft
     size: 15kW
     voltage: 48V
+    manufacturer: Rim Drive Technology
+    model: POD 15.0
     link: https://rimdrivetechnology.nl/product/pod-15-0/
     image: ../../assets/curious-cat/systems/rdt-pod-15.avif
     manufactured_in: NL
-    notes: Clockwise
+    notes: Clockwise rotation
 
 # propulsion:
 # https://tbnation.net/products/cmc-pt-35-tilt-and-trim-jackplate-for-up-to-35-hp (was recommended by Rim Technologies)
-
 
 # - **Port**:
 #     - 10KW BLDC 1290 RPM 76 Nm electric motor by [E-Tech](https://starboats.eu/electric-drives/e-tech-wg-inboard-engines/) (PI\04\22\WG10\1956\C) 🇵🇱
@@ -823,9 +805,7 @@ propulsion:
 # - 2 × monochrome LCD display by [AmperFlex](https://amperflex.com/en/) 🇵🇱
 # - 2 × Key switch
 
-
 ##############################################################################
-
 
 rescue:
   ## Beacons
@@ -836,7 +816,7 @@ rescue:
     image: ../../assets/curious-cat/systems/epirb.gif
     link: https://www.acrartex.com/products/globalfix-v4-epirb-emergency-positioning-indicading-radio-beacon/
     manufactured_in: US
-    notes: manual activaion
+    notes: manual activation
   # - [ResQFlare](https://www.acrartex.com/products/resqflare-boat-flare/) by [ACR](https://www.acrartex.com) 🇺🇸
   #     - [Alkaline C batteries](https://www.amazon.com/dp/B09KD6YD8C) 🇩🇪
   # - [Orion](https://www.orionsignals.com) flare gun
@@ -845,9 +825,7 @@ rescue:
   # - Small stainless steel signaling mirror
   # - Orange daytime signal piece of square fabric by ACR 🇺🇸
 
-
 ##############################################################################
-
 
 rigging:
   - what: mast
@@ -864,10 +842,10 @@ rigging:
     name: boom
     material: aluminum
     lengh: 18-1/3'
-# lazy jack system
-#    - what: 2 × 5" plastic cleat for lazy jacks
-#    - nylon rope
-# - 2 × [barbell squat pad](https://www.amazon.com/dp/B01MPY50V2) on T-top for cushioning
+  # lazy jack system
+  #    - what: 2 × 5" plastic cleat for lazy jacks
+  #    - nylon rope
+  # - 2 × [barbell squat pad](https://www.amazon.com/dp/B01MPY50V2) on T-top for cushioning
 
   - what: separator
 
@@ -916,7 +894,7 @@ rigging:
     material: stainless steel
   - what: turnbuckle
     connected_to: a frame martingale
-    name:  5/8" 8" turnbuckle
+    name: 5/8" 8" turnbuckle
     material: bronze
   # - what: 2 × [titanium screw](https://www.ti64.com/product-p/6315.htm)
   # - what: 2 × [titanium washer](https://www.ti64.com/product-p/1033.htm)
@@ -938,7 +916,7 @@ rigging:
     material: stainless steel
   - what: turnbuckle
     connected_to: inner forestay martingale
-    name:  5/8" 8" turnbuckle # the size may be smaller than 8", need confirmation
+    name: 5/8" 8" turnbuckle # the size may be smaller than 8", need confirmation
     material: bronze
   - what: inner forestay furler
     connected_to: inner forestay
@@ -1095,7 +1073,6 @@ rigging:
 #         — 2 × 5/8" 8" bronze turnbuckle
 # <!-- - 4 × stainless steel backstays -->
 
-
 # ## Running
 
 # - **Tracks**:
@@ -1147,7 +1124,6 @@ rigging:
 #         - ...
 
 ##############################################################################
-
 
 safety:
   ## Stanchions
@@ -1201,9 +1177,7 @@ safety:
   # <!-- Kingii -->
   # <!-- https://www.ibukikogyo.co.jp/english/prd01/product01es15.html -->
 
-
 ##############################################################################
-
 
 sound:
   - what: speakers
@@ -1226,9 +1200,7 @@ sound:
 # https://www.nauticexpo.com/prod/musashi/product-200788-590152.html
 # https://www.schiit.com
 
-
 ##############################################################################
-
 
 steering:
   ## Helms
@@ -1280,9 +1252,7 @@ steering:
   # - what: 2 × 1113
   # - what: 2 × 1050
 
-
 ##############################################################################
-
 
 transportation:
   - what: tender
@@ -1294,8 +1264,6 @@ transportation:
     length: 5' 3"
     designed_in: NL
 
-  - what: separator
-
   - what: outboard motor
     connected_to: tender
     name: electric outboard motor
@@ -1303,14 +1271,12 @@ transportation:
     model: Kicker
     image: ../../assets/curious-cat/systems/tender-outboard.jpg
     link: https://www.thrustme.no/eu/kicker-eu
-    designed_in: NO
+    designed_in: "NO"
     manufactured_in: CN
 
 # Sabfoil Torpedo 100L
 
-
 ##############################################################################
-
 
 waste:
   - what: toilets
@@ -1355,9 +1321,7 @@ waste:
     location: port bow
     image: ../../assets/curious-cat/systems/waste-pump_port.webp
 
-
 ##############################################################################
-
 
 water:
   - what: drinking water tap
@@ -1521,9 +1485,7 @@ water:
     image: ../../assets/curious-cat/systems/sun-shower.webp
     link: https://nextadventure.net/products/portable-sun-shower-2000005826
 
-
 ##############################################################################
-
 
 workshop:
   ## Powertools
@@ -1557,9 +1519,6 @@ workshop:
     image: ../../assets/curious-cat/systems/cnc-machine.jpg
     link: https://sienci.com/product/longmill-mk2/
     manufactured_in: CA
-
-  - what: separator
-
   ## Laser beams
   - what: laser beam
     connected_to: cnc machine
@@ -1576,9 +1535,6 @@ workshop:
     image: ../../assets/curious-cat/systems/cnc-spindle.webp
     link: https://ooznest.co.uk/product/mafell-fm-1000-milling-motor/
     manufactured_in: DE
-
-  - what: separator
-
   ## End mills
   - what: end mill 1
     connected_to: router
@@ -1629,14 +1585,13 @@ workshop:
     manufactured_in: US
     notes: made unsinkable using foam camera strap by Nordic Flash
 
-# https://www.ghoststop.com/laser-grid-gs1/
+  # https://www.ghoststop.com/laser-grid-gs1/
 
   - what: separator
 
   ## Scales
   - what: scales
     name: bathroom scales
-    link: https://www.soehnle-professional.com/en
     weight limit: 180kg
     precision: 100g
     manufacturer: Soehnle
@@ -1646,7 +1601,6 @@ workshop:
     manufactured_in: DE
   - what: scales
     name: kitchen scales
-    link: https://www.soehnle-professional.com/en
     weight limit: 20kg
     precision: 1g
     manufacturer: Soehnle
@@ -1656,7 +1610,6 @@ workshop:
     manufactured_in: DE
   - what: scales
     name: precision scales
-    link: https://www.soehnle-professional.com/en
     weight limit: 500g
     precision: 0.1g
     manufacturer: Soehnle
@@ -1665,7 +1618,6 @@ workshop:
     link: https://www.walmart.com/ip/Soehnle-ULTRA-2-0-Precision-Digital-Food-Scale-17-6-oz-White/38423055
     manufactured_in: DE
     note: used for mixing epoxy by weight
-
 # https://www.lowes.com/pd/SPT-Mini-Dehumidifier-with-UV-Light-and-TiO2/5005516847
 # https://solarez.com/3m-microballoons.html
 # Premium Marine ClampTite Tool Kit
