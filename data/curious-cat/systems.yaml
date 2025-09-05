@@ -22,6 +22,13 @@ anchoring:
     image: ../../assets/curious-cat/systems/anchor-windlass.jpg
     voltage: 12VDC
 
+  - what: bridle
+    connected_to: chain #, sea anchor rode
+    name: anchor bridle
+    material:
+      - nylon
+      - steel
+
   - what: separator
 
   - what: secondary_anchor
@@ -48,15 +55,6 @@ anchoring:
   #    name: docking lines
   #    material: nylon
   #    length: 150'
-
-  - what: separator
-
-  - what: bridle
-    connected_to: chain #, sea anchor rode
-    name: anchor bridle
-    material:
-      - nylon
-      - steel
 
   - what: separator
 
@@ -238,7 +236,7 @@ docking:
 electric:
   ## Batteries
   - what: 48v battery bank
-    name: 48V battery bank
+    name: high-voltage battery bank
     type: LiFePo4
     manufacturer: Epoch Batteries
     voltage: 48VDC
@@ -247,8 +245,18 @@ electric:
     count: 4
     link: https://www.epochbatteries.com/products/48v-100ah-heated-bluetooth-lifepo4-battery
     image: https://cdn.shopify.com/s/files/1/0251/0484/2798/files/54A98952-F238-4C65-ADE8-07891F1A3C16_fa4da043-6abf-48cb-9d01-dc4a8ea03156.png
+
+  - what: bus bar
+    name: bus bars
+    connected_to: 48v battery bank
+    material: copper (grade 10100)
+    size: 0.375" x 2"
+    count: 2
+    image: ../../assets/curious-cat/systems/bus_bars.jpg
+    link: https://www.onlinemetals.com/en/buy/copper/0-375-x-2-oxygen-free-copper-rectangle-bar-101-h02/pid/mp-00005330
+
   - what: 12v battery bank
-    name: 12V battery bank
+    name: low-voltage battery bank
     type: LiFePo4
     manufacturer: Epoch Batteries
     link: https://www.epochbatteries.com/products/12v-marine-battery-lithium-100ah
@@ -273,7 +281,7 @@ electric:
     link: https://www.expertpower.us/products/100w-sunpower-solar-panel
 
   - what: 48v battery charger #, inverter, solar charge controller
-    connected_to: 48v battery bank
+    connected_to: bus bar
     name: MPPT / charge controller / inverter
     voltage: 48VDC, 230VAC
     manufacturer: Victron
@@ -334,7 +342,7 @@ fishing:
     name: small crab trap
     material: titanium, nylon, PLA
     link: https://www.printables.com/model/1181125-titanium-shrimp-trap
-    image: ../../assets/curious-cat/systems/titanium-crab-trap.jpg
+    image: ../../assets/curious-cat/systems/titanium-shrimp-trap.webp
 
 ##############################################################################
 
@@ -367,14 +375,14 @@ food:
     power: 800W
     voltage: 220VAC
 
-  - what: blender
-    name: Magic Bullet blender
-    voltage: 110VAC
+  # - what: blender
+  #   name: Magic Bullet blender
+  #   voltage: 110VAC
 
   - what: separator
 
   - what: kitchen knife 1
-    name: Kitchen Knife
+    name: Kitchen Knife (veggies)
     model: Nakiri
     size: 180mm
     material: titanium-silver alloy, plastic
@@ -384,7 +392,7 @@ food:
     image: ../../assets/curious-cat/systems/forever-forever-hybrid-silver-titanium-21-japanese-chefs-nakirivegetable-180mm__74817.jpg
 
   - what: kitchen knife 2
-    name: Kitchen Knife
+    name: Kitchen Knife (fish)
     model: Deba
     size: 160mm
     material: titanium-silver alloy, plastic
@@ -394,7 +402,7 @@ food:
     image: ../../assets/curious-cat/systems/forever-forever-hybrid-silver-titanium-21-japanese-chefs-deba-knife-160mm__90558.jpg
 
   - what: kitchen knife 3
-    name: Kitchen Knife
+    name: Kitchen Knife (utility)
     model: Petty
     size: 120mm
     material: titanium-silver alloy, plastic
@@ -579,6 +587,15 @@ navigation:
     image: ../../assets/curious-cat/systems/horn-push-button.jpg
     link: https://www.sheridanmarine.com/product/stainless-steel-horn-push-switch
     location: cockpit (starboard)
+
+  - what: separator
+
+  - what: binoculars
+    name: Binoculars
+    manufacturer: Fujinon
+    model: Mariner 7x50
+    image: ../../assets/curious-cat/systems/binoculars.webp
+    link: https://shopusa.fujifilm-x.com/mariner-7x50wpc-xl-waterproof-binoculars-with-integrated-compass-16366963/
 
 ##############################################################################
 
@@ -1132,6 +1149,7 @@ safety:
     manufacturer: Vetus
     material: stainless steel
     model: 30"
+    count: 10
     size: 75cm long, 2.5cm in diameter
     link: https://defender.com/en_us/vetus-lifeline-stanchion
     image: https://defender.com/media/catalog/product/cache/a2bf45e9635ff86c8c09fbc84b193941/catalogimages/vetus/lifeline-stanchion-stanch45-2023-115659.jpg
@@ -1241,7 +1259,7 @@ steering:
   - what: rudders
     connected_to: radial drive wheels
     name: rudders
-    material: cabon fiber, stainless steel, epoxy, closed-cell foam
+    material: cabon fiber, stainless steel, epoxy, foam
     count: 2
   - what: radial drive wheels
     connected_to: cables
@@ -1393,15 +1411,15 @@ water:
     image: ../../assets/curious-cat/systems/watermaker.webp
     link: https://mar-nautic.com/schenker-watermaker-zen-30
 
-  # - what: hose clamp
-  #   connected_to: starboard water maker
-  #   name: constant-tension hose clamps
-  #   manufacturer: Breeze
-  #   size: 9/16"–1-1/16"
-  #   count: 10+
-  #   link: https://www.amazon.com/gp/product/B00NVA78BK/
-  #   image: https://m.media-amazon.com/images/I/61CoyKhxOgL.__AC_SY300_SX300_QL70_FMwebp_.jpg
-  #   manufactured_in: US
+  - what: titanium hose clamps
+    connected_to: starboard water maker
+    name: hose clamps
+    manufacturer: Titan Marine
+    material: titanium
+    size: 5/8" - 15/16"
+    link: https://www.titan-marine-hardware.com/sae_8.html
+    image: ../../assets/curious-cat/systems/hose_clamps.jpg
+    manufactured_in: US
 
   - what: separator
 
@@ -1495,14 +1513,21 @@ workshop:
     link: https://pixiss.com/products/pixiss-epoxy-resin-mixer
     notes: mostly used for mixing epoxy
   ## 3D printing & scanning
-  - what: 3D printer
-    name: FDM 3D printer
+  - what: FDM 3D printer
+    name: Filament 3D printer
     manufacturer: Bambu Lab
     model: P1P
     image: ../../assets/curious-cat/systems/3d-printer.webp
     link: https://us.store.bambulab.com/products/p1p
     manufactured_in: CN
     # https://formfutura.com/product/flexifil/
+  - what: SLA 3D printer
+    name: Resin 3D printer
+    manufacturer: Anycubic
+    model: Photon S
+    image: ../../assets/curious-cat/systems/resin-3d-printer.png
+    link: https://store.anycubic.com/products/anycubic-photon-s
+    manufactured_in: CN
   - what: 3D scanner
     name: handheld 3D scanner
     manufacturer: Shining
@@ -1569,7 +1594,7 @@ workshop:
     manufactured_in: JP
 
   - what: thread identificator
-    name: boltsorter
+    name: Thread Gauge
     manufacturer: Boltsorter
     image: ../../assets/curious-cat/systems/boltsorter.webp
     link: https://boltsorter.com/
@@ -1577,10 +1602,10 @@ workshop:
 
   - what: adjustable wrench
     name: unsinkable corrosion-resistant wrench
-    image: ../../assets/curious-cat/systems/titanium-wrench.webp
     model: 6 inch
     material: titanium
-    link: https://countycomm.com/
+    link: https://countycomm.com/products/adjustable-wrench-titanium-6-inch-nsn-pending
+    image: ../../assets/curious-cat/systems/wrench.webp
     manufacturer: Maratac
     manufactured_in: US
     notes: made unsinkable using foam camera strap by Nordic Flash
@@ -1618,6 +1643,13 @@ workshop:
     link: https://www.walmart.com/ip/Soehnle-ULTRA-2-0-Precision-Digital-Food-Scale-17-6-oz-White/38423055
     manufactured_in: DE
     note: used for mixing epoxy by weight
+
+  - what: stirrers
+    name: magnetic stirrer
+    manufacturer: Thermo Scientific
+    voltage: 110–230VAC
+    image: ../../assets/curious-cat/systems/magnetic-stirrer.jpg
+    link: https://mcqueenlabs.com/shop/thermo-scientific-rt-touch-series-digital-magnetic-stirrer-6-69-inch-diameter/
 # https://www.lowes.com/pd/SPT-Mini-Dehumidifier-with-UV-Light-and-TiO2/5005516847
 # https://solarez.com/3m-microballoons.html
 # Premium Marine ClampTite Tool Kit
