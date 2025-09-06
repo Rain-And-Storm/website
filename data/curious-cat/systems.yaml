@@ -381,7 +381,7 @@ food:
   - what: separator
 
   - what: kitchen knife 1
-    name: Kitchen Knife (veggies)
+    name: Kitchen Knife (vegetables)
     model: Nakiri
     size: 180mm
     material: titanium-silver alloy, plastic
@@ -512,7 +512,8 @@ navigation:
   ## Autopilot
   - what: autopilot
     connected_to: chart plotter
-    name: GyroPilot 3
+    name: Autopilot
+    model: GyroPilot 3
     manufacturer: nke
     manufactured_in: FR
     image: ../../assets/curious-cat/systems/autopilot.png
@@ -1023,7 +1024,7 @@ rigging:
     manufacturer: North Sails
     link: https://www.northsails.com
   - what: mainsail
-    name: fully-batened mainsail
+    name: fully-battened mainsail
     manufacturer: North Sails
     link: https://www.northsails.com
     notes: ND72V
