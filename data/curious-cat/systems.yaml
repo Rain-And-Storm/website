@@ -275,7 +275,6 @@ electric:
     power: 1.2KW (100W x 12)
     manufacturer: SunPower
     model: SPR-E-Flex-100
-    count: 12
     manufactured_in: FR
     image: ../../assets/curious-cat/systems/solar-panel.webp
     link: https://www.expertpower.us/products/100w-sunpower-solar-panel
@@ -1585,9 +1584,10 @@ workshop:
     image: ../../assets/curious-cat/systems/laser-range-meter.webp
     link: https://www.bosch-professional.com/eg/en/products/glm-20-0601072EG0
 
-  - what: calipers
-    name: waterproof calipers
+  - what: caliper
+    name: waterproof caliper
     manufacturer: Mitutoyo
+    material: stainless steel
     model: 500-738-20calipers.webp
     image: ../../assets/curious-cat/systems/calipers.webp
     link: https://shop.mitutoyo.eu/web/mitutoyo/en/mitutoyo/01.03.04A/Digital%20ABS%20Caliper%20CoolantProof%20IP67/$catalogue/mitutoyoData/PR/500-738-20/index.xhtml
