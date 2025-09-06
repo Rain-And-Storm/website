@@ -1511,6 +1511,7 @@ workshop:
     image: ../../assets/curious-cat/systems/resin-mixer.webp
     link: https://pixiss.com/products/pixiss-epoxy-resin-mixer
     notes: mostly used for mixing epoxy
+  # TODO: add Metabo brushless sander
   ## 3D printing & scanning
   - what: FDM 3D printer
     name: Filament 3D printer
@@ -1644,12 +1645,23 @@ workshop:
     manufactured_in: DE
     note: used for mixing epoxy by weight
 
-  - what: stirrers
+  - what: stirrer
     name: magnetic stirrer
     manufacturer: Thermo Scientific
     voltage: 110–230VAC
     image: ../../assets/curious-cat/systems/magnetic-stirrer.jpg
     link: https://mcqueenlabs.com/shop/thermo-scientific-rt-touch-series-digital-magnetic-stirrer-6-69-inch-diameter/
+
+  - what: separator
+
+  - what: papr
+    name: Respiratory Protection System
+    manufacturer: Optrel
+    model: Swiss Air
+    image: ../../assets/curious-cat/systems/papr.png
+    link: https://optrel.us/product/swiss-air-papr/
+    manufactured_in: CH
+#
 # https://www.lowes.com/pd/SPT-Mini-Dehumidifier-with-UV-Light-and-TiO2/5005516847
 # https://solarez.com/3m-microballoons.html
 # Premium Marine ClampTite Tool Kit
