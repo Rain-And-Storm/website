@@ -52,7 +52,7 @@ Solar array output: 16.8 kWp
 A sailing charter cat that was transformed into a “Silent Yacht”.
 Uses superb Super-B batteries, OceanVolt propulsion.
 I'm borrowing the idea of splitting the solar panels into two sections (port & starboard),
-since Curious Cat’s beam is 30', and I don't need the whole roof to fly away at once, next time she goes through a storm.
+since Curious Cat’s beam is 30', and I don't want the whole roof to fly away next time she goes through a storm.
 
 Solar array output: 7.2 kWp
 
