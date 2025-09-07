@@ -1,3 +1,163 @@
+propulsion:
+  - what: port motor
+    name: electric motor
+    location: Port aft
+    size: 15kW
+    voltage: 48V
+    manufacturer: Rim Drive Technology
+    model: POD 15.0
+    link: https://rimdrivetechnology.nl/product/pod-15-0/
+    image: ../../assets/curious-cat/systems/rdt-pod-15.avif
+    manufactured_in: NL
+    notes: Counter-clockwise rotation
+
+  - what: starboard motor
+    name: electric motor
+    location: Starboard aft
+    size: 15kW
+    voltage: 48V
+    manufacturer: Rim Drive Technology
+    model: POD 15.0
+    link: https://rimdrivetechnology.nl/product/pod-15-0/
+    image: ../../assets/curious-cat/systems/rdt-pod-15.avif
+    manufactured_in: NL
+    notes: Clockwise rotation
+
+# - **Port**:
+#     - 10KW BLDC 1290 RPM 76 Nm electric motor by [E-Tech](https://starboats.eu/electric-drives/e-tech-wg-inboard-engines/) (PI\04\22\WG10\1956\C) 🇵🇱
+#         - Internal closed-loop active cooling system
+#             - PVC fresh water lines (12mm outer diameter)
+#                 - 5 × 12mm Union Elbows by [John Guest](https://www.johnguest.com/us/en/od-tube-fittings/metric-acetal-black/elbows/union-elbow)
+#             - Aluminum radiator
+#                 - 2 × 120mm 12V fans
+#             - Coolant reservoir with two pumps
+#             - [Fish-friendly coolant](https://www.westmarine.com/west-marine-engine-antifreeze-coolant-gallon-337447.html) 🇺🇸
+#         - 48V BLDC motor controller by [Kelly Controls](https://kellycontroller.com/)
+#             - **fuses**:
+#                 - ANL 250A
+#                     - [ANL fuse holder with cover](https://www.osculati.com/en/11023-14.100.41/high-capacity-fuse-holder) by Osculati
+#                 - CNL 300A
+#                 - 2 × 3.15A 250V
+#                 - 315mA 250V
+#         - 2 × Stainless steel brackets by E-Tech 🇵🇱
+#         - 4 × [Marine X engine mount](https://www.mecanocaucho.com/en-US/products/vibration-isolators/marine-x-mount/) (small) by AMC Mecanocaucho 🇪🇸
+#         - 2 × [stainless steel rail](https://www.onlinemetals.com/en/buy/stainless-steel/2-5-x-2-5-x-0-1875-stainless-angle-316-316l/pid/2169) (2.5" × 2.5" × 24", 0.1875" thick) 🇺🇸
+#     - Magnetic coupling by MGT
+#         - 6 x Mag wheel 200
+#             - 8 x [#8-32 x 2" titanium countersunk socket screw](https://www.ti64.com/product-p/6834.htm)
+#             - 8 x [#8-32 titanium hex nylon insert lock nut](https://www.ti64.com/product-p/6735.htm)
+#             - 8 x [#8 flat washer](https://www.ti64.com/product-p/6835.htm)
+#     - 3-blade feathering bronze propeller
+#         - 1-1/8" keyed stainless steel shaft
+#             - [Big Boy Type “A”](http://www.frontlineindustries.com/products/couplings/) flexible shaft coupling coupling by [Frontline Industries, Inc.](http://www.frontlineindustries.com/) (modified) 🇺🇸
+
+# - **Starboard**:
+#     - 10KW BLDC 1290 RPM 76 Nm electric motor by [E-Tech](https://starboats.eu/electric-drives/e-tech-wg-inboard-engines/) (PI\04\22\WG10\1956\C) 🇵🇱
+#         - Internal closed-loop active cooling system
+#             - PVC fresh water lines (12mm outer diameter)
+#                 - 5 × 12mm Union Elbows by [John Guest](https://www.johnguest.com/us/en/od-tube-fittings/metric-acetal-black/elbows/union-elbow)
+#             - Aluminum radiator
+#                 - 2 × 120mm 12V fans
+#             - Coolant reservoir with two pumps
+#             - [Fish-friendly coolant](https://www.westmarine.com/west-marine-engine-antifreeze-coolant-gallon-337447.html) 🇺🇸
+#         - 48V BLDC motor controller by [Kelly Controls](https://kellycontroller.com/)
+#             - **Fuses**:
+#                 - ANL 250A
+#                     - [ANL fuse holder with cover](https://www.osculati.com/en/11023-14.100.41/high-capacity-fuse-holder) by Osculati
+#                 - CNL 300A
+#                 - 2 × 3.15A 250V
+#                 - 315mA 250V
+#         - 2 × Stainless steel brackets by E-Tech 🇵🇱
+#         - 4 × [Marine X engine mount](https://www.mecanocaucho.com/en-US/products/vibration-isolators/marine-x-mount/) (small) by AMC Mecanocaucho 🇪🇸
+#         - 2 × [stainless steel rail](https://www.onlinemetals.com/en/buy/stainless-steel/2-5-x-2-5-x-0-1875-stainless-angle-316-316l/pid/2169) (2.5" × 2.5" × 24", 0.1875" thick) 🇺🇸
+#     - 3-blade feathering bronze propeller
+#         - 1-1/8" keyed stainless steel shaft
+#             - [Big Boy Type “A”](http://www.frontlineindustries.com/products/couplings/) flexible shaft coupling coupling by [Frontline Industries, Inc.](http://www.frontlineindustries.com/) (modified) 🇺🇸
+
+# - Aluminum dual-joystick controller by E-Tech 🇵🇱
+# - 2 × monochrome LCD display by [AmperFlex](https://amperflex.com/en/) 🇵🇱
+# - 2 × Key switch
+
+##############################################################################
+
+electric:
+  ## Batteries
+  - what: 48v battery bank
+    name: high-voltage battery bank
+    type: LiFePo4
+    manufacturer: Epoch Batteries
+    voltage: 48VDC
+    size: 19.2kWh
+    capacity: 400Ah (4 x 100Ah)
+    count: 4
+    link: https://www.epochbatteries.com/products/48v-100ah-heated-bluetooth-lifepo4-battery
+    image: https://cdn.shopify.com/s/files/1/0251/0484/2798/files/54A98952-F238-4C65-ADE8-07891F1A3C16_fa4da043-6abf-48cb-9d01-dc4a8ea03156.png
+
+  - what: bus bar
+    name: bus bars
+    connected_to: 48v battery bank
+    material: copper (grade 10100)
+    size: 0.375" x 2"
+    count: 2
+    image: ../../assets/curious-cat/systems/bus_bars.jpg
+    link: https://www.onlinemetals.com/en/buy/copper/0-375-x-2-oxygen-free-copper-rectangle-bar-101-h02/pid/mp-00005330
+
+  - what: 12v battery bank
+    name: low-voltage battery bank
+    type: LiFePo4
+    manufacturer: Epoch Batteries
+    link: https://www.epochbatteries.com/products/12v-marine-battery-lithium-100ah
+    image: https://cdn.shopify.com/s/files/1/0251/0484/2798/products/4456234562.png?v=1687029165
+    size: 2.4kWh
+    voltage: 12VDC
+    capacity: 200Ah (2 x 100Ah)
+    count: 2
+
+  - what: separator
+
+  ## Photovoltaic system
+  - what: solar panel
+    connected_to: 48v battery charger
+    name: solar panel array
+    power: 1.2KW (100W x 12)
+    manufacturer: SunPower
+    model: SPR-E-Flex-100
+    manufactured_in: FR
+    image: ../../assets/curious-cat/systems/solar-panel.webp
+    link: https://www.expertpower.us/products/100w-sunpower-solar-panel
+
+  - what: 48v battery charger #, inverter, solar charge controller
+    connected_to: bus bar
+    name: MPPT / charge controller / inverter
+    voltage: 48VDC, 230VAC
+    manufacturer: Victron
+    model: Multi RS Solar 48/6000
+    power: 6KW
+    link: https://www.victronenergy.com/inverters-chargers/multi-rs-solar
+    image: https://www.victronenergy.com/upload/products/Multi%20RS%20Solar%20400-100.png
+    # purchased through [Battery One PR](https://www.batteryonepr.com)
+    designed_in: NL
+    manufactured_in: MX
+
+  - what: 12v battery charger
+    connected_to: 12v battery bank
+    name: battery charger
+    manufacturer: ProNautic
+    model: 1230P
+    voltage: 12VDC, 120VAC, 240VAC
+    link: https://www.promariner.com/en/p/63130/ProNautic-1230P
+    image: https://www.westmarine.com/dw/image/v2/BGFG_PRD/on/demandware.static/-/Sites-wm-master-catalog/default/dw848e2fd1/images/orig/12039467_1500.15062018013015.jpg
+
+# HILLMAN 1/8" x 1" 8' ALUM - FLAT  -  6208 SKU 764257 H# 11295
+
+# - what: Scotty AI 1.5KW 48VDC-to-12VDC battery charger
+# - what: Monitoring system [Victron Cerbo GX](https://www.victronenergy.com/panel-systems-remote-monitoring/cerbo-gx) 🇳🇱
+# - what: 2 × 200A 58V fuse by Victron
+# - what: 2 × MEGA-Fuse holder by Victron
+# - what: 2 × [275A 48V Switch by Victron](https://www.victronenergy.com/dc-distribution-systems/battery-switch-on-off)
+
+##############################################################################
+
 anchoring:
   - what: primary_anchor
     name: delta anchor
@@ -230,84 +390,6 @@ docking:
     material: wool, polyester, velcro
     size: 14mm – 22mm rope diameter
     count: 4
-
-##############################################################################
-
-electric:
-  ## Batteries
-  - what: 48v battery bank
-    name: high-voltage battery bank
-    type: LiFePo4
-    manufacturer: Epoch Batteries
-    voltage: 48VDC
-    size: 19.2kWh
-    capacity: 400Ah (4 x 100Ah)
-    count: 4
-    link: https://www.epochbatteries.com/products/48v-100ah-heated-bluetooth-lifepo4-battery
-    image: https://cdn.shopify.com/s/files/1/0251/0484/2798/files/54A98952-F238-4C65-ADE8-07891F1A3C16_fa4da043-6abf-48cb-9d01-dc4a8ea03156.png
-
-  - what: bus bar
-    name: bus bars
-    connected_to: 48v battery bank
-    material: copper (grade 10100)
-    size: 0.375" x 2"
-    count: 2
-    image: ../../assets/curious-cat/systems/bus_bars.jpg
-    link: https://www.onlinemetals.com/en/buy/copper/0-375-x-2-oxygen-free-copper-rectangle-bar-101-h02/pid/mp-00005330
-
-  - what: 12v battery bank
-    name: low-voltage battery bank
-    type: LiFePo4
-    manufacturer: Epoch Batteries
-    link: https://www.epochbatteries.com/products/12v-marine-battery-lithium-100ah
-    image: https://cdn.shopify.com/s/files/1/0251/0484/2798/products/4456234562.png?v=1687029165
-    size: 2.4kWh
-    voltage: 12VDC
-    capacity: 200Ah (2 x 100Ah)
-    count: 2
-
-  - what: separator
-
-  ## Photovoltaic system
-  - what: solar panel
-    connected_to: 48v battery charger
-    name: solar panel array
-    power: 1.2KW (100W x 12)
-    manufacturer: SunPower
-    model: SPR-E-Flex-100
-    manufactured_in: FR
-    image: ../../assets/curious-cat/systems/solar-panel.webp
-    link: https://www.expertpower.us/products/100w-sunpower-solar-panel
-
-  - what: 48v battery charger #, inverter, solar charge controller
-    connected_to: bus bar
-    name: MPPT / charge controller / inverter
-    voltage: 48VDC, 230VAC
-    manufacturer: Victron
-    model: Multi RS Solar 48/6000
-    power: 6KW
-    link: https://www.victronenergy.com/inverters-chargers/multi-rs-solar
-    image: https://www.victronenergy.com/upload/products/Multi%20RS%20Solar%20400-100.png
-    # purchased through [Battery One PR](https://www.batteryonepr.com)
-    designed_in: NL
-    manufactured_in: MX
-
-  - what: 12v battery charger
-    connected_to: 12v battery bank
-    name: battery charger
-    manufacturer: ProNautic
-    model: 1230P
-    voltage: 12VDC, 120VAC, 240VAC
-    link: https://www.promariner.com/en/p/63130/ProNautic-1230P
-    image: https://www.westmarine.com/dw/image/v2/BGFG_PRD/on/demandware.static/-/Sites-wm-master-catalog/default/dw848e2fd1/images/orig/12039467_1500.15062018013015.jpg
-
-# HILLMAN 1/8" x 1" 8' ALUM - FLAT  -  6208 SKU 764257 H# 11295
-
-# - what: Scotty AI 1.5KW 48VDC-to-12VDC battery charger
-# - what: Monitoring system [Victron Cerbo GX](https://www.victronenergy.com/panel-systems-remote-monitoring/cerbo-gx) 🇳🇱
-# - what: 2 × 200A 58V fuse by Victron
-# - what: 2 × MEGA-Fuse holder by Victron
-# - what: 2 × [275A 48V Switch by Victron](https://www.victronenergy.com/dc-distribution-systems/battery-switch-on-off)
 
 ##############################################################################
 
@@ -736,91 +818,6 @@ paint:
 # https://www.firefree.com/fire-retardant-fire-resistant-paint-products/ff88-intumescent-coating.php
 # https://nanotechmaterials.com/cool-roof-coating-system/
 # https://lifetimepluscoatings.com/cool-life/
-
-##############################################################################
-
-propulsion:
-  - what: port motor
-    name: electric motor
-    location: Port aft
-    size: 15kW
-    voltage: 48V
-    manufacturer: Rim Drive Technology
-    model: POD 15.0
-    link: https://rimdrivetechnology.nl/product/pod-15-0/
-    image: ../../assets/curious-cat/systems/rdt-pod-15.avif
-    manufactured_in: NL
-    notes: Counter-clockwise rotation
-
-  - what: starboard motor
-    name: electric motor
-    location: Starboard aft
-    size: 15kW
-    voltage: 48V
-    manufacturer: Rim Drive Technology
-    model: POD 15.0
-    link: https://rimdrivetechnology.nl/product/pod-15-0/
-    image: ../../assets/curious-cat/systems/rdt-pod-15.avif
-    manufactured_in: NL
-    notes: Clockwise rotation
-
-# propulsion:
-# https://tbnation.net/products/cmc-pt-35-tilt-and-trim-jackplate-for-up-to-35-hp (was recommended by Rim Technologies)
-
-# - **Port**:
-#     - 10KW BLDC 1290 RPM 76 Nm electric motor by [E-Tech](https://starboats.eu/electric-drives/e-tech-wg-inboard-engines/) (PI\04\22\WG10\1956\C) 🇵🇱
-#         - Internal closed-loop active cooling system
-#             - PVC fresh water lines (12mm outer diameter)
-#                 - 5 × 12mm Union Elbows by [John Guest](https://www.johnguest.com/us/en/od-tube-fittings/metric-acetal-black/elbows/union-elbow)
-#             - Aluminum radiator
-#                 - 2 × 120mm 12V fans
-#             - Coolant reservoir with two pumps
-#             - [Fish-friendly coolant](https://www.westmarine.com/west-marine-engine-antifreeze-coolant-gallon-337447.html) 🇺🇸
-#         - 48V BLDC motor controller by [Kelly Controls](https://kellycontroller.com/)
-#             - **fuses**:
-#                 - ANL 250A
-#                     - [ANL fuse holder with cover](https://www.osculati.com/en/11023-14.100.41/high-capacity-fuse-holder) by Osculati
-#                 - CNL 300A
-#                 - 2 × 3.15A 250V
-#                 - 315mA 250V
-#         - 2 × Stainless steel brackets by E-Tech 🇵🇱
-#         - 4 × [Marine X engine mount](https://www.mecanocaucho.com/en-US/products/vibration-isolators/marine-x-mount/) (small) by AMC Mecanocaucho 🇪🇸
-#         - 2 × [stainless steel rail](https://www.onlinemetals.com/en/buy/stainless-steel/2-5-x-2-5-x-0-1875-stainless-angle-316-316l/pid/2169) (2.5" × 2.5" × 24", 0.1875" thick) 🇺🇸
-#     - Magnetic coupling by MGT
-#         - 6 x Mag wheel 200
-#             - 8 x [#8-32 x 2" titanium countersunk socket screw](https://www.ti64.com/product-p/6834.htm)
-#             - 8 x [#8-32 titanium hex nylon insert lock nut](https://www.ti64.com/product-p/6735.htm)
-#             - 8 x [#8 flat washer](https://www.ti64.com/product-p/6835.htm)
-#     - 3-blade feathering bronze propeller
-#         - 1-1/8" keyed stainless steel shaft
-#             - [Big Boy Type “A”](http://www.frontlineindustries.com/products/couplings/) flexible shaft coupling coupling by [Frontline Industries, Inc.](http://www.frontlineindustries.com/) (modified) 🇺🇸
-
-# - **Starboard**:
-#     - 10KW BLDC 1290 RPM 76 Nm electric motor by [E-Tech](https://starboats.eu/electric-drives/e-tech-wg-inboard-engines/) (PI\04\22\WG10\1956\C) 🇵🇱
-#         - Internal closed-loop active cooling system
-#             - PVC fresh water lines (12mm outer diameter)
-#                 - 5 × 12mm Union Elbows by [John Guest](https://www.johnguest.com/us/en/od-tube-fittings/metric-acetal-black/elbows/union-elbow)
-#             - Aluminum radiator
-#                 - 2 × 120mm 12V fans
-#             - Coolant reservoir with two pumps
-#             - [Fish-friendly coolant](https://www.westmarine.com/west-marine-engine-antifreeze-coolant-gallon-337447.html) 🇺🇸
-#         - 48V BLDC motor controller by [Kelly Controls](https://kellycontroller.com/)
-#             - **Fuses**:
-#                 - ANL 250A
-#                     - [ANL fuse holder with cover](https://www.osculati.com/en/11023-14.100.41/high-capacity-fuse-holder) by Osculati
-#                 - CNL 300A
-#                 - 2 × 3.15A 250V
-#                 - 315mA 250V
-#         - 2 × Stainless steel brackets by E-Tech 🇵🇱
-#         - 4 × [Marine X engine mount](https://www.mecanocaucho.com/en-US/products/vibration-isolators/marine-x-mount/) (small) by AMC Mecanocaucho 🇪🇸
-#         - 2 × [stainless steel rail](https://www.onlinemetals.com/en/buy/stainless-steel/2-5-x-2-5-x-0-1875-stainless-angle-316-316l/pid/2169) (2.5" × 2.5" × 24", 0.1875" thick) 🇺🇸
-#     - 3-blade feathering bronze propeller
-#         - 1-1/8" keyed stainless steel shaft
-#             - [Big Boy Type “A”](http://www.frontlineindustries.com/products/couplings/) flexible shaft coupling coupling by [Frontline Industries, Inc.](http://www.frontlineindustries.com/) (modified) 🇺🇸
-
-# - Aluminum dual-joystick controller by E-Tech 🇵🇱
-# - 2 × monochrome LCD display by [AmperFlex](https://amperflex.com/en/) 🇵🇱
-# - 2 × Key switch
 
 ##############################################################################
 
@@ -1291,8 +1288,6 @@ transportation:
     link: https://www.thrustme.no/eu/kicker-eu
     designed_in: "NO"
     manufactured_in: CN
-
-# Sabfoil Torpedo 100L
 
 ##############################################################################
 
