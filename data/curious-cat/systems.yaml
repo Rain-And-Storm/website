@@ -377,6 +377,17 @@ docking:
     material: nylon
     image: https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTh4R25N9gXzkYszYzlzaUsG-jhA9FRGI03S-qhxFjL488FSTlyIyWUTHefKCTQOKVEGyGfYrFLe2Z-4nSsNmYZaxjhYRyF3xhVIZqZhA1cQtE&usqp=CAc
     count: 4
+  - what: new bow fenders
+    name: Textile fenders
+    manufacturer: Fendertex
+    model: C84
+    color: black
+    count: 2
+    link: https://store.pyiinc.com/collections/cylindrical-fenders/products/c84
+    image: https://i.ebayimg.com/images/g/8AwAAOSweHVkSSjm/s-l400.jpg
+    location: bow
+
+  # Docking lines + chafe guard
   - what: docking lines
     name: docking lines
     material: nylon

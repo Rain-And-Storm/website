@@ -302,6 +302,7 @@ canvas#curious-comments {
     &.systems {
         fieldset {
             align-items: self-start;
+            background-color: rgba(255, 255, 255, 0.85);
             border-radius: 0.5rem;
             font-size: 75%;
             padding: 1.25rem;
@@ -524,6 +525,10 @@ canvas#curious-comments {
 
     .curious-cat {
         &.systems {
+            fieldset {
+                background-color: rgba(0, 0, 0, 0.85);
+            }
+
             div {
                 background: rgba($color-bg-dark, 0.8);
             }
