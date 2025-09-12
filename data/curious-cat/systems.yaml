@@ -247,19 +247,21 @@ cleaning:
     link: https://www.seasucker.com/products/4-5-seasucker-lp-housing-black?variant=27661615057
     manufactured_in: US
 
+  - what: pressure washer
+    name: pressure washer
+    manufacturer: Bosch
+    model: UniversalAquatak 135
+    voltage: 220VAC
+    image: ../../assets/curious-cat/systems/pressure-washer.png
+    link: https://www.bosch-diy.com/eg/en/p/universalaquatak-135-06008a7c00
+    notes: very light, brushless motor, great for cleaning props, hull, solar panels
+
   # - what: vacuum cleaner
   #   name: portable vacuum cleaner
   #   manufacturer: Ryobi
   #   voltage: 18VDC
   #   manufactured_in: CN
   #   link: https://www.ryobitools.com/products/details/33287201877
-
-  # - what: pressure washer
-  #   name: cordless power cleaner
-  #   manufacturer: Ryobi
-  #   voltage: 18VDC
-  #   manufactured_in: CN
-  #   link: https://www.ryobitools.com/products/details/46396036766
 
 communication:
   - what: satellite internet
@@ -658,10 +660,7 @@ navigation:
     name: Horns
     material: stainless steel
     voltage: 12VDC
-    link: http://www.schmittongaromarine.com
-    manufacturer: Schmitt & Ongaro
-    manufactured_in: TW
-    image: ../../assets/curious-cat/systems/horns.jpg
+    image: ../../assets/curious-cat/systems/horns.webp
   - what: horn_button_port
     name: Push button
     connected_to: horns
@@ -704,8 +703,8 @@ openings:
 
   ## Windows
   - what: windows
-    name: round hatches
-    location: cabin
+    name: round cabin hatches
+    location: cabin (3 on each side, 4 in the front)
     manufacturer: Jim Black
     model: 592-20RND-05-02-05
     size: 20"
@@ -734,7 +733,8 @@ openings:
     image: https://defender.com/media/catalog/product/cache/a2bf45e9635ff86c8c09fbc84b193941/catalogimages/lewmar/ocean-hatch-60-19-3-4-x-19-3-4-flat-base-39660050--3.jpg
     count: 2
   - what: hatch
-    location: cabin
+    name: cabin hatch
+    location: cabin (top)
     manufacturer: Lewmar
     model: Ocean Hatch
     size: 50
