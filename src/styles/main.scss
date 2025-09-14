@@ -141,6 +141,14 @@ table {
     }
 }
 
+fieldset {
+    align-items: self-start;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 0.5rem;
+    font-size: 75%;
+    padding: 1.25rem;
+}
+
 canvas#curious-comments {
     position: fixed;
     top: 0;
@@ -250,14 +258,12 @@ canvas#curious-comments {
     }
 }
 
-.designs {
-    ol {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 3rem;
-        list-style: none;
-    }
+ol.items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3rem;
+    list-style: none;
 
     li {
         flex: calc(33.33% - 2rem);
@@ -275,7 +281,6 @@ canvas#curious-comments {
         div {
             display: flex;
             flex-wrap: wrap;
-            margin-bottom: 4rem;
 
             a {
                 aspect-ratio: 1 / 1;
@@ -300,14 +305,6 @@ canvas#curious-comments {
     }
 
     &.systems {
-        fieldset {
-            align-items: self-start;
-            background-color: rgba(255, 255, 255, 0.85);
-            border-radius: 0.5rem;
-            font-size: 75%;
-            padding: 1.25rem;
-        }
-
         div {
             background: rgba($color-bg, 0.8);
             border: 2px solid rgb(192, 192, 192);
@@ -380,20 +377,18 @@ canvas#curious-comments {
         max-width: 70rem;
     }
 
-    .home {
-        .big-links {
-            grid-template-columns: repeat(2, minmax(0, 1fr));
-        }
-    }
-
-    .designs {
-        ol {
-            gap: 3rem;
-            list-style: none;
-        }
+    ol.items {
+        gap: 3rem;
+        list-style: none;
 
         li {
             flex: calc(50% - 1.5rem);
+        }
+    }
+
+    .home {
+        .big-links {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
         }
     }
 
@@ -426,21 +421,9 @@ canvas#curious-comments {
         }
     }
 
-    .content {
-        margin: $spacing-small;
-    }
-
-    .home {
-        .big-links {
-            grid-template-columns: repeat(1, minmax(0, 1fr));
-        }
-    }
-
-    .designs {
-        ol {
-            flex-direction: column;
-            gap: 0;
-        }
+    ol.items {
+        flex-direction: column;
+        gap: 0;
 
         li {
             flex: 100%;
@@ -448,6 +431,16 @@ canvas#curious-comments {
 
         img {
             height: 10rem;
+        }
+    }
+
+    .content {
+        margin: $spacing-small;
+    }
+
+    .home {
+        .big-links {
+            grid-template-columns: repeat(1, minmax(0, 1fr));
         }
     }
 
@@ -499,6 +492,10 @@ canvas#curious-comments {
         }
     }
 
+    fieldset {
+        background-color: rgba(0, 0, 0, 0.85);
+    }
+
     .content {
         a {
             background-color: $color-fg-dark;
@@ -525,10 +522,6 @@ canvas#curious-comments {
 
     .curious-cat {
         &.systems {
-            fieldset {
-                background-color: rgba(0, 0, 0, 0.85);
-            }
-
             div {
                 background: rgba($color-bg-dark, 0.8);
             }
@@ -537,12 +530,12 @@ canvas#curious-comments {
 
     // Smartphones
     @media (max-width: 30rem) {
+        fieldset {
+            padding: 1rem;
+        }
+
         .curious-cat {
             &.systems {
-                fieldset {
-                    padding: 1rem;
-                }
-
                 div {
                     margin: 0 2rem 2rem 0;
                 }

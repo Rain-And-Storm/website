@@ -14,7 +14,7 @@ def stage(data):
         data["definitions"]["runtime"]["cwd"],
         "data",
         "curious-cat",
-        "gallery",
+        "gallery.d",
     )
     galleryTemplateAlbums = []
     gallerySourcePath = os.path.abspath(gallerySourcePath)
@@ -34,7 +34,7 @@ def stage(data):
                 albumAndFilePath = albumName + "/" + fileName
                 albumAndThumbFilePath = albumName + "/thumb_" + fileName
                 ## Create thumbnail
-                image = Image.open("../data/curious-cat/gallery/" + albumName + "/" + fileName)
+                image = Image.open("../data/curious-cat/gallery.d/" + albumName + "/" + fileName)
                 image.thumbnail((640, 640))
                 webgen.mkdir(data["definitions"]["runtime"]["cwd"], data["config"]["Filesystem"]["DestinationDirPath"], "assets", "curious-cat", "gallery", albumName)
                 image.save(webgen.resolveFsPath(data["definitions"]["runtime"]["cwd"], data["config"]["Filesystem"]["DestinationDirPath"], "assets", "curious-cat", "gallery", albumAndThumbFilePath))
@@ -42,7 +42,7 @@ def stage(data):
                 galleryTemplateAlbums[-1]["pictures"].append({ "orig": "../../assets/curious-cat/gallery/" + albumAndFilePath, "thumb": "../../assets/curious-cat/gallery/" + albumAndThumbFilePath })
                 ## Copy original asset file
                 webgen.cp(
-                    webgen.resolveFsPath(data["definitions"]["runtime"]["cwd"], "data", "curious-cat", "gallery", albumAndFilePath),
+                    webgen.resolveFsPath(data["definitions"]["runtime"]["cwd"], "data", "curious-cat", "gallery.d", albumAndFilePath),
                     webgen.resolveFsPath(data["definitions"]["runtime"]["cwd"], data["config"]["Filesystem"]["DestinationDirPath"], "assets", "curious-cat", "gallery", albumAndFilePath)
                 )
         else:

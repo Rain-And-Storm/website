@@ -1,8 +1,11 @@
 {{#albums}}
-    <h3>{{name}}</h3>
-    <div>
-        {{#pictures}}
-            <a href="{{orig}}" style="background-image:url('{{thumb}}')"> </a>
-        {{/pictures}}
-    </div>
+    <fieldset>
+        <legend><h2>{{name}}</h2></legend>
+        <div>
+            {{#pictures}}
+                <a href="{{orig}}" style="background-image:url('{{thumb}}')"> </a>
+            {{/pictures}}
+        </div>
+    </fieldset>
+    <br />
 {{/albums}}

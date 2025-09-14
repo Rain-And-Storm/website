@@ -48,7 +48,7 @@
 - New topside paint
 - New shiny interior
 - Zero thru-hulls below water line
-- Carbon fiber or titanium stanchions
+- Carbon fiber stanchions (McConaghy or Aeolos)
 - Composite lifelines
 - New cabin windows by [Rainer Marine](https://rainiermarine.com)
 - New fenders by Fendertex

@@ -13,7 +13,7 @@ def stage(data):
     designsSourcePath = os.path.join(
         data["definitions"]["runtime"]["cwd"],
         "data",
-        data["config"]["Site"]["DesignsPath"],
+        "designs.d",
     )
     designs = []
     designsSourcePath = os.path.abspath(designsSourcePath)
@@ -37,14 +37,14 @@ def stage(data):
             designAndImageFilePath = designDirName + "/" + designFileName
             designAndImageThumbFilePath = designDirName + "/thumb_" + designFileName
             ## Create thumbnail
-            image = Image.open("../data/designs/" + designDirName + "/" + designFileName)
+            image = Image.open("../data/designs.d/" + designDirName + "/" + designFileName)
             image.thumbnail((640, 640))
             webgen.mkdir(data["definitions"]["runtime"]["cwd"], data["config"]["Filesystem"]["DestinationDirPath"], "designs", designDirName)
             image.save(webgen.resolveFsPath(data["definitions"]["runtime"]["cwd"], data["config"]["Filesystem"]["DestinationDirPath"], "designs", designAndImageThumbFilePath))
             ## Append to array of albums
             designs[-1]["images"].append({ "orig": "../../designs/" + designAndImageFilePath, "thumb": "../../designs/" + designAndImageThumbFilePath })
-    pageHTML = webgen.renderTemplate(data["templates"]["designs"], {
-        "designs": designs
+    pageHTML = webgen.renderTemplate(data["templates"]["items"], {
+        "items": designs
     })
     ## Generate HTML contents out of template
     html = webgen.renderTemplate(data["templates"]["page"], {
@@ -55,7 +55,7 @@ def stage(data):
         "criticalcss": webgen.compileSass(open("../src/styles/critical.scss", "r").read()),
         "css":         webgen.buildPath("/" + data["definitions"]["filenames"]["css"], "/designs/", relative=useRelativePaths),
         "class":       "designs content",
-        "content":     pageHTML + "<hr />" + webgen.renderMarkdown(open("../data/designs.md", "r").read()),
+        "content":     pageHTML + "<hr />" + webgen.renderMarkdown(open("../data/designs.d/README.md", "r").read()),
     })
 
     ## Create new HTML file

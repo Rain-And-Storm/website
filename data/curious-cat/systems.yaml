@@ -254,7 +254,7 @@ cleaning:
     voltage: 220VAC
     image: ../../assets/curious-cat/systems/pressure-washer.png
     link: https://www.bosch-diy.com/eg/en/p/universalaquatak-135-06008a7c00
-    notes: very light, brushless motor, great for cleaning props, hull, solar panels
+    notes: very light, brushless motor; great for cleaning props, hull, solar panels
 
   # - what: vacuum cleaner
   #   name: portable vacuum cleaner
@@ -373,12 +373,12 @@ docking:
     image: ../../assets/curious-cat/systems/fender.jpg
     link: https://www.taylormadeproducts.com/products/fenders-and-buoys/boat-fenders/super-gard-fenders/
   - what: fender whips
-    connected_to: fenders
+    connected_to: fenders #, new bow fenders
     name: fender whips
     link: https://www.amazon.com/dp/B07HWDQJ51
     material: nylon
     image: https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTh4R25N9gXzkYszYzlzaUsG-jhA9FRGI03S-qhxFjL488FSTlyIyWUTHefKCTQOKVEGyGfYrFLe2Z-4nSsNmYZaxjhYRyF3xhVIZqZhA1cQtE&usqp=CAc
-    count: 4
+    count: 8
   - what: new bow fenders
     name: Textile fenders
     manufacturer: Fendertex
@@ -426,14 +426,14 @@ fishing:
   ## Line
   - what: fishing line
     name: fishing line
+    connected_to: fishing rod #, small fishing rod
     manufacturer: Daiwa
     manufactured_in: JP
-    connected_to: fishing rod, small fishing rod
   # https://www.ebay.com/itm/276703272679
 
   ## Traps
-  - what: titanium crab trap
-    name: small crab trap
+  - what: small crab trap
+    name: titanium crab trap
     material: titanium, nylon, PLA
     link: https://www.printables.com/model/1181125-titanium-shrimp-trap
     image: ../../assets/curious-cat/systems/titanium-shrimp-trap.webp
@@ -448,6 +448,15 @@ food:
     model: Sport Marine
     image: ../../assets/curious-cat/systems/solar-oven.webp
     link: https://gosun.co/products/sport-marine
+    # TODO: add ambassador code to the link
+
+  - what: Sport-E Cooking Tray
+    name: Hybrid Cooking Tray
+    connected_to: solar grill
+    material: stainless steel
+    voltage: 12VDC
+    link: https://gosun.co/products/sport-e-cooking-tray
+    image: https://gosun.co/cdn/shop/files/Perspective_01.jpg
     # TODO: add ambassador code to the link
 
   - what: gosun kettle
@@ -1596,7 +1605,7 @@ workshop:
     name: waterproof caliper
     manufacturer: Mitutoyo
     material: stainless steel
-    model: 500-738-20calipers.webp
+    model: 500-738-20
     image: ../../assets/curious-cat/systems/calipers.webp
     link: https://shop.mitutoyo.eu/web/mitutoyo/en/mitutoyo/01.03.04A/Digital%20ABS%20Caliper%20CoolantProof%20IP67/$catalogue/mitutoyoData/PR/500-738-20/index.xhtml
     manufactured_in: JP

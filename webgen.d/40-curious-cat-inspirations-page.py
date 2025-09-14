@@ -8,7 +8,7 @@ def stage(data):
 
     ## Copy asset files
     webgen.cpr(
-        webgen.resolveFsPath(data["definitions"]["runtime"]["cwd"], "data", "curious-cat", "inspirations"),
+        webgen.resolveFsPath(data["definitions"]["runtime"]["cwd"], "data", "curious-cat", "inspirations.d"),
         webgen.resolveFsPath(data["definitions"]["runtime"]["cwd"], data["config"]["Filesystem"]["DestinationDirPath"], "assets", "curious-cat", data["config"]["Site"]["InspirationsPath"])
     )
 
