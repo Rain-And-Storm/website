@@ -119,7 +119,7 @@ electric:
   - what: solar panel
     connected_to: 48v battery charger
     name: solar panel array
-    power: 1.2KW (100W x 12)
+    power: 2.0 kWp (100W x 20)
     manufacturer: SunPower
     model: SPR-E-Flex-100
     manufactured_in: FR
@@ -365,21 +365,7 @@ docking:
   - what: separator
 
   ## Fenders
-  - what: fenders
-    name: fenders
-    manufacturer: Taylor Made
-    size: 8"
-    count: 4
-    image: ../../assets/curious-cat/systems/fender.jpg
-    link: https://www.taylormadeproducts.com/products/fenders-and-buoys/boat-fenders/super-gard-fenders/
-  - what: fender whips
-    connected_to: fenders #, new bow fenders
-    name: fender whips
-    link: https://www.amazon.com/dp/B07HWDQJ51
-    material: nylon
-    image: https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTh4R25N9gXzkYszYzlzaUsG-jhA9FRGI03S-qhxFjL488FSTlyIyWUTHefKCTQOKVEGyGfYrFLe2Z-4nSsNmYZaxjhYRyF3xhVIZqZhA1cQtE&usqp=CAc
-    count: 8
-  - what: new bow fenders
+  - what: bow fenders
     name: Textile fenders
     manufacturer: Fendertex
     model: C84
@@ -388,8 +374,34 @@ docking:
     link: https://store.pyiinc.com/collections/cylindrical-fenders/products/c84
     image: https://i.ebayimg.com/images/g/8AwAAOSweHVkSSjm/s-l400.jpg
     location: bow
+  - what: new bow midship fenders
+    name: Textile fenders
+    manufacturer: Fendertex
+    model: C104
+    color: black
+    count: 2
+    link: https://store.pyiinc.com/collections/cylindrical-fenders/products/c104
+    image: https://i.ebayimg.com/images/g/8AwAAOSweHVkSSjm/s-l400.jpg
+    location: bow-midship
+  - what: new midship fenders
+    name: Textile fenders
+    manufacturer: Fendertex
+    model: C124
+    color: black
+    count: 4
+    link: https://store.pyiinc.com/collections/cylindrical-fenders/products/c124
+    image: https://i.ebayimg.com/images/g/8AwAAOSweHVkSSjm/s-l400.jpg
+    location: midship
+  ## Fender whips
+  - what: fender whips
+    # connected_to: fenders #, bow fenders
+    name: fender whips
+    link: https://www.amazon.com/dp/B07HWDQJ51
+    material: nylon
+    image: https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTh4R25N9gXzkYszYzlzaUsG-jhA9FRGI03S-qhxFjL488FSTlyIyWUTHefKCTQOKVEGyGfYrFLe2Z-4nSsNmYZaxjhYRyF3xhVIZqZhA1cQtE&usqp=CAc
+    count: 8
 
-  # Docking lines + chafe guard
+  ## Docking lines & chafe guards
   - what: docking lines
     name: docking lines
     material: nylon
