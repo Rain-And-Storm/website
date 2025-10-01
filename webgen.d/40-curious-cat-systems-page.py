@@ -1,4 +1,4 @@
-## Responsible for creating Curious Cat's systems page’s HTML file
+## Responsible for creating Curious Cat's equipment page’s HTML file
 
 import os
 

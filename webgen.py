@@ -213,7 +213,7 @@ if __name__ == "__main__":
                                 },
                                 {
                                     "destination": "/curious-cat/systems/",
-                                    "label": "Systems"
+                                    "label": "Equipment"
                                 }
                             ]
                         },

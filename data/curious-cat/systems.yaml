@@ -1,85 +1,3 @@
-propulsion:
-  - what: port motor
-    name: electric motor
-    location: Port aft
-    size: 15kW
-    voltage: 48V
-    manufacturer: Rim Drive Technology
-    model: POD 15.0
-    link: https://rimdrivetechnology.nl/product/pod-15-0/
-    image: ../../assets/curious-cat/systems/rdt-pod-15.avif
-    manufactured_in: NL
-    notes: Counter-clockwise rotation
-
-  - what: starboard motor
-    name: electric motor
-    location: Starboard aft
-    size: 15kW
-    voltage: 48V
-    manufacturer: Rim Drive Technology
-    model: POD 15.0
-    link: https://rimdrivetechnology.nl/product/pod-15-0/
-    image: ../../assets/curious-cat/systems/rdt-pod-15.avif
-    manufactured_in: NL
-    notes: Clockwise rotation
-
-# - **Port**:
-#     - 10KW BLDC 1290 RPM 76 Nm electric motor by [E-Tech](https://starboats.eu/electric-drives/e-tech-wg-inboard-engines/) (PI\04\22\WG10\1956\C) 🇵🇱
-#         - Internal closed-loop active cooling system
-#             - PVC fresh water lines (12mm outer diameter)
-#                 - 5 × 12mm Union Elbows by [John Guest](https://www.johnguest.com/us/en/od-tube-fittings/metric-acetal-black/elbows/union-elbow)
-#             - Aluminum radiator
-#                 - 2 × 120mm 12V fans
-#             - Coolant reservoir with two pumps
-#             - [Fish-friendly coolant](https://www.westmarine.com/west-marine-engine-antifreeze-coolant-gallon-337447.html) 🇺🇸
-#         - 48V BLDC motor controller by [Kelly Controls](https://kellycontroller.com/)
-#             - **fuses**:
-#                 - ANL 250A
-#                     - [ANL fuse holder with cover](https://www.osculati.com/en/11023-14.100.41/high-capacity-fuse-holder) by Osculati
-#                 - CNL 300A
-#                 - 2 × 3.15A 250V
-#                 - 315mA 250V
-#         - 2 × Stainless steel brackets by E-Tech 🇵🇱
-#         - 4 × [Marine X engine mount](https://www.mecanocaucho.com/en-US/products/vibration-isolators/marine-x-mount/) (small) by AMC Mecanocaucho 🇪🇸
-#         - 2 × [stainless steel rail](https://www.onlinemetals.com/en/buy/stainless-steel/2-5-x-2-5-x-0-1875-stainless-angle-316-316l/pid/2169) (2.5" × 2.5" × 24", 0.1875" thick) 🇺🇸
-#     - Magnetic coupling by MGT
-#         - 6 x Mag wheel 200
-#             - 8 x [#8-32 x 2" titanium countersunk socket screw](https://www.ti64.com/product-p/6834.htm)
-#             - 8 x [#8-32 titanium hex nylon insert lock nut](https://www.ti64.com/product-p/6735.htm)
-#             - 8 x [#8 flat washer](https://www.ti64.com/product-p/6835.htm)
-#     - 3-blade feathering bronze propeller
-#         - 1-1/8" keyed stainless steel shaft
-#             - [Big Boy Type “A”](http://www.frontlineindustries.com/products/couplings/) flexible shaft coupling coupling by [Frontline Industries, Inc.](http://www.frontlineindustries.com/) (modified) 🇺🇸
-
-# - **Starboard**:
-#     - 10KW BLDC 1290 RPM 76 Nm electric motor by [E-Tech](https://starboats.eu/electric-drives/e-tech-wg-inboard-engines/) (PI\04\22\WG10\1956\C) 🇵🇱
-#         - Internal closed-loop active cooling system
-#             - PVC fresh water lines (12mm outer diameter)
-#                 - 5 × 12mm Union Elbows by [John Guest](https://www.johnguest.com/us/en/od-tube-fittings/metric-acetal-black/elbows/union-elbow)
-#             - Aluminum radiator
-#                 - 2 × 120mm 12V fans
-#             - Coolant reservoir with two pumps
-#             - [Fish-friendly coolant](https://www.westmarine.com/west-marine-engine-antifreeze-coolant-gallon-337447.html) 🇺🇸
-#         - 48V BLDC motor controller by [Kelly Controls](https://kellycontroller.com/)
-#             - **Fuses**:
-#                 - ANL 250A
-#                     - [ANL fuse holder with cover](https://www.osculati.com/en/11023-14.100.41/high-capacity-fuse-holder) by Osculati
-#                 - CNL 300A
-#                 - 2 × 3.15A 250V
-#                 - 315mA 250V
-#         - 2 × Stainless steel brackets by E-Tech 🇵🇱
-#         - 4 × [Marine X engine mount](https://www.mecanocaucho.com/en-US/products/vibration-isolators/marine-x-mount/) (small) by AMC Mecanocaucho 🇪🇸
-#         - 2 × [stainless steel rail](https://www.onlinemetals.com/en/buy/stainless-steel/2-5-x-2-5-x-0-1875-stainless-angle-316-316l/pid/2169) (2.5" × 2.5" × 24", 0.1875" thick) 🇺🇸
-#     - 3-blade feathering bronze propeller
-#         - 1-1/8" keyed stainless steel shaft
-#             - [Big Boy Type “A”](http://www.frontlineindustries.com/products/couplings/) flexible shaft coupling coupling by [Frontline Industries, Inc.](http://www.frontlineindustries.com/) (modified) 🇺🇸
-
-# - Aluminum dual-joystick controller by E-Tech 🇵🇱
-# - 2 × monochrome LCD display by [AmperFlex](https://amperflex.com/en/) 🇵🇱
-# - 2 × Key switch
-
-##############################################################################
-
 electric:
   ## Batteries
   - what: 48v battery bank
@@ -155,6 +73,97 @@ electric:
 # - what: 2 × 200A 58V fuse by Victron
 # - what: 2 × MEGA-Fuse holder by Victron
 # - what: 2 × [275A 48V Switch by Victron](https://www.victronenergy.com/dc-distribution-systems/battery-switch-on-off)
+
+##############################################################################
+
+propulsion:
+  - what: port motor
+    name: pod drive
+    location: Port aft
+    power: 15kW
+    voltage: 48V
+    manufacturer: Rim Drive Technology
+    model: POD 15.0
+    link: https://rimdrivetechnology.nl/product/pod-15-0/
+    image: ../../assets/curious-cat/systems/rdt-pod-15.avif
+    manufactured_in: NL
+    notes: Counter-clockwise rotation
+
+  - what: starboard motor
+    name: pod drive
+    location: Starboard aft
+    power: 15kW
+    voltage: 48V
+    manufacturer: Rim Drive Technology
+    model: POD 15.0
+    link: https://rimdrivetechnology.nl/product/pod-15-0/
+    image: ../../assets/curious-cat/systems/rdt-pod-15.avif
+    manufactured_in: NL
+    notes: Clockwise rotation
+
+  - what: fasteners
+    name: fasteners
+    material: Grade 5 titanium
+    model: M10–1.5, 30mm
+    link: https://www.ti64.com/product-p/4085.htm
+    image: https://www.ti64.com/v/vspfiles/photos/4085-2T.jpg
+    count: 12
+    # connected_to: port motor, starboard motor
+
+# - **Port**:
+#     - 10KW BLDC 1290 RPM 76 Nm electric motor by [E-Tech](https://starboats.eu/electric-drives/e-tech-wg-inboard-engines/) (PI\04\22\WG10\1956\C) 🇵🇱
+#         - Internal closed-loop active cooling system
+#             - PVC fresh water lines (12mm outer diameter)
+#                 - 5 × 12mm Union Elbows by [John Guest](https://www.johnguest.com/us/en/od-tube-fittings/metric-acetal-black/elbows/union-elbow)
+#             - Aluminum radiator
+#                 - 2 × 120mm 12V fans
+#             - Coolant reservoir with two pumps
+#             - [Fish-friendly coolant](https://www.westmarine.com/west-marine-engine-antifreeze-coolant-gallon-337447.html) 🇺🇸
+#         - 48V BLDC motor controller by [Kelly Controls](https://kellycontroller.com/)
+#             - **fuses**:
+#                 - ANL 250A
+#                     - [ANL fuse holder with cover](https://www.osculati.com/en/11023-14.100.41/high-capacity-fuse-holder) by Osculati
+#                 - CNL 300A
+#                 - 2 × 3.15A 250V
+#                 - 315mA 250V
+#         - 2 × Stainless steel brackets by E-Tech 🇵🇱
+#         - 4 × [Marine X engine mount](https://www.mecanocaucho.com/en-US/products/vibration-isolators/marine-x-mount/) (small) by AMC Mecanocaucho 🇪🇸
+#         - 2 × [stainless steel rail](https://www.onlinemetals.com/en/buy/stainless-steel/2-5-x-2-5-x-0-1875-stainless-angle-316-316l/pid/2169) (2.5" × 2.5" × 24", 0.1875" thick) 🇺🇸
+#     - Magnetic coupling by MGT
+#         - 6 x Mag wheel 200
+#             - 8 x [#8-32 x 2" titanium countersunk socket screw](https://www.ti64.com/product-p/6834.htm)
+#             - 8 x [#8-32 titanium hex nylon insert lock nut](https://www.ti64.com/product-p/6735.htm)
+#             - 8 x [#8 flat washer](https://www.ti64.com/product-p/6835.htm)
+#     - 3-blade feathering bronze propeller
+#         - 1-1/8" keyed stainless steel shaft
+#             - [Big Boy Type “A”](http://www.frontlineindustries.com/products/couplings/) flexible shaft coupling coupling by [Frontline Industries, Inc.](http://www.frontlineindustries.com/) (modified) 🇺🇸
+
+# - **Starboard**:
+#     - 10KW BLDC 1290 RPM 76 Nm electric motor by [E-Tech](https://starboats.eu/electric-drives/e-tech-wg-inboard-engines/) (PI\04\22\WG10\1956\C) 🇵🇱
+#         - Internal closed-loop active cooling system
+#             - PVC fresh water lines (12mm outer diameter)
+#                 - 5 × 12mm Union Elbows by [John Guest](https://www.johnguest.com/us/en/od-tube-fittings/metric-acetal-black/elbows/union-elbow)
+#             - Aluminum radiator
+#                 - 2 × 120mm 12V fans
+#             - Coolant reservoir with two pumps
+#             - [Fish-friendly coolant](https://www.westmarine.com/west-marine-engine-antifreeze-coolant-gallon-337447.html) 🇺🇸
+#         - 48V BLDC motor controller by [Kelly Controls](https://kellycontroller.com/)
+#             - **Fuses**:
+#                 - ANL 250A
+#                     - [ANL fuse holder with cover](https://www.osculati.com/en/11023-14.100.41/high-capacity-fuse-holder) by Osculati
+#                 - CNL 300A
+#                 - 2 × 3.15A 250V
+#                 - 315mA 250V
+#         - 2 × Stainless steel brackets by E-Tech 🇵🇱
+#         - 4 × [Marine X engine mount](https://www.mecanocaucho.com/en-US/products/vibration-isolators/marine-x-mount/) (small) by AMC Mecanocaucho 🇪🇸
+#         - 2 × [stainless steel rail](https://www.onlinemetals.com/en/buy/stainless-steel/2-5-x-2-5-x-0-1875-stainless-angle-316-316l/pid/2169) (2.5" × 2.5" × 24", 0.1875" thick) 🇺🇸
+#     - 3-blade feathering bronze propeller
+#         - 1-1/8" keyed stainless steel shaft
+#             - [Big Boy Type “A”](http://www.frontlineindustries.com/products/couplings/) flexible shaft coupling coupling by [Frontline Industries, Inc.](http://www.frontlineindustries.com/) (modified) 🇺🇸
+
+# - Aluminum dual-joystick controller by E-Tech 🇵🇱
+# - 2 × monochrome LCD display by [AmperFlex](https://amperflex.com/en/) 🇵🇱
+# - 2 × Key switch
 
 ##############################################################################
 
@@ -419,6 +428,15 @@ docking:
 ##############################################################################
 
 fishing:
+  ## Crossbows
+  - what: fishing crossbow
+    name: reverse draw pistol crossbow
+    manufacturer: William Tell Archery
+    model: Mini Striker RD
+    notes: outfitted with Zebco 202 reel and red dot scope for fishing
+    link: https://williamtellarcherysupplies.com/product/150lbs-mini-striker-rd-fishing-pistol-crossbow/
+    image: https://williamtellarcherysupplies.com/wp-content/uploads/2024/05/Adobe_Express_20230510_1348530_1-2.png
+
   ## Nets
   - what: net
     name: cast net
@@ -778,7 +796,15 @@ openings:
     name: sliding transparent cabin door
     material: aluminum, acrylic ## is it really acrylic?
     manufactured_in: CA
-# https://rondal.com/en/products/hatches/
+  # https://rondal.com/en/products/hatches/
+
+  - what: window tint
+    name: window tint film
+    manufacturer: 3M
+    material: ceramic
+    model: IR Series, 5% VLT
+    link: https://www.3m.com/3M/en_US/p/d/b5005118130/
+    image: https://img4.dhresource.com/webp/m/f3/albu/jc/s/13/c0e132de-6963-4db4-ac9a-427924a114e5.jpg
 
 ##############################################################################
 
@@ -823,33 +849,43 @@ paint:
   # - what: paint
   #   name: interior paint
   # - Alexseal Super Build 302 high build primer
-#     - [ALEXSEAL® Premium Topcoat 501](https://www.alexseal.com/products/premium-exterior-topcoats/premium-topcoat-501)
-#         - T.... Plain White (secret color, bare titanium dioxide)
-#         - … C5012
-#         - … A5018 (1% by volume of T+C)
-#         - ✅ R5015 (33% by volume of T+C+A)
-#         - procedure: [mix T & C, add A, wait 20 minutes, then add R]
-#         - target surface: sanded with 320 grit (soft pad backing)
-#     - [ALEXSEAL® Fairing Compound 202](https://www.alexseal.com/products/fairing-compounds/fairing-compound-202) base (epoxy-based)
-#         - ✅ P2094 (not P2083)
-#         - ✅ C2075 (not C2028 — what is "LV"?)
-#         - target surface: ?? grit
-# **Interior**:
-#     - [ALEXSEAL® Interior Topcoat 578](https://www.alexseal.com/products/premium-interior-coatings/interior-topcoat-578)
-#         - N....
-#         - C6402
-#         - R6068
-#         - target surface: ?? grit
-# **Bilges and storage compartments**:
-#     - [TotalBilge Epoxy Bilge Paint](https://www.totalboat.com/products/totalbilge-epoxy-bilge-paint?variant=43757099221216) by TotalBoat
-# ---
-# https://www.glowuppowder.com/large-particle-glow-in-the-dark-pigment/
-# https://lumentics.com/granulates/glowing-granulates/
+  #     - [ALEXSEAL® Premium Topcoat 501](https://www.alexseal.com/products/premium-exterior-topcoats/premium-topcoat-501)
+  #         - T.... Plain White (secret color, bare titanium dioxide)
+  #         - … C5012
+  #         - … A5018 (1% by volume of T+C)
+  #         - ✅ R5015 (33% by volume of T+C+A)
+  #         - procedure: [mix T & C, add A, wait 20 minutes, then add R]
+  #         - target surface: sanded with 320 grit (soft pad backing)
+  #     - [ALEXSEAL® Fairing Compound 202](https://www.alexseal.com/products/fairing-compounds/fairing-compound-202) base (epoxy-based)
+  #         - ✅ P2094 (not P2083)
+  #         - ✅ C2075 (not C2028 — what is "LV"?)
+  #         - target surface: ?? grit
+  # **Interior**:
+  #     - [ALEXSEAL® Interior Topcoat 578](https://www.alexseal.com/products/premium-interior-coatings/interior-topcoat-578)
+  #         - N....
+  #         - C6402
+  #         - R6068
+  #         - target surface: ?? grit
+  # **Bilges and storage compartments**:
+  #     - [TotalBilge Epoxy Bilge Paint](https://www.totalboat.com/products/totalbilge-epoxy-bilge-paint?variant=43757099221216) by TotalBoat
+  # ---
+  # https://www.glowuppowder.com/large-particle-glow-in-the-dark-pigment/
+  # https://lumentics.com/granulates/glowing-granulates/
 
-# https://www.jrs.eu/jrs_en/fiber-solutions/bu-industry/cellulose-fibers-reduce-microcracks/
-# https://www.firefree.com/fire-retardant-fire-resistant-paint-products/ff88-intumescent-coating.php
-# https://nanotechmaterials.com/cool-roof-coating-system/
-# https://lifetimepluscoatings.com/cool-life/
+  # https://www.jrs.eu/jrs_en/fiber-solutions/bu-industry/cellulose-fibers-reduce-microcracks/
+  # https://www.firefree.com/fire-retardant-fire-resistant-paint-products/ff88-intumescent-coating.php
+  # https://nanotechmaterials.com/cool-roof-coating-system/
+  # https://lifetimepluscoatings.com/cool-life/
+
+  - what: separator
+
+  - what: mixing lid
+    name: mixing lid
+    manufacturer: Blysk
+    model: Mixing Mate 1 gallon
+    count: 2
+    image: https://i.ebayimg.com/images/g/dMgAAeSwpHRoZrG1/s-l1600.jpg
+    link: https://www.ebay.com/itm/388664353390?var=655765664612
 
 ##############################################################################
 
@@ -1533,13 +1569,6 @@ water:
 ##############################################################################
 
 workshop:
-  ## Powertools
-  - what: resin mixer
-    name: electric resin mixer
-    image: ../../assets/curious-cat/systems/resin-mixer.webp
-    link: https://pixiss.com/products/pixiss-epoxy-resin-mixer
-    notes: mostly used for mixing epoxy
-  # TODO: add Metabo brushless sander
   ## 3D printing & scanning
   - what: FDM 3D printer
     name: Filament 3D printer
@@ -1563,6 +1592,16 @@ workshop:
     image: ../../assets/curious-cat/systems/3d-scanner.png
     link: https://www.einstar.com/products/prosumer-portable-3d-scanner
     manufactured_in: CN
+
+  - what: separator
+
+  ## Powertools
+  - what: resin mixer
+    name: electric resin mixer
+    image: ../../assets/curious-cat/systems/resin-mixer.webp
+    link: https://pixiss.com/products/pixiss-epoxy-resin-mixer
+    notes: mostly used for mixing epoxy
+  # TODO: add Metabo brushless sander
 
   - what: separator
 
