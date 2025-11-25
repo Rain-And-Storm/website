@@ -266,7 +266,7 @@ ol.items {
     list-style: none;
 
     li {
-        flex: calc(33.33% - 2rem);
+        width: calc(33.33% - 2rem);
     }
 
     img {
@@ -382,7 +382,7 @@ ol.items {
         list-style: none;
 
         li {
-            flex: calc(50% - 1.5rem);
+            width: calc(50% - 1.5rem);
         }
     }
 
@@ -426,7 +426,7 @@ ol.items {
         gap: 0;
 
         li {
-            flex: 100%;
+            width: 100%;
         }
 
         img {

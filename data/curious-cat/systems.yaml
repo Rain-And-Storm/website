@@ -489,17 +489,17 @@ food:
     image: https://gosun.co/cdn/shop/files/Perspective_01.jpg
     # TODO: add ambassador code to the link
 
-  - what: gosun kettle
-    connected_to: solar grill
-    name: sun kettle
-    material: stainless steel, culinary-grade silicone
-    capacity: 14oz
-    link: https://gosun.co/products/sun-kettle
-    image: ../../assets/curious-cat/systems/solar_water_boiler.webp
-    # TODO: add ambassador code to the link
-    notes: great for boiling water, making coffee and hot chocolate
+  # - what: gosun kettle
+  #   connected_to: solar grill
+  #   name: sun kettle
+  #   material: stainless steel, culinary-grade silicone
+  #   capacity: 14oz
+  #   link: https://gosun.co/products/sun-kettle
+  #   image: ../../assets/curious-cat/systems/solar_water_boiler.webp
+  #   # TODO: add ambassador code to the link
+  #   notes: great for boiling water, making coffee and hot chocolate
 
-    # https://www.came-tv.com/products/universal-super-clamp-with-1-4-screw-hole-and-cold-shoe
+  # https://www.came-tv.com/products/universal-super-clamp-with-1-4-screw-hole-and-cold-shoe
 
   - what: separator
 
