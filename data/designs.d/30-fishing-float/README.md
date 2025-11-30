@@ -1,5 +1,5 @@
-# Fishing Bobber
+# Dimpled Fishing Float
 
-Simple 3D-printable fishing float.
+Love child of a golf ball and bobber.  Supposedly should fly farther, but nobody really knows if it really works.
 
-[Fishing Bobber on Printables.com](https://www.printables.com/model/1302608-fishing-float-bobber)
+[Dimpled Fishing Float on Printables.com](https://www.printables.com/model/1302608-dimpled-fishing-float)
