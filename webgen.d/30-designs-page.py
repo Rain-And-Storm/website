@@ -41,9 +41,9 @@ def stage(data):
             image.thumbnail((640, 640))
             webgen.mkdir(data["definitions"]["runtime"]["cwd"], data["config"]["Filesystem"]["DestinationDirPath"], "designs", designDirName)
             image.save(webgen.resolveFsPath(data["definitions"]["runtime"]["cwd"], data["config"]["Filesystem"]["DestinationDirPath"], "designs", designAndImageThumbFilePath))
-            ## Append to array of albums
+            ## Append to array of designs
             designs[-1]["images"].append({ "orig": "../../designs/" + designAndImageFilePath, "thumb": "../../designs/" + designAndImageThumbFilePath })
-    pageHTML = webgen.renderTemplate(data["templates"]["items"], {
+    designsHtml = webgen.renderTemplate(data["templates"]["items"], {
         "items": designs
     })
     ## Generate HTML contents out of template
@@ -55,10 +55,10 @@ def stage(data):
         "criticalcss": webgen.compileSass(open("../src/styles/critical.scss", "r").read()),
         "css":         webgen.buildPath("/" + data["definitions"]["filenames"]["css"], "/designs/", relative=useRelativePaths),
         "class":       "designs content",
-        "content":     pageHTML + "<hr />" + webgen.renderMarkdown(open("../data/designs.d/README.md", "r").read()),
+        "content":     designsHtml + "<hr />" + webgen.renderMarkdown(open("../data/designs.d/README.md", "r").read()),
     })
 
-    ## Create new HTML file
+    ## Create HTML file
     htmlFile = webgen.mkfile(
         data["definitions"]["runtime"]["cwd"],
         data["config"]["Filesystem"]["DestinationDirPath"],
