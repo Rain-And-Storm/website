@@ -7,7 +7,7 @@
   <a class="patreon" href="https://www.patreon.com/RainAndStorm">Patreon</a>
   <a class="printables" href="https://www.printables.com/@RainAndStorm/models">Printables</a>
   <a class="github" href="https://github.com/Rain-And-Storm">GitHub</a>
-  <a class="email" href="mailto:randst@pm.me?subject=Ahoy%20Capt%E2%80%99n!">Email</a>
+  <a class="email" href="mailto:ras@rainandstorm.com?subject=Ahoy%20Capt%E2%80%99n!">Email</a>
 
   <!-- - [Links](https://linktr.ee/RainAndStorm) -->
   <!-- https://www.last.fm/user/RainAndStorm -->

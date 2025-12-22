@@ -1,9 +1,24 @@
 ## Responsible for creating designs page's HTML file
 
 import os
+import re
+
 from PIL import Image
 
 import webgen
+
+def extract_first_h1(html):
+    pattern = re.compile(r"<h1\b[^>]*>(.*?)</h1>", re.I | re.S)
+    matches = pattern.findall(html)
+    return matches[0] if matches else None
+
+def remove_first_h1(html):
+    pattern = re.compile(r"<h1\b[^>]*>.*?</h1\s*>", re.I | re.S)
+    m = pattern.search(html)
+    if not m:
+        return html
+    start, end = m.span()
+    return html[:start] + html[end:]
 
 def stage(data):
     useRelativePaths = data["config"].getboolean("Site", "UseRelativePaths", fallback=None)
@@ -24,9 +39,12 @@ def stage(data):
         if not os.path.isdir(designDirPath) or not os.path.isfile(os.path.join(designDirPath, "README.md")):
             continue
 
+        html = webgen.renderMarkdown(open(os.path.join(designDirPath, "README.md"), "r").read())
+
         designs.append({
+            "title": extract_first_h1(html),
             "images": [],
-            "description": webgen.renderMarkdown(open(os.path.join(designDirPath, "README.md"), "r").read())
+            "description": remove_first_h1(html)
         })
 
         ## Loop through files within each design's directory
@@ -41,7 +59,7 @@ def stage(data):
             image.thumbnail((640, 640))
             webgen.mkdir(data["definitions"]["runtime"]["cwd"], data["config"]["Filesystem"]["DestinationDirPath"], "designs", designDirName)
             image.save(webgen.resolveFsPath(data["definitions"]["runtime"]["cwd"], data["config"]["Filesystem"]["DestinationDirPath"], "designs", designAndImageThumbFilePath))
-            ## Append to array of designs
+            ## Append to array of design's images
             designs[-1]["images"].append({ "orig": "../../designs/" + designAndImageFilePath, "thumb": "../../designs/" + designAndImageThumbFilePath })
     designsHtml = webgen.renderTemplate(data["templates"]["items"], {
         "items": designs

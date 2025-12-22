@@ -1,4 +1,4 @@
-# Saertex
+# SAERTEX
 
 German manufacturer of advanced coring materials (SAERfoam®)
 

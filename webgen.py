@@ -41,11 +41,12 @@ def buildPath(full_path, current_location, relative=None):
 def compileSass(scss):
     return sass.compile(string=scss, include_paths=[resolveFsPath(getCwd(), "src", "styles")], output_style='compressed')
 
-def cp(src, dest):
-    return shutil.copyfile(src, dest)
+def cp(src, dst):
+    mkdir(dst[:-1])
+    return shutil.copyfile(src, dst)
 
-def cpr(src, dest):
-    return shutil.copytree(src, dest)
+def cpr(src, dst):
+    return shutil.copytree(src, dst)
 
 def filenameToAnchorTagId(filename):
     noExt = os.path.splitext(filename)[0]

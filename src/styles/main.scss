@@ -258,6 +258,7 @@ canvas#curious-comments {
     }
 
     h1 {
+        margin: 4rem 0;
         text-align: center;
     }
 }
@@ -271,11 +272,16 @@ ol.items {
 
     li {
         width: calc(33.33% - 2rem);
+
+        div {
+            height: 8rem;
+            overflow: hidden;
+        }
     }
 
     img {
         display: block;
-        height: 12rem;
+        max-height: 100%;
         margin: 0 auto;
     }
 }
