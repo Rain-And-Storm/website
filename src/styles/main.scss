@@ -272,14 +272,17 @@ ol.items {
 
     li {
         width: calc(33.33% - 2rem);
+    }
 
-        div {
-            height: 8rem;
-            /* overflow: hidden; */
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
+    h2 {
+        text-align: center;
+    }
+
+    div {
+        height: 8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     img {
