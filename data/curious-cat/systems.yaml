@@ -471,7 +471,7 @@ fishing:
 ##############################################################################
 
 food:
-  ## GoSun
+  ## GoSun Sport Marine
   - what: solar grill
     name: solar oven
     manufacturer: GoSun
@@ -480,6 +480,7 @@ food:
     link: https://gosun.co/products/sport-marine
     # TODO: add ambassador code to the link
 
+  ## GoSun Sport-E Cooking Tray
   - what: Sport-E Cooking Tray
     name: Hybrid Cooking Tray
     connected_to: solar grill
@@ -487,6 +488,15 @@ food:
     voltage: 12VDC
     link: https://gosun.co/products/sport-e-cooking-tray
     image: https://gosun.co/cdn/shop/files/Perspective_01.jpg
+    # TODO: add ambassador code to the link
+
+  ## GoSun Go
+  - what: small solar grill
+    name: portable solar oven
+    manufacturer: GoSun
+    model: Go
+    image: https://gosun.co/cdn/shop/files/gosolaroven.png?v=1765309708
+    link: https://gosun.co/products/gosunpro-portable-solar-oven
     # TODO: add ambassador code to the link
 
   # - what: gosun kettle
@@ -907,6 +917,14 @@ rescue:
   # - Small stainless steel signaling mirror
   # - Orange daytime signal piece of square fabric by ACR 🇺🇸
 
+  ## Thermal blankets
+  - what: thermal blankets
+    name: emergency thermal blankets
+    manufacturer: Swiss Safe
+    model: 52" x 82"
+    count: 10
+    manufactured_in: CH
+
 ##############################################################################
 
 rigging:
@@ -1241,6 +1259,14 @@ safety:
     image: ../../assets/curious-cat/systems/grab-handles.jpg
     link: https://www.hardin-marine.com/p-14056-polished-stainless-steel-grab-handles.aspx
 
+  ## Smartphone case
+  - what: phone case
+    name: floating waterproof phone case
+    model: Yellow Glow in Dark
+    material: PVC, ABS
+    image: https://calicase.com/cdn/shop/products/0620_CALICASE_Y_B_FRONT_da4520a5-e3e0-4daa-b9a5-b7d13fd9670d_1024x1024.jpg?v=1594704281
+    link: https://calicase.com/collections/frontpage/products/calicase-universal-waterproof-floating-case?variant=36963190029
+
   ## Fire Suppression
   # - Kidde marine dry chemical fire extinguisher (class BC)
   # - Kidde marine dry chemical fire extinguisher (class ABC)
@@ -1350,12 +1376,10 @@ transportation:
   - what: outboard motor
     connected_to: tender
     name: electric outboard motor
-    manufacturer: ThrustMe
-    model: Kicker
     image: ../../assets/curious-cat/systems/tender-outboard.jpg
-    link: https://www.thrustme.no/eu/kicker-eu
-    designed_in: "NO"
-    manufactured_in: CN
+    link: https://www.printables.com/model/681590-electric-outboard-motor
+    designed_in: "US"
+    manufactured_in: US
 
 ##############################################################################
 
@@ -1595,13 +1619,28 @@ workshop:
 
   - what: separator
 
-  ## Powertools
+  ## Hand and power tools
   - what: resin mixer
     name: electric resin mixer
     image: ../../assets/curious-cat/systems/resin-mixer.webp
     link: https://pixiss.com/products/pixiss-epoxy-resin-mixer
     notes: mostly used for mixing epoxy
   # TODO: add Metabo brushless sander
+
+  - what: multimeter
+    name: Waterproof Multimeter
+    manufacturer: Fluke
+    model: 27 II
+    image: https://media.fluke.com/3b338e0b-ab2f-47e1-8335-b108002b1598_product_slideshow_main.jpg
+    link: https://www.fluke.com/en-us/product/electrical-testing/digital-multimeters/fluke-27-ii
+
+  - what: centre punch
+    name: Automatic Centre Punch
+    manufacturer: Niigata Seiki
+    model: AP-M
+    image: https://content.misumi-ec.com/image/upload/t_popover_main/v1/p/jp/product/series/223005646457/223005646457_001.jpg
+    link: https://us.misumi-ec.com/vona2/detail/223005646457/?seriesCode=223005646457&tab=catalog&Page=1&CategorySpec=typeCode%3A%3AAP-M
+    manufactured_in: JP
 
   - what: separator
 

@@ -8,7 +8,7 @@ def stage(data):
 
     html = webgen.renderTemplate(data["templates"]["page"], {
         "title":       webgen.getWebPageTitle(data["config"]["Site"]["Name"], ["Curious Cat"]),
-        "description": "Curious Cat lives!",
+        "description": "You wouldn't download a boat",
         "navigation":  webgen.renderTreeNavigation(navigationLinks, data["templates"]["nav"]) +
             webgen.renderTreeNavigationScript(navigationLinks, "/curious-cat/"),
         "criticalcss": webgen.compileSass(open("../src/styles/critical.scss", "r").read()),
