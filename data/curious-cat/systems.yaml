@@ -1625,14 +1625,24 @@ workshop:
     image: ../../assets/curious-cat/systems/resin-mixer.webp
     link: https://pixiss.com/products/pixiss-epoxy-resin-mixer
     notes: mostly used for mixing epoxy
-  # TODO: add Metabo brushless sander
+
+  - what: orbital sander
+    name: random orbital sander
+    manufacturer: Metabo
+    model: SXA 18 LTX 125 BL
+    voltage: 18V
+    manufactured_in: DE
+    image: https://www.metabo.com/us/out/pictures/generated/product/1/464_309_70/sxa-18-ltx-125-bl-0014684s_51.jpg
+    link: https://www.metabo.com/us/enus/tools/cordless-tools/woodworking/cordless-random-orbital-sander/sxa-18-ltx-125-bl-600146840-cordless-random-orbital-sander.html
+    notes: brushless motor
 
   - what: multimeter
-    name: Waterproof Multimeter
+    name: Multimeter
     manufacturer: Fluke
     model: 27 II
     image: https://media.fluke.com/3b338e0b-ab2f-47e1-8335-b108002b1598_product_slideshow_main.jpg
     link: https://www.fluke.com/en-us/product/electrical-testing/digital-multimeters/fluke-27-ii
+    notes: IP67 waterproof
 
   - what: centre punch
     name: Automatic Centre Punch
@@ -1641,6 +1651,15 @@ workshop:
     image: https://content.misumi-ec.com/image/upload/t_popover_main/v1/p/jp/product/series/223005646457/223005646457_001.jpg
     link: https://us.misumi-ec.com/vona2/detail/223005646457/?seriesCode=223005646457&tab=catalog&Page=1&CategorySpec=typeCode%3A%3AAP-M
     manufactured_in: JP
+    notes: light and corrosion-resistant
+
+  - what: sanding surface cleaner
+    connected_to: orbital sander
+    name: abrasive cleaning stick
+    manufacturer: Powertec
+    model: "71002"
+    image: https://cdn11.bigcommerce.com/s-yh2g6i/images/stencil/1280x1280/products/271/8820/71002_1__94442.1737190438.jpg
+    link: https://powertecproducts.com/71002-abrasive-cleaning-stick-8-1-2/
 
   - what: separator
 
