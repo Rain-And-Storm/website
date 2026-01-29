@@ -88,6 +88,7 @@ propulsion:
     image: ../../assets/curious-cat/systems/rdt-pod-15.avif
     manufactured_in: NL
     notes: Counter-clockwise rotation
+    connected_to: port motor controller
 
   - what: starboard motor
     name: pod drive
@@ -100,70 +101,49 @@ propulsion:
     image: ../../assets/curious-cat/systems/rdt-pod-15.avif
     manufactured_in: NL
     notes: Clockwise rotation
+    connected_to: starboard motor controller
 
-  - what: fasteners
-    name: fasteners
-    material: Grade 5 titanium
-    model: M10–1.5, 30mm
-    link: https://www.ti64.com/product-p/4085.htm
-    image: https://www.ti64.com/v/vspfiles/photos/4085-2T.jpg
-    count: 12
-    # connected_to: port motor, starboard motor
+  - what: separator
 
-# - **Port**:
-#     - 10KW BLDC 1290 RPM 76 Nm electric motor by [E-Tech](https://starboats.eu/electric-drives/e-tech-wg-inboard-engines/) (PI\04\22\WG10\1956\C) 🇵🇱
-#         - Internal closed-loop active cooling system
-#             - PVC fresh water lines (12mm outer diameter)
-#                 - 5 × 12mm Union Elbows by [John Guest](https://www.johnguest.com/us/en/od-tube-fittings/metric-acetal-black/elbows/union-elbow)
-#             - Aluminum radiator
-#                 - 2 × 120mm 12V fans
-#             - Coolant reservoir with two pumps
-#             - [Fish-friendly coolant](https://www.westmarine.com/west-marine-engine-antifreeze-coolant-gallon-337447.html) 🇺🇸
-#         - 48V BLDC motor controller by [Kelly Controls](https://kellycontroller.com/)
-#             - **fuses**:
-#                 - ANL 250A
-#                     - [ANL fuse holder with cover](https://www.osculati.com/en/11023-14.100.41/high-capacity-fuse-holder) by Osculati
-#                 - CNL 300A
-#                 - 2 × 3.15A 250V
-#                 - 315mA 250V
-#         - 2 × Stainless steel brackets by E-Tech 🇵🇱
-#         - 4 × [Marine X engine mount](https://www.mecanocaucho.com/en-US/products/vibration-isolators/marine-x-mount/) (small) by AMC Mecanocaucho 🇪🇸
-#         - 2 × [stainless steel rail](https://www.onlinemetals.com/en/buy/stainless-steel/2-5-x-2-5-x-0-1875-stainless-angle-316-316l/pid/2169) (2.5" × 2.5" × 24", 0.1875" thick) 🇺🇸
-#     - Magnetic coupling by MGT
-#         - 6 x Mag wheel 200
-#             - 8 x [#8-32 x 2" titanium countersunk socket screw](https://www.ti64.com/product-p/6834.htm)
-#             - 8 x [#8-32 titanium hex nylon insert lock nut](https://www.ti64.com/product-p/6735.htm)
-#             - 8 x [#8 flat washer](https://www.ti64.com/product-p/6835.htm)
-#     - 3-blade feathering bronze propeller
-#         - 1-1/8" keyed stainless steel shaft
-#             - [Big Boy Type “A”](http://www.frontlineindustries.com/products/couplings/) flexible shaft coupling coupling by [Frontline Industries, Inc.](http://www.frontlineindustries.com/) (modified) 🇺🇸
+  - what: port motor controller
+    name: port motor controller
+    manufacturer: DMC
+    # model: SuperSigma2 PAC480T4?
+    link: https://www.dmcde.de/ac-controllers/
+    image: https://www.dmcde.de/wp-content/uploads/dmc-supersigma2-ac-controllers.jpg
+    manufactured_in: DE
+    notes: supports hydroregeneration
+    connected_to: bus bars
 
-# - **Starboard**:
-#     - 10KW BLDC 1290 RPM 76 Nm electric motor by [E-Tech](https://starboats.eu/electric-drives/e-tech-wg-inboard-engines/) (PI\04\22\WG10\1956\C) 🇵🇱
-#         - Internal closed-loop active cooling system
-#             - PVC fresh water lines (12mm outer diameter)
-#                 - 5 × 12mm Union Elbows by [John Guest](https://www.johnguest.com/us/en/od-tube-fittings/metric-acetal-black/elbows/union-elbow)
-#             - Aluminum radiator
-#                 - 2 × 120mm 12V fans
-#             - Coolant reservoir with two pumps
-#             - [Fish-friendly coolant](https://www.westmarine.com/west-marine-engine-antifreeze-coolant-gallon-337447.html) 🇺🇸
-#         - 48V BLDC motor controller by [Kelly Controls](https://kellycontroller.com/)
-#             - **Fuses**:
-#                 - ANL 250A
-#                     - [ANL fuse holder with cover](https://www.osculati.com/en/11023-14.100.41/high-capacity-fuse-holder) by Osculati
-#                 - CNL 300A
-#                 - 2 × 3.15A 250V
-#                 - 315mA 250V
-#         - 2 × Stainless steel brackets by E-Tech 🇵🇱
-#         - 4 × [Marine X engine mount](https://www.mecanocaucho.com/en-US/products/vibration-isolators/marine-x-mount/) (small) by AMC Mecanocaucho 🇪🇸
-#         - 2 × [stainless steel rail](https://www.onlinemetals.com/en/buy/stainless-steel/2-5-x-2-5-x-0-1875-stainless-angle-316-316l/pid/2169) (2.5" × 2.5" × 24", 0.1875" thick) 🇺🇸
-#     - 3-blade feathering bronze propeller
-#         - 1-1/8" keyed stainless steel shaft
-#             - [Big Boy Type “A”](http://www.frontlineindustries.com/products/couplings/) flexible shaft coupling coupling by [Frontline Industries, Inc.](http://www.frontlineindustries.com/) (modified) 🇺🇸
+  - what: starboard motor controller
+    name: starboard motor controller
+    manufacturer: DMC
+    # model: SuperSigma2 PAC480T4?
+    link: https://www.dmcde.de/ac-controllers/
+    image: https://www.dmcde.de/wp-content/uploads/dmc-supersigma2-ac-controllers.jpg
+    manufactured_in: DE
+    notes: supports hydroregeneration
+    connected_to: bus bars
 
-# - Aluminum dual-joystick controller by E-Tech 🇵🇱
-# - 2 × monochrome LCD display by [AmperFlex](https://amperflex.com/en/) 🇵🇱
-# - 2 × Key switch
+  - what: separator
+
+  - what: port throttle
+    name: port throttle
+    manufacturer: Rim Drive Technology
+    model: Single, top-mounted
+    link: https://rimdrivetechnology.nl/product/throttle-control-single-top-mount/
+    image: https://rimdrivetechnology.nl/wp-content/uploads/2021/09/Throttle-control-single-top-mount.png
+    manufactured_in: NL
+    connected_to: port motor controller
+
+  - what: starboard throttle
+    name: starboard throttle
+    manufacturer: Rim Drive Technology
+    model: Single, top-mounted
+    link: https://rimdrivetechnology.nl/product/throttle-control-single-top-mount/
+    image: https://rimdrivetechnology.nl/wp-content/uploads/2021/09/Throttle-control-single-top-mount.png
+    manufactured_in: NL
+    connected_to: starboard motor controller
 
 ##############################################################################
 
@@ -855,6 +835,7 @@ paint:
     link: https://www.alexseal.com/products/high-build-surfacers/super-build-302
     image: https://www.alexseal.com/fileadmin/_processed_/3/3/csm_Super_Build_P3002_c326bb4f15.jpg
     notes: P3002 & C3052, R3040 (10%–12.5% by volume of P+C); target surface is sanded with 80 grit
+
   ## Interior
   # - what: paint
   #   name: interior paint
@@ -955,26 +936,13 @@ rigging:
     manufacturer: Harken
     size: 22mm
     link: https://www.harken.com/en/home/
-  - what: battcar bolts
+
+  - what: battcar system nut holder
     connected_to: battcar system
-    name: bolts
-    material: titanium
-    image: https://www.ti64.com/v/vspfiles/photos/4684-2.jpg
-    link: https://www.ti64.com/product-p/4684.htm
-    count: 6
-  - what: battcar nuts
-    connected_to: battcar bolts
-    name: nuts
-    material: titanium
-    image: https://www.ti64.com/v/vspfiles/photos/3316-2.jpg
-    link: https://www.ti64.com/product-p/3316.htm
-    count: 6
-  - what: nut holder
-    connected_to: battcar nuts
-    name: nut holder
+    name: battcar nut holder
     material: XT-CF20
     image: ../../assets/curious-cat/systems/battcar-nut-holder.webp
-    link: https://www.printables.com/model/1068705-battcar-nut-holder
+    link: https://www.printables.com/model/1068705-battcar-nut-holders
     count: 6
 
   - what: separator
@@ -1319,6 +1287,7 @@ steering:
     manufacturer: Edson Marine
     size: 30"
     count: 2
+
   - what: roller chains
     connected_to: helm wheels
     name: helm roller chains
@@ -1328,6 +1297,7 @@ steering:
     link: https://racetechtitanium.com
     manufactured_in: US
     count: 2
+
   - what: detachable wheel breaks
     connected_to: helm wheels
     count: 2
@@ -1338,6 +1308,7 @@ steering:
     material: stainless steel
     manufacturer: Edson Marine
     count: 4
+
   - what: sheave
     connected_to: cables
     name: sheaves
@@ -1352,12 +1323,14 @@ steering:
     name: rudders
     material: cabon fiber, stainless steel, epoxy, foam
     count: 2
+
   - what: radial drive wheels
     connected_to: cables
     name: radial drive wheels
     material: foam, S-glass, epoxy
     size: 40cm in diameter, 2.25cm thick
     count: 2
+
   # - what: 2 × 1113
   # - what: 2 × 1050
 
@@ -1381,6 +1354,25 @@ transportation:
     designed_in: "US"
     manufactured_in: US
 
+  - what: tender lockbox
+    connected_to: tender
+    manufacturer: Master Lock
+    model: 5900D
+    image: https://i5-richmedia.walmartimages.com/asr-rm/0ef14e10-606d-476a-a32a-fc603d8160ae_360_merchant_manual_23.jpg
+
+  - what: air pump
+    name: mini air pump
+    connected_to: tender lockbox
+    manufacturer: SKS
+    model: Supershort
+    image: https://sks-us.com/cdn/shop/products/supershortsquare_600x.jpg?v=1595429249
+    link: https://sks-us.com/products/supershort-mini-pump
+
+  - what: air pump valve adaptor
+    name: air pump valve adaptor
+    image: https://www.spearfishingworld.com/wp-content/uploads/2023/11/Pump-Adaptor-3.webp
+    connected_to: air pump
+
 ##############################################################################
 
 waste:
@@ -1391,6 +1383,7 @@ waste:
     count: 2
     link: https://www.hodgesmarine.com/jab37010-4192-jabsco-electric-marine-toilet-regular-bowl-ws.html
     image: https://www.hodgesmarine.com/media/catalog/product/cache/3c0a6f7446c4f40830e075673927968a/j/a/jab37010-4192-2.jpg
+
   - what: pump
     connected_to: toilets
     name: macerator pumps
@@ -1398,6 +1391,7 @@ waste:
     model: 74001-2852EU
     voltage: 12VDC
     count: 2
+
   - what: valve
     connected_to: toilets
     name: solenoid valves
@@ -1408,17 +1402,28 @@ waste:
 
   - what: separator
 
-  - what: waste water tanks
-    name: holding tanks
+  - what: port waste water tank
+    name: port head holding tank
     material: polyethylene
     capacity: 13 gal.
     size: 24" × 10" × 14" # 25×35×60cm
     manufacturer: Todd
     link: https://defender.com/en_us/todd-fresh-water-waste-water-holding-tank
     image: https://defender.com/media/catalog/product/cache/a2bf45e9635ff86c8c09fbc84b193941/catalogimages/todd/fresh-water-waste-water-holding-tank-85-1626wh.jpg
-    count: 2
+    location: port bow
+
+  - what: starboard waste water tank
+    name: starboard head holding tank
+    material: polyethylene
+    capacity: 13 gal.
+    size: 24" × 10" × 14" # 25×35×60cm
+    manufacturer: Todd
+    link: https://defender.com/en_us/todd-fresh-water-waste-water-holding-tank
+    image: https://defender.com/media/catalog/product/cache/a2bf45e9635ff86c8c09fbc84b193941/catalogimages/todd/fresh-water-waste-water-holding-tank-85-1626wh.jpg
+    location: starboard bow
+
   - what: discharge pump
-    connected_to: waste water tanks
+    connected_to: port waste water tank
     name: waste pump
     manufacturer: Whale
     model: Gulper
@@ -1437,6 +1442,7 @@ water:
     location: galley
     link: https://nuaquasystems.com/products/nu-aqua-brushed-chrome-classic-reverse-osmosis-faucet
     image: https://nuaquasystems.com/cdn/shop/products/faucets-nu-aqua-brushed-chrome-classic-reverse-osmosis-faucet-1_600x.jpg
+
   - what: remineralization cartridge
     connected_to: drinking water tap
     name: Alkaline 5 Stage Remineralization Filter
@@ -1452,6 +1458,7 @@ water:
     material: stainless steel
     volume: 30 gal
     location: port midship
+
   - what: pump
     connected_to: port water tank
     manufacturer: Jabsco
@@ -1459,10 +1466,12 @@ water:
     voltage: 12VDC
     link: https://www.westmarine.com/jabsco-2.9gpm-par-max-freshwater-pump-50psi-8719064.html
     manufactured_in: CN
+
   - what: accumulator
     connected_to: port water tank
     name: pressure accumulator
     manufacturer: SHURflo
+
   - what: water line
     connected_to: port water tank
     name: fresh water lines
@@ -1476,10 +1485,12 @@ water:
     material: stainless steel
     volume: 30 gal
     location: starboard midship
+
   - what: starboard pump
     connected_to: starboard water tank
     name: fresh water pump
     voltage: 12VDC
+
   - what: starboard water line
     connected_to: starboard water tank
     name: fresh water lines
@@ -1510,7 +1521,7 @@ water:
 
   - what: separator
 
-  - what: water maker
+  - what: emergency water maker
     name: emergency manual water maker
     manufacturer: QuenchSea
     model: "1.0"
@@ -1584,6 +1595,7 @@ water:
     capacity: 4 gal.
     image: ../../assets/curious-cat/systems/sun-shower.webp
     link: https://nextadventure.net/products/portable-sun-shower-2000005826
+
   - what: sun shower 2
     name: sun shower
     capacity: 4 gal.
@@ -1602,6 +1614,7 @@ workshop:
     link: https://us.store.bambulab.com/products/p1p
     manufactured_in: CN
     # https://formfutura.com/product/flexifil/
+
   - what: SLA 3D printer
     name: Resin 3D printer
     manufacturer: Anycubic
@@ -1609,6 +1622,7 @@ workshop:
     image: ../../assets/curious-cat/systems/resin-3d-printer.png
     link: https://store.anycubic.com/products/anycubic-photon-s
     manufactured_in: CN
+
   - what: 3D scanner
     name: handheld 3D scanner
     manufacturer: Shining
@@ -1616,6 +1630,12 @@ workshop:
     image: ../../assets/curious-cat/systems/3d-scanner.png
     link: https://www.einstar.com/products/prosumer-portable-3d-scanner
     manufactured_in: CN
+
+  - what: ultrasonic cleaner
+    name: ultrasonic cleaner
+    manufacturer: Creworks
+    model: ZX-520 Pro
+    image: https://iprorwxhlnqqll5p-static.micyjz.com/cloud/lkBprKjolnSRpjmpqoiljp/skymen-zx-520-pro-household-portable-ultrasonic-denture-cleaner-front-view.jpg
 
   - what: separator
 
@@ -1625,6 +1645,15 @@ workshop:
     image: ../../assets/curious-cat/systems/resin-mixer.webp
     link: https://pixiss.com/products/pixiss-epoxy-resin-mixer
     notes: mostly used for mixing epoxy
+
+  - what: vacuum pump
+    name: vacuum pump
+    manufacturer: CPS
+    model: Pro-Set VPC2SE
+    image: https://i.ebayimg.com/00/s/MTE4NlgxNTgy/z/jLcAAOSwKCJlhKFq/$_57.JPG?set_id=880000500F
+    voltage: 230VAC
+    manufactured_in: US
+    notes: 2 CFM single-stage
 
   - what: orbital sander
     name: random orbital sander
@@ -1780,12 +1809,20 @@ workshop:
   - what: separator
 
   - what: papr
-    name: Respiratory Protection System
+    name: Active Respiratory Protection System
     manufacturer: Optrel
     model: Swiss Air
     image: ../../assets/curious-cat/systems/papr.png
     link: https://optrel.us/product/swiss-air-papr/
     manufactured_in: CH
+
+  - what: dust mask
+    name: Dust mask
+    manufacturer: RZ Mask
+    model: M2, size L
+    image: https://rzmask.com/cdn/shop/files/rz-mask-m2-mesh-mask-with-active-carbon-m2-mesh-mask-rz-mask-343861.jpg?v=1748146823&width=250
+    link: https://rzmask.com/products/m2-mesh-mask-1-best-seller
+    manufactured_in: CN
 #
 # https://www.lowes.com/pd/SPT-Mini-Dehumidifier-with-UV-Light-and-TiO2/5005516847
 # https://solarez.com/3m-microballoons.html
